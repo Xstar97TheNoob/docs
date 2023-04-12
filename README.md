@@ -1,5 +1,5 @@
-# xstar97.github.io
+# docs
 
-[![Deploy Docs Pages](https://github.com/xstar97/xstar97.github.io/actions/workflows/deploy-to-gh-pages.yml/badge.svg)](https://github.com/xstar97/xstar97.github.io/actions/workflows/deploy-to-gh-pages.yml)
+[![Deploy Docs Pages](https://github.com/Xstar97TheNoob/docs/actions/workflows/deploy-to-gh-pages.yml/badge.svg)](https://github.com/Xstar97TheNoob/docs/actions/workflows/deploy-to-gh-pages.yml)
 
 Xstar's homelab docs
