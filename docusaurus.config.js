@@ -12,8 +12,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'xstar97', // Usually your GitHub org/user name.
-  projectName: 'Xstar97.github.io', // Usually your repo name.
+  organizationName: 'Xstar97TheNoob', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   presets: [
     [
@@ -23,13 +23,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Xstar97/Xstar97.github.io/edit/main/',
+          editUrl: 'https://github.com/Xstar97TheNoob/docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Xstar97/Xstar97.github.io/tree/main/',
+            'https://github.com/Xstar97TheNoob/docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -59,7 +59,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/Xstar97/Xstar97.github.io',
+            href: 'https://github.com/Xstar97TheNoob/docs',
             label: 'GitHub',
             position: 'right',
           },{
@@ -108,7 +108,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Xstar97/Xstar97.github.io',
+                href: 'https://github.com/Xstar97TheNoob/docs',
               },
             ],
           },
