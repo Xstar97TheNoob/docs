@@ -1,0 +1,59 @@
+{
+    "totalCount": 796,
+    "train": [
+        {
+            "name": "enterprise",
+            "count": 6,
+            "charts": [
+                {
+                    "name": "blocky",
+                    "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/blocky",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/blocky.png",
+                    "source": "spx01/blocky"
+                },
+                {
+                    "name": "cert-manager",
+                    "description": "Certificate management for Kubernetes",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/cert-manager",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
+                    "source": "/"
+                },
+                {
+                    "name": "grafana",
+                    "description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB.",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/grafana",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/grafana.png",
+                    "source": "bitnami/grafana"
+                },
+                {
+                    "name": "metallb",
+                    "description": "A network load-balancer implementation for Kubernetes using standard routing protocols",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/metallb",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/metallb.png",
+                    "source": "llb/metallb"
+                },
+                {
+                    "name": "prometheus",
+                    "description": "kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/prometheus",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus.png",
+                    "source": "bitnami/prometheus"
+                },
+                {
+                    "name": "traefik",
+                    "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/traefik",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png",
+                    "source": "traefik"
+                }
+            ]
+        }
+    ]
+}

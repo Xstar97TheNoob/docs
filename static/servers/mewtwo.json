@@ -1,0 +1,392 @@
+{
+    "serverName": "MewTwo Scale Server",
+    "serverDescription": "Media and Automations",
+    "count": 59,
+    "apps": [
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/arksurvivalevolved.png",
+            "name": "arksurvivalevolved",
+            "train": "⚠️",
+            "description": "This Chart will download and install SteamCMD. It will also install ARK:SurvivalEvolved and run it (Normal server startup of ARK can take a long time!).",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
+            "name": "bazarr",
+            "train": "✅",
+            "description": "Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/blocky.png",
+            "name": "blocky",
+            "train": "👔",
+            "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
+            "name": "cert-manager",
+            "train": "👔",
+            "description": "Certificate management for Kubernetes",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/code-server.png",
+            "name": "code-server",
+            "train": "✅",
+            "description": "Run VS Code on any machine anywhere and access it in the browser.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
+            "name": "custom-app",
+            "train": "✅",
+            "description": "Advanced tool to create your own TrueCharts-based App",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
+            "name": "deemix",
+            "train": "✅",
+            "description": "deemix is a deezer downloader built from the ashes of Deezloader Remix.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/doublecommander.png",
+            "name": "doublecommander",
+            "train": "✅",
+            "description": "A free cross platform open source file manager with two panels side by side.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/drawio.png",
+            "name": "drawio",
+            "train": "✅",
+            "description": "Drawio is free online diagram software.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/emulatorjs.png",
+            "name": "emulatorjs",
+            "train": "✅",
+            "description": "Emulatorjs - In browser web based emulation portable to nearly any device for many retro consoles.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png",
+            "name": "external-service",
+            "train": "✅",
+            "description": "Allow external services to be used like Apps.",
+            "instances": 4
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
+            "name": "fileflows",
+            "train": "✅",
+            "description": "An application that lets you automatically process files through a simple rule flow.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firefox.png",
+            "name": "firefox",
+            "train": "✅",
+            "description": "Firefox Browser, also known as Mozilla Firefox or simply Firefox,",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/flaresolverr.png",
+            "name": "flaresolverr",
+            "train": "✅",
+            "description": "FlareSolverr is a proxy server to bypass Cloudflare protection",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/grocy.png",
+            "name": "grocy",
+            "train": "✅",
+            "description": "ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/home-assistant.png",
+            "name": "home-assistant",
+            "train": "✅",
+            "description": "home-assistant App for TrueNAS SCALE",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png",
+            "name": "homepage",
+            "train": "✅",
+            "description": "A highly customizable homepage",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/immich.png",
+            "name": "immich",
+            "train": "✅",
+            "description": "High performance self-hosted photo and video backup solution.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png",
+            "name": "jackett",
+            "train": "✅",
+            "description": "API Support for your favorite torrent trackers.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kavita.png",
+            "name": "kavita",
+            "train": "✅",
+            "description": "Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kavitaemail.png",
+            "name": "kavitaemail",
+            "train": "⚠️",
+            "description": "Simple email relay server for kavita.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kitana.png",
+            "name": "kitana",
+            "train": "⚠️",
+            "description": "Kitana exposes your Plex plugin interfaces \"to the outside world\". It does that by authenticating against Plex.TV, then connecting to the Plex Media Server you tell it to, and essentially proxying the plugin UI. It has full PMS connection awareness and allows you to connect locally, remotely, or even via relay.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png",
+            "name": "lidarr",
+            "train": "✅",
+            "description": "Looks and smells like Sonarr but made for music",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png",
+            "name": "mariadb",
+            "train": "🔨",
+            "description": "Fast, reliable, scalable, and easy to use open-source relational database system.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-bungeecord.png",
+            "name": "minecraft-bungeecord",
+            "train": "✅",
+            "description": "A Spigot BungeeCord server.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-java.png",
+            "name": "minecraft-java",
+            "train": "✅",
+            "description": "Minecraft Java Dedicated Server",
+            "instances": 2
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mosquitto.png",
+            "name": "mosquitto",
+            "train": "✅",
+            "description": "Eclipse Mosquitto - An open source MQTT broker",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/muse.png",
+            "name": "muse",
+            "train": "⚠️",
+            "description": "A self-hosted midwestern Discord music bot that doesn't suck.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mymediaforalexa.png",
+            "name": "mymediaforalexa",
+            "train": "✅",
+            "description": "This is the multi-platform Docker image for My Media for Alexa - https://www.mymediaalexa.com .",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/n8n.png",
+            "name": "n8n",
+            "train": "✅",
+            "description": "n8n is an extendable workflow automation tool.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openbooks.png",
+            "name": "openbooks",
+            "train": "⚠️",
+            "description": "IRC Highway eBook Downloads.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/overseerr.png",
+            "name": "overseerr",
+            "train": "✅",
+            "description": "Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services such as Sonarr, Radarr and Plex!",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/paperless-ng.png",
+            "name": "paperless-ng",
+            "train": "✅",
+            "description": "Paperless-ngx is an application by Daniel Quinn and contributors that indexes your scanned documents.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pasta.png",
+            "name": "pasta",
+            "train": "✅",
+            "description": "PASTA - Audio and Subtitle Track Changer for Plex",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plex.png",
+            "name": "plex",
+            "train": "✅",
+            "description": "Plex Media Server",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plex-auto-languages.png",
+            "name": "plex-auto-languages",
+            "train": "✅",
+            "description": "Automated language selection for Plex TV Shows.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plex-meta-manager.png",
+            "name": "plex-meta-manager",
+            "train": "⚠️",
+            "description": "Python script to update metadata and automatically build collections.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plexripper.png",
+            "name": "plexripper",
+            "train": "⚠️",
+            "description": "PlexRipper is a cross-platform media downloader that indexes the Plex servers you have access to and allows you to download everything while adding it to your own Plex server.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/posterr.png",
+            "name": "posterr",
+            "train": "✅",
+            "description": "Media display for Plex, Sonarr and Radarr.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus.png",
+            "name": "prometheus",
+            "train": "👔",
+            "description": "kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.png",
+            "name": "prowlarr",
+            "train": "✅",
+            "description": "Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png",
+            "name": "radarr",
+            "train": "✅",
+            "description": "A fork of Sonarr to work with movies à la Couchpotato",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/requestrr.png",
+            "name": "requestrr",
+            "train": "✅",
+            "description": "Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/retrobot.png",
+            "name": "retrobot",
+            "train": "✅",
+            "description": "A discord bot that allows you to play old nintendo games with your friends over chat.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ring-mqtt.png",
+            "name": "ring-mqtt",
+            "train": "✅",
+            "description": "Interact with Ring Inc products (cameras/alarms/smart lighting) via MQTT.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/scrutiny.png",
+            "name": "scrutiny",
+            "train": "✅",
+            "description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/snippet-box.png",
+            "name": "snippet-box",
+            "train": "⚠️",
+            "description": "Snippet Box is a simple self-hosted app for organizing your code snippets. It allows you to easily create, edit, browse and manage your snippets in various languages.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.png",
+            "name": "sonarr",
+            "train": "✅",
+            "description": "Smart PVR for newsgroup and bittorrent users",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/strapi.png",
+            "name": "strapi",
+            "train": "✅",
+            "description": "Strapi is the leading open-source headless CMS. JavaScript, fully customizable and developer-first.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tautulli.png",
+            "name": "tautulli",
+            "train": "✅",
+            "description": "A Python based monitoring and tracking tool for Plex Media Server",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/thelounge.png",
+            "name": "thelounge",
+            "train": "✅",
+            "description": "The Lounge, modern web IRC client designed for self-hosting",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png",
+            "name": "traefik",
+            "train": "👔",
+            "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/transmission.png",
+            "name": "transmission",
+            "train": "✅",
+            "description": "fast, easy, and free BitTorrent client.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png",
+            "name": "uptime-kuma",
+            "train": "✅",
+            "description": "A fancy self-hosted monitoring tool",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/wizarr.png",
+            "name": "wizarr",
+            "train": "⚠️",
+            "description": "A automatic user invitation system for Plex.",
+            "instances": 1
+        }
+    ]
+}

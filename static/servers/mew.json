@@ -1,0 +1,175 @@
+{
+    "serverName": "Mew Scale Server",
+    "serverDescription": "Networking and Authenication",
+    "count": 27,
+    "apps": [
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
+            "name": "authelia",
+            "train": "👔",
+            "description": "Authelia is a Single Sign-On Multi-Factor portal for web apps",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
+            "name": "cert-manager",
+            "train": "👔",
+            "description": "Certificate management for Kubernetes",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.png",
+            "name": "cloudflared",
+            "train": "✅",
+            "description": "Client for Cloudflare Tunnel, a daemon that exposes private services through the Cloudflare edge.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudflareddns.png",
+            "name": "cloudflareddns",
+            "train": "✅",
+            "description": "Automate Cloudflare DNS records for those with a dynamic IP.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
+            "name": "custom-app",
+            "train": "✅",
+            "description": "Advanced tool to create your own TrueCharts-based App",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ddns-updater.png",
+            "name": "ddns-updater",
+            "train": "✅",
+            "description": "Light container updating DNS A and/or AAAA records periodically for multiple DNS providers",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png",
+            "name": "external-service",
+            "train": "✅",
+            "description": "Allow external services to be used like Apps.",
+            "instances": 2
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png",
+            "name": "homepage 🆕",
+            "train": "✅",
+            "description": "A highly customizable homepage",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/littlelink.png",
+            "name": "littlelink",
+            "train": "✅",
+            "description": "Easy platform to combine all your social links",
+            "instances": 2
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openldap.png",
+            "name": "openldap",
+            "train": "✅",
+            "description": "Community developed LDAP software",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/phpldapadmin.png",
+            "name": "phpldapadmin",
+            "train": "✅",
+            "description": "Web-based LDAP browser to manage your LDAP server",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png",
+            "name": "pihole",
+            "train": "✅",
+            "description": "DNS and Ad-filtering for your network",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus.png",
+            "name": "prometheus",
+            "train": "👔",
+            "description": "kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/rickroll.png",
+            "name": "rickroll",
+            "train": "⚠️",
+            "description": "Self-hosted Rickrolls. Image is based on Nginx stable alpine, and all the content is local to the Chart.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/scrutiny.png",
+            "name": "scrutiny 🆕",
+            "train": "✅",
+            "description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/simply-shorten.png",
+            "name": "simply-shorten",
+            "train": "✅",
+            "description": "A dead simple URL shortener.",
+            "instances": 2
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/static.png",
+            "name": "static",
+            "train": "✅",
+            "description": "A self-hosted static file serving app which does nothing more than just serve up static files from a mounted volume.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/theme-park.png",
+            "name": "theme-park",
+            "train": "✅",
+            "description": "Custom themes for your favorite apps!",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png",
+            "name": "traefik",
+            "train": "👔",
+            "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/upsnap.png",
+            "name": "upsnap",
+            "train": "⚠️",
+            "description": "A simple wake on lan app written with SvelteKit, Go, PocketBase and nmap.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png",
+            "name": "uptime-kuma",
+            "train": "✅",
+            "description": "A fancy self-hosted monitoring tool",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/webnut.png",
+            "name": "webnut 🆕",
+            "train": "✅",
+            "description": "webNUT (UPS network monitoring web ui).",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/wg-easy.png",
+            "name": "wg-easy",
+            "train": "✅",
+            "description": "The easiest way to run WireGuard VPN + Web-based Admin UI.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/whoogle.png",
+            "name": "whoogle",
+            "train": "✅",
+            "description": "A self-hosted, ad-free, privacy-respecting metasearch engine",
+            "instances": 1
+        }
+    ]
+}

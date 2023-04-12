@@ -1,0 +1,11 @@
+import ImageDownloadTime from '@site/src/components/ImageDownloadTime';
+
+# Is My Internet Fast to Download Images?
+
+TrueNAS Scale is a powerful, open-source storage operating system that provides a range of advanced features and capabilities. When it comes to pulling images in TrueNAS Scale, it is important to note that there is a 2-minute window for completing the pull. This means that if the image pull takes longer than 2 minutes, it will fail and the user will need to start the process again.
+
+This limitation is in place to prevent issues such as timeouts and network disruptions, which can occur during long image pulls. By limiting the window to 2 minutes, TrueNAS Scale ensures that the process is completed successfully and without any issues. To avoid any potential problems, it is important to ensure that the image being pulled is not too large and that the network speed is fast enough to complete the pull within the time limit.
+
+Here's a cool tool to plug in an image size in MB and your download speed in Mb, this will output the time it takes to download and will let you know if you are within the two min window.
+
+<ImageDownloadTime/>
