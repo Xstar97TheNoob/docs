@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 27,
+    "count": 22,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -25,32 +25,25 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudflareddns.png",
-            "name": "cloudflareddns",
-            "train": "✅",
-            "description": "Automate Cloudflare DNS records for those with a dynamic IP.",
-            "instances": 1
-        },
-        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
             "name": "custom-app",
             "train": "✅",
             "description": "Advanced tool to create your own TrueCharts-based App",
-            "instances": 1
+            "instances": 2
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ddns-updater.png",
-            "name": "ddns-updater",
+            "name": "ddns-updater 🆕",
             "train": "✅",
             "description": "Light container updating DNS A and/or AAAA records periodically for multiple DNS providers",
             "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png",
-            "name": "external-service",
+            "name": "external-service 🆕",
             "train": "✅",
             "description": "Allow external services to be used like Apps.",
-            "instances": 2
+            "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png",
@@ -58,13 +51,6 @@
             "train": "✅",
             "description": "A highly customizable homepage",
             "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/littlelink.png",
-            "name": "littlelink",
-            "train": "✅",
-            "description": "Easy platform to combine all your social links",
-            "instances": 2
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openldap.png",
@@ -110,21 +96,14 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/simply-shorten.png",
-            "name": "simply-shorten",
+            "name": "simply-shorten 🆕",
             "train": "✅",
             "description": "A dead simple URL shortener.",
             "instances": 2
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/static.png",
-            "name": "static",
-            "train": "✅",
-            "description": "A self-hosted static file serving app which does nothing more than just serve up static files from a mounted volume.",
-            "instances": 1
-        },
-        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/theme-park.png",
-            "name": "theme-park",
+            "name": "theme-park 🆕",
             "train": "✅",
             "description": "Custom themes for your favorite apps!",
             "instances": 1
@@ -137,15 +116,8 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/upsnap.png",
-            "name": "upsnap",
-            "train": "⚠️",
-            "description": "A simple wake on lan app written with SvelteKit, Go, PocketBase and nmap.",
-            "instances": 1
-        },
-        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png",
-            "name": "uptime-kuma",
+            "name": "uptime-kuma 🆕",
             "train": "✅",
             "description": "A fancy self-hosted monitoring tool",
             "instances": 1
