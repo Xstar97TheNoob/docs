@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 59,
+    "count": 60,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/arksurvivalevolved.png",
@@ -295,7 +295,7 @@
             "name": "radarr",
             "train": "✅",
             "description": "A fork of Sonarr to work with movies à la Couchpotato",
-            "instances": 1
+            "instances": 2
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/requestrr.png",
@@ -320,7 +320,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/scrutiny.png",
-            "name": "scrutiny",
+            "name": "scrutiny 🆕",
             "train": "✅",
             "description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution.",
             "instances": 1
