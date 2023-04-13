@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 22,
+    "count": 21,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -36,13 +36,6 @@
             "name": "ddns-updater 🆕",
             "train": "✅",
             "description": "Light container updating DNS A and/or AAAA records periodically for multiple DNS providers",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png",
-            "name": "external-service 🆕",
-            "train": "✅",
-            "description": "Allow external services to be used like Apps.",
             "instances": 1
         },
         {
