@@ -61,7 +61,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/flaresolverr.png",
-            "name": "flaresolverr",
+            "name": "flaresolverr 🆕",
             "train": "✅",
             "description": "FlareSolverr is a proxy server to bypass Cloudflare protection",
             "instances": 1
