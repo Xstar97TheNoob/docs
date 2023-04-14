@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 21,
+    "count": 22,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -43,6 +43,13 @@
             "name": "homepage 🆕",
             "train": "✅",
             "description": "A highly customizable homepage",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/lldap.png",
+            "name": "lldap 🆕",
+            "train": "⚠️",
+            "description": "Lightweight ldap server for authentication and user management",
             "instances": 1
         },
         {
