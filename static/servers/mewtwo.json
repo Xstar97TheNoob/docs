@@ -208,7 +208,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/scrutiny.png",
-            "name": "scrutiny 🆕",
+            "name": "scrutiny",
             "train": "✅",
             "description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution.",
             "instances": 1
