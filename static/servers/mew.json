@@ -33,7 +33,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ddns-updater.png",
-            "name": "ddns-updater 🆕",
+            "name": "ddns-updater",
             "train": "✅",
             "description": "Light container updating DNS A and/or AAAA records periodically for multiple DNS providers",
             "instances": 1
@@ -96,14 +96,14 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/simply-shorten.png",
-            "name": "simply-shorten 🆕",
+            "name": "simply-shorten",
             "train": "✅",
             "description": "A dead simple URL shortener.",
             "instances": 2
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/theme-park.png",
-            "name": "theme-park 🆕",
+            "name": "theme-park",
             "train": "✅",
             "description": "Custom themes for your favorite apps!",
             "instances": 1
@@ -117,7 +117,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png",
-            "name": "uptime-kuma 🆕",
+            "name": "uptime-kuma",
             "train": "✅",
             "description": "A fancy self-hosted monitoring tool",
             "instances": 1
