@@ -40,7 +40,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png",
-            "name": "homepage 🆕",
+            "name": "homepage",
             "train": "✅",
             "description": "A highly customizable homepage",
             "instances": 1
@@ -61,7 +61,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/phpldapadmin.png",
-            "name": "phpldapadmin",
+            "name": "phpldapadmin 🆕",
             "train": "✅",
             "description": "Web-based LDAP browser to manage your LDAP server",
             "instances": 1
@@ -89,7 +89,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/scrutiny.png",
-            "name": "scrutiny 🆕",
+            "name": "scrutiny",
             "train": "✅",
             "description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution.",
             "instances": 1
@@ -124,7 +124,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/webnut.png",
-            "name": "webnut 🆕",
+            "name": "webnut",
             "train": "✅",
             "description": "webNUT (UPS network monitoring web ui).",
             "instances": 1
@@ -138,7 +138,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/whoogle.png",
-            "name": "whoogle",
+            "name": "whoogle 🆕",
             "train": "✅",
             "description": "A self-hosted, ad-free, privacy-respecting metasearch engine",
             "instances": 1
