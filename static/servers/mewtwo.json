@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 42,
+    "count": 39,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -26,10 +26,10 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
-            "name": "custom-app",
+            "name": "custom-app 🆕",
             "train": "✅",
             "description": "Advanced tool to create your own TrueCharts-based App",
-            "instances": 2
+            "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/emulatorjs.png",
@@ -44,13 +44,6 @@
             "train": "✅",
             "description": "Allow external services to be used like Apps.",
             "instances": 3
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
-            "name": "fileflows",
-            "train": "✅",
-            "description": "An application that lets you automatically process files through a simple rule flow.",
-            "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firefox.png",
@@ -68,7 +61,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/grocy.png",
-            "name": "grocy",
+            "name": "grocy 🆕",
             "train": "✅",
             "description": "ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home",
             "instances": 1
@@ -78,6 +71,13 @@
             "name": "home-assistant",
             "train": "✅",
             "description": "home-assistant App for TrueNAS SCALE",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png",
+            "name": "jackett 🆕",
+            "train": "✅",
+            "description": "API Support for your favorite torrent trackers.",
             "instances": 1
         },
         {
@@ -99,20 +99,6 @@
             "name": "lidarr 🆕",
             "train": "✅",
             "description": "Looks and smells like Sonarr but made for music",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png",
-            "name": "mariadb",
-            "train": "🔨",
-            "description": "Fast, reliable, scalable, and easy to use open-source relational database system.",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-java.png",
-            "name": "minecraft-java",
-            "train": "✅",
-            "description": "Minecraft Java Dedicated Server",
             "instances": 1
         },
         {
@@ -250,7 +236,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tautulli.png",
-            "name": "tautulli",
+            "name": "tautulli 🆕",
             "train": "✅",
             "description": "A Python based monitoring and tracking tool for Plex Media Server",
             "instances": 1
@@ -271,7 +257,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png",
-            "name": "uptime-kuma",
+            "name": "uptime-kuma 🆕",
             "train": "✅",
             "description": "A fancy self-hosted monitoring tool",
             "instances": 1
