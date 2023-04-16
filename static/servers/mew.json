@@ -48,7 +48,7 @@
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/lldap.png",
             "name": "lldap 🆕",
-            "train": "⚠️",
+            "train": "✅",
             "description": "Lightweight ldap server for authentication and user management",
             "instances": 1
         },
