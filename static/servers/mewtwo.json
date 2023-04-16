@@ -1,11 +1,11 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 40,
+    "count": 41,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
-            "name": "bazarr 🆕",
+            "name": "bazarr",
             "train": "✅",
             "description": "Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements",
             "instances": 1
@@ -25,6 +25,13 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/code-server.png",
+            "name": "code-server 🆕",
+            "train": "✅",
+            "description": "Run VS Code on any machine anywhere and access it in the browser.",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
             "name": "custom-app 🆕",
             "train": "✅",
@@ -33,7 +40,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/emulatorjs.png",
-            "name": "emulatorjs 🆕",
+            "name": "emulatorjs",
             "train": "✅",
             "description": "Emulatorjs - In browser web based emulation portable to nearly any device for many retro consoles.",
             "instances": 1
@@ -82,7 +89,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kavita.png",
-            "name": "kavita 🆕",
+            "name": "kavita",
             "train": "✅",
             "description": "Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats",
             "instances": 1
@@ -131,7 +138,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/overseerr.png",
-            "name": "overseerr 🆕",
+            "name": "overseerr",
             "train": "✅",
             "description": "Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services such as Sonarr, Radarr and Plex!",
             "instances": 1
@@ -208,7 +215,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/requestrr.png",
-            "name": "requestrr 🆕",
+            "name": "requestrr",
             "train": "✅",
             "description": "Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat.",
             "instances": 1
