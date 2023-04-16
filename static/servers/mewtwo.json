@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 39,
+    "count": 40,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -152,7 +152,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pgadmin.png",
-            "name": "pgadmin 🆕",
+            "name": "pgadmin",
             "train": "✅",
             "description": "Web-Based postgresql database management utility",
             "instances": 1
@@ -200,6 +200,13 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/recyclarr.png",
+            "name": "recyclarr 🆕",
+            "train": "✅",
+            "description": "A command-line application that will automatically synchronize recommended settings from TRaSH guides to your Sonarr/Radarr instances.",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/requestrr.png",
             "name": "requestrr 🆕",
             "train": "✅",
@@ -222,7 +229,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.png",
-            "name": "sonarr 🆕",
+            "name": "sonarr",
             "train": "✅",
             "description": "Smart PVR for newsgroup and bittorrent users",
             "instances": 1
