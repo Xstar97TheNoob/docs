@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 42,
+    "count": 41,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -33,7 +33,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
-            "name": "custom-app 🆕",
+            "name": "custom-app",
             "train": "✅",
             "description": "Advanced tool to create your own TrueCharts-based App",
             "instances": 1
@@ -211,13 +211,6 @@
             "name": "recyclarr 🆕",
             "train": "✅",
             "description": "A command-line application that will automatically synchronize recommended settings from TRaSH guides to your Sonarr/Radarr instances.",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redisinsight.png",
-            "name": "redisinsight 🆕",
-            "train": "⚠️",
-            "description": "GUI for Redis.",
             "instances": 1
         },
         {
