@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 25,
+    "count": 23,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -67,13 +67,6 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pgadmin.png",
-            "name": "pgadmin 🆕",
-            "train": "✅",
-            "description": "Web-Based postgresql database management utility",
-            "instances": 1
-        },
-        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/phpldapadmin.png",
             "name": "phpldapadmin",
             "train": "✅",
@@ -92,13 +85,6 @@
             "name": "prometheus",
             "train": "👔",
             "description": "kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png",
-            "name": "radarr 🆕",
-            "train": "✅",
-            "description": "A fork of Sonarr to work with movies à la Couchpotato",
             "instances": 1
         },
         {
