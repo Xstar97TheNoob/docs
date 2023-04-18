@@ -68,7 +68,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/grocy.png",
-            "name": "grocy 🆕",
+            "name": "grocy",
             "train": "✅",
             "description": "ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home",
             "instances": 1
@@ -82,7 +82,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png",
-            "name": "jackett 🆕",
+            "name": "jackett",
             "train": "✅",
             "description": "API Support for your favorite torrent trackers.",
             "instances": 1
@@ -264,7 +264,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tautulli.png",
-            "name": "tautulli 🆕",
+            "name": "tautulli",
             "train": "✅",
             "description": "A Python based monitoring and tracking tool for Plex Media Server",
             "instances": 1
@@ -285,7 +285,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png",
-            "name": "uptime-kuma 🆕",
+            "name": "uptime-kuma",
             "train": "✅",
             "description": "A fancy self-hosted monitoring tool",
             "instances": 1
