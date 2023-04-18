@@ -68,7 +68,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/phpldapadmin.png",
-            "name": "phpldapadmin 🆕",
+            "name": "phpldapadmin",
             "train": "✅",
             "description": "Web-based LDAP browser to manage your LDAP server",
             "instances": 1
@@ -152,7 +152,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/whoogle.png",
-            "name": "whoogle 🆕",
+            "name": "whoogle",
             "train": "✅",
             "description": "A self-hosted, ad-free, privacy-respecting metasearch engine",
             "instances": 1
