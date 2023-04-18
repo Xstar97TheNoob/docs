@@ -19,7 +19,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.png",
-            "name": "cloudflared",
+            "name": "cloudflared 🆕",
             "train": "✅",
             "description": "Client for Cloudflare Tunnel, a daemon that exposes private services through the Cloudflare edge.",
             "instances": 1
