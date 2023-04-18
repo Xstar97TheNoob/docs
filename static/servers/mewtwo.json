@@ -103,7 +103,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png",
-            "name": "lidarr",
+            "name": "lidarr 🆕",
             "train": "✅",
             "description": "Looks and smells like Sonarr but made for music",
             "instances": 1
@@ -194,14 +194,14 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.png",
-            "name": "prowlarr",
+            "name": "prowlarr 🆕",
             "train": "✅",
             "description": "Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.",
             "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png",
-            "name": "radarr",
+            "name": "radarr 🆕",
             "train": "✅",
             "description": "A fork of Sonarr to work with movies à la Couchpotato",
             "instances": 1
