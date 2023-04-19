@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 46,
+    "count": 45,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -106,13 +106,6 @@
             "name": "lidarr 🆕",
             "train": "✅",
             "description": "Looks and smells like Sonarr but made for music",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png",
-            "name": "mariadb 🆕",
-            "train": "🔨",
-            "description": "Fast, reliable, scalable, and easy to use open-source relational database system.",
             "instances": 1
         },
         {
