@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 45,
+    "count": 44,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -239,13 +239,6 @@
             "name": "scrutiny",
             "train": "✅",
             "description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution.",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/shoko-server.png",
-            "name": "shoko-server 🆕",
-            "train": "✅",
-            "description": "Anime cataloging program designed to automate the cataloging of your collection.",
             "instances": 1
         },
         {
