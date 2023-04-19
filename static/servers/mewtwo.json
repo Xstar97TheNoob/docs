@@ -26,7 +26,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/code-server.png",
-            "name": "code-server 🆕",
+            "name": "code-server",
             "train": "✅",
             "description": "Run VS Code on any machine anywhere and access it in the browser.",
             "instances": 1
