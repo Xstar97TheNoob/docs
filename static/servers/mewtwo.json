@@ -215,14 +215,14 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png",
-            "name": "redis 🆕",
+            "name": "redis",
             "train": "🔨",
             "description": "Open source, advanced key-value store.",
             "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redisinsight.png",
-            "name": "redisinsight 🆕",
+            "name": "redisinsight",
             "train": "⚠️",
             "description": "GUI for Redis.",
             "instances": 1
