@@ -40,7 +40,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png",
-            "name": "external-service 🆕",
+            "name": "external-service",
             "train": "✅",
             "description": "Allow external services to be used like Apps.",
             "instances": 1
