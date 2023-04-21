@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 44,
+    "count": 45,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -51,6 +51,13 @@
             "train": "✅",
             "description": "Allow external services to be used like Apps.",
             "instances": 3
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
+            "name": "fileflows 🆕",
+            "train": "✅",
+            "description": "An application that lets you automatically process files through a simple rule flow.",
+            "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firefox.png",
