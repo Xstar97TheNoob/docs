@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 45,
+    "count": 44,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -50,7 +50,7 @@
             "name": "external-service",
             "train": "✅",
             "description": "Allow external services to be used like Apps.",
-            "instances": 3
+            "instances": 2
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
