@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 44,
+    "count": 45,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -113,6 +113,13 @@
             "name": "lidarr",
             "train": "✅",
             "description": "Looks and smells like Sonarr but made for music",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-java.png",
+            "name": "minecraft-java 🆕",
+            "train": "✅",
+            "description": "Minecraft Java Dedicated Server",
             "instances": 1
         },
         {
