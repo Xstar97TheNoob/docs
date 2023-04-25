@@ -10,7 +10,7 @@ Make sure to have the **enterprise** train enabled for the `truecharts-catalog` 
 
 Search for cert-manager in the `available apps` tab and click **install**.
 
-![cert-manager](/img/apps/cert-manager/community-how-to-guide/available-apps-enterprise-cert-manager.png)
+![cert-manager](./img/available-apps-enterprise-cert-manager.png)
 
 ## Cloudflare DNS-Provider
 
@@ -23,7 +23,7 @@ You can setup multiple domains with a single cert-manager app, all you have to d
 - Optionally set Cloudflare API key (not recommended)
 - Set the API Token to the generated one that was made in CF.
 
-![cert-manager-api-token](/img/apps/cert-manager/community-how-to-guide/cert-manager-acme-issuer.png)
+![cert-manager-api-token](./img/cert-manager-acme-issuer.png)
 
 ## How to Add Ingress to Apps with cert-manager
 
@@ -35,7 +35,7 @@ add the name of your cert-manager clusterIssuer here for automatic tls certifica
 
 :::
 
-![ingress-cert-manager-single](/img/apps/cert-manager/community-how-to-guide/ingress-certmanager-single-domain.png)
+![ingress-cert-manager-single](./img/ingress-certmanager-single-domain.png)
 
 If you want to support multiple domains, use the `TLS` option to create each one.
 
@@ -45,4 +45,4 @@ The top level `Cert-Manager clusterIssuer` can **NOT** be set if `TLS` is used.
 
 :::
 
-![ingress-cert-manager-multi](/img/apps/cert-manager/community-how-to-guide/ingress-certmanager-multi-domain.png)
+![ingress-cert-manager-multi](./img/ingress-certmanager-multi-domain.png)

@@ -10,6 +10,6 @@ Another option is Quad9 DNS, which is a free DNS service that offers strong priv
 
 To change your nameservers in TrueNAS Scale, simply log in to your web UI and navigate to the networking settings. From there, you can change your DNS settings to point to your desired external DNS entries.
 
-![scale-network-global-config-cf](/img/network/scale-nameservers/scale-network-global-config-cf.png)
+![scale-network-global-config-cf](./img/scale-network-global-config-cf.png)
 
 In conclusion, changing your default nameservers in TrueNAS Scale is an important step towards better DNS resolution. Cloudflare DNS and Quad9 DNS are both great options to consider for external DNS entries. So, make the switch today and enjoy faster and more reliable DNS resolution.

@@ -6,13 +6,6 @@ const SearchBar = ({ placeHolder,searchTerm,handleSearch, setSelectedOption, vie
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', padding: '16px' }}>
-      <img
-        src="/img/truecharts.png"
-        alt="TrueCharts logo"
-        width="24"
-        height="24"
-        style={{ marginRight: '0.5em' }}
-      />
       <input
         id="search-input"
         type="text"

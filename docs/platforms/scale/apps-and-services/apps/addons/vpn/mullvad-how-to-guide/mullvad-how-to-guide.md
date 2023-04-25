@@ -8,19 +8,19 @@ Please go to [mullvad](https://mullvad.net/) and generate an account. The beauty
 
 I highly recommend to checkout their [server list](https://mullvad.net/en/servers/) to verify what they own and rent and to get details of the servers you _might_ choose.
 
-![login-account](/img/addons/vpn/mullvad/mullvad-login.png)
+![login-account](./img/mullvad-login.png)
   
 Generate account number
 
-![gen-account](/img/addons/vpn/mullvad/mullvad-gen-1.png)
+![gen-account](./img/mullvad-gen-1.png)
 
 Keep this account number **private**.
 
-![gen-account](/img/addons/vpn/mullvad/mullvad-gen-2.png)
+![gen-account](./img/mullvad-gen-2.png)
 
 MullVad doesn't have a recurring _subscription_ service, you need to purchase a time frame as long and as much as you want, cost the same per month, plenty of options.
 
-![pay-account](/img/addons/vpn/mullvad/mullvad-pay.png)
+![pay-account](./img/mullvad-pay.png)
 
 ## MullVad Config
 
@@ -31,7 +31,7 @@ In this example from the [server list](https://mullvad.net/en/servers/), I chose
 - 10 gbps.
 - ram only.
 
-![us-lax-201](/img/addons/vpn/mullvad/mullvad-server-wg-201.png)
+![us-lax-201](./img/mullvad-server-wg-201.png)
 
 - Generate Key
 - Select the country and city.
@@ -43,7 +43,7 @@ In this example from the [server list](https://mullvad.net/en/servers/), I chose
 
 Download the config and I recommend selecting and downloading multiple configs from the same city, just reselect the servers in the last option.
 
-![wg-conf-gen](/img/addons/vpn/mullvad/mullvad-wg-conf-gen.png)
+![wg-conf-gen](./img/mullvad-wg-conf-gen.png)
 
 ## Truenas Scale
 
@@ -53,7 +53,7 @@ In Truenas Scale, create a dataset for vpn configs.
 
 The correct perms that truecharts use by default.
 
-![media-perms](/img/addons/vpn/mullvad/media-perms.png)
+![media-perms](./img/media-perms.png)
 
 ## TrueChart VPN AddOn
 

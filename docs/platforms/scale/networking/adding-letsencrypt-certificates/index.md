@@ -14,9 +14,9 @@ Prerequisites:
 
 Go to [CF API Tokens](https://dash.cloudflare.com/profile/api-tokens) and then `create a token`. Select the edit zone template token and create one for each root domain you want to add to scale's ACME section.
 
-![cf-tokens-template-edit-zone](/img/network/adding-letsencrypt-certificates/cf-tokens-template-edit-zone-create-token.png)
+![cf-tokens-template-edit-zone](./img/cf-tokens-template-edit-zone.png)
 
-![cf-tokens-template-edit-zone-create-token](/img/network/adding-letsencrypt-certificates//cf-tokens-template-edit-zone-create-token.png)
+![cf-tokens-template-edit-zone-create-token](./img/cf-tokens-template-edit-zone-create-token.png)
 
 Under Create token, edit the name for this token and give it a good name for example `token-xstar97thenoob`.
 
@@ -34,7 +34,7 @@ Go to Credentials -> Certificates page in Truenas Scale.
 
 Add the api token that you created for your domain in **ACME DNS-Authenticators**.
 
-![scale-dns-auth](/img/network/adding-letsencrypt-certificates/scale-dns-auth.png)
+![scale-dns-auth](./img/scale-dns-auth.png)
 
 In my example I give this the same name as my root domain and add my token to **API Token**, all over sections can be ignored.
 
@@ -51,7 +51,7 @@ In **step 3** give exact details or fake it, upto you however the last section.
   - If you want to use both root domain and sub domain, just use both pictured below.
   - Otherwise the `*.mydomain.tld` would be sufficient of creating a universal cert for that domain.
 
-![csr-example](/img/network/adding-letsencrypt-certificates/csr-example.png)
+![csr-example](./img/csr-example.png)
 
 Skip **step 4** as there's nothing to change.
 
@@ -65,7 +65,7 @@ Its normal for the CSR to display: `Issuer: external - signature pending`.
 
 To create the cert click the wrench icon on the CSR you just made.
 
-![scale-csr-gen-cert](/img/network/adding-letsencrypt-certificates/scale-csr-gen-cert.png)
+![scale-csr-gen-cert](./img/scale-csr-gen-cert.png)
 
 Give it a name like `cert-rootdomain` and check the Terms of Service.
 
@@ -77,7 +77,7 @@ Finally add the ACME you created specifically for the domain.
 
 Once save it will take a min to process but if done correctly you should see a shiny cert :).
 
-![csr](/img/network/adding-letsencrypt-certificates/csr-cf.png)
+![csr](./img/csr-cf.png)
 
 ## How to Use Certs and Ingress
 
@@ -86,4 +86,4 @@ Once save it will take a min to process but if done correctly you should see a s
 
 Here's an example:
 
-![host ingress](/img/network/adding-letsencrypt-certificates/host-ingress.png)
+![host ingress](./img/host-ingress.png)

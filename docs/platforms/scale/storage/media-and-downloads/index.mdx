@@ -16,9 +16,9 @@ Go to the datasets tab and then press add dataset to create a **single** dataset
 - Give it a name for example `media`
 - go the advanced options and set its record size to `1M`.
 
-![record-size](/img/media-and-downloads/dataset-record-size.png)
+![record-size](./img/dataset-record-size.png)
 
-![tank-pool-dataset](/img/media-and-downloads/tank-pool.png)
+![tank-pool-dataset](./img/tank-pool.png)
 
 ## Permissions Set Up
 
@@ -28,7 +28,7 @@ Lets set the perms for this dataset:
 - Strip ACLs if present.
 - set the perms like so.
 
-  ![dataset-perms](/img/media-and-downloads/media-perms.png)
+  ![dataset-perms](/img/platforms/scale/media-perms.png)
 
 ## Creating Media Libraries
 
@@ -71,10 +71,10 @@ Mount Path is the path thats internal to the app.
 
 <Tabs>
   <TabItem value="hostpath" label="HostPath" default>
-    <img src={require('/img/media-and-downloads/dataset-mount-hostpath.png').default} alt="hostpath" />
+    <img src={require('./img/dataset-mount-hostpath.png').default} alt="hostpath" />
   </TabItem>
   <TabItem value="nfs" label="NFS">
-    <img src={require('/img/media-and-downloads/dataset-mount-nfs.png').default} alt="nfs" />
+    <img src={require('./img/dataset-mount-nfs.png').default} alt="nfs" />
   </TabItem>
 </Tabs>
 

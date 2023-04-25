@@ -27,9 +27,9 @@ These are the values that would be needed and assumes that the app is named `tra
   - **TLS**
     - **Origin Server Name**: `mydomain.tld`
 
-![traefik-root-domain](/img/apps/cloudflared/community-cloudflared-traefik-guide/traefik-cloudflared-root-domain.png)
+![traefik-root-domain](./img/traefik-cloudflared-root-domain.png)
 
-![cf-cname-dns-root](/img/apps/cloudflared/community-cloudflared-traefik-guide/cf-cname-root-cfargotunnel.png)
+![cf-cname-dns-root](./img/cf-cname-root-cfargotunnel.png)
 
 ## The WildCard CNAME
 
@@ -39,11 +39,11 @@ When adding the sub hostname "**\***", it won't create the dns record automatica
 
 :::
 
-![traefik-wild-domain](/img/apps/cloudflared/community-cloudflared-traefik-guide/traefik-cloudflared-wild-domain.png)
+![traefik-wild-domain](./img/traefik-cloudflared-wild-domain.png)
 
 Manually create a new CNAME record for `*` and then copy and paste the contents of the root domain's CNAME target value `XXXX..cfargotunnel.com` to the new DNS record.
 
-![cf-cname-dns-wild](/img/apps/cloudflared/community-cloudflared-traefik-guide/cf-cname-wild-cfargotunnel.png)
+![cf-cname-dns-wild](./img/cf-cname-wild-cfargotunnel.png)
 
 ## Traefik MiddleWares
 

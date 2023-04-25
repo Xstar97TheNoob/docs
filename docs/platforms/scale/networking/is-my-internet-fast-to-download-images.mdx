@@ -9,3 +9,39 @@ This limitation is in place to prevent issues such as timeouts and network disru
 Here's a cool tool to plug in an image size in MB and your download speed in Mb, this will output the time it takes to download and will let you know if you are within the two min window.
 
 <ImageDownloadTime/>
+
+
+## My internet is Slow??
+
+If you have very slow internet or the system is not downloading the images fast enough as some images can be rather large, but fear not!
+You can manually pull the images for the apps.
+
+Go to apps -> and click on your app -> check the app events:
+
+for example the app tdarr:
+
+```
+023-04-25 12:09:39 Add eth0 [172.16.1.135/16] from ix-net
+2023-04-25 12:09:39 Error: ImagePullBackOff
+2023-04-25 12:09:39 Back-off pulling image "tccr.io/truecharts/tdarr:2.00.19.1@sha256:f772a66f8bfce1f43df9d208176ae46396d9169566412b3c930efcb4a6a88c75"2023-04-25 12:09:38 Pod sandbox changed, it will be killed and re-created.
+2023-04-25 12:09:38 Error: ErrImagePull
+2023-04-25 12:09:38 Failed to pull image "tccr.io/truecharts/tdarr:2.00.19.1@sha256:f772a66f8bfce1f43df9d208176ae46396d9169566412b3c930efcb4a6a88c75": rpc error: code = Unknown desc = context deadline exceeded
+2023-04-25 12:07:39 Add eth0 [172.16.1.134/16] from ix-net
+2023-04-25 12:07:39 Pulling image "tccr.io/truecharts/tdarr:2.00.19.1@sha256:f772a66f8bfce1f43df9d208176ae46396d9169566412b3c930efcb4a6a88c75"
+```
+
+the app events may cut off the url, but you copy the entire message or access the app code [here](https://github.com/truecharts/charts/blob/master/charts/stable/tdarr/values.yaml)
+
+:::note
+
+some apps may have more than 1 image
+
+:::
+
+after you copied the entire `tccr.io/truecharts/APP_NAME:APP_VERSION@sha256:SHA` go to system settings -> shell:
+
+```shell
+sudo docker pull tccr.io/truecharts/tdarr:2.00.19.1@sha256:f772a66f8bfce1f43df9d208176ae46396d9169566412b3c930efcb4a6a88c75
+```
+
+Once its manually pulled, restart the app again.
