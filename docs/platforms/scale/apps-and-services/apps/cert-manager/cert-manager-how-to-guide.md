@@ -1,4 +1,4 @@
-# Community How To Guide
+# Cert Manager How To Guide
 
 This guide will walk you through on on how to setup Cert-Manager, A certificate management for Kubernetes.
 

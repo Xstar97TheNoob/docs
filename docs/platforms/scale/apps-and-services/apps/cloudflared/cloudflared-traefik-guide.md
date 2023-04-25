@@ -1,4 +1,4 @@
-# Community CloudFlared Traefik Guide
+# CloudFlared & Traefik Guide
 
 A guide to add traefik reverse proxy to a CloudFlared tunnel to expose apps with ingress.
 

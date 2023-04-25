@@ -1,6 +1,5 @@
----
-sidebar_position: 3
----
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Media and Downloads
 
@@ -70,7 +69,14 @@ Mount Path is the path thats internal to the app.
 
 :::
 
-![dataset-mount](/img/media-and-downloads/dataset-mount.png)
+<Tabs>
+  <TabItem value="hostpath" label="HostPath" default>
+    <img src={require('/img/media-and-downloads/dataset-mount-hostpath.png').default} alt="hostpath" />
+  </TabItem>
+  <TabItem value="nfs" label="NFS">
+    <img src={require('/img/media-and-downloads/dataset-mount-nfs.png').default} alt="nfs" />
+  </TabItem>
+</Tabs>
 
 For each app internally reference the media:
 
