@@ -6,10 +6,10 @@ To use gmail for mail services and have 2-step or extra security enabled then cr
   - Give it a name.
   - Generate password
 
-![google-app-password-1](/img/misc/google/google-app-password-1.png)
-![google-app-password-2](/img/misc/google/google-app-password-2.png)
-![google-app-password-3](/img/misc/google/google-app-password-3.png)
-![google-app-password-4](/img/misc/google/google-app-password-4.png)
+![google-app-password-1](./img/google-app-password-1.png)
+![google-app-password-2](./img/google-app-password-2.png)
+![google-app-password-3](./img/google-app-password-3.png)
+![google-app-password-4](./img/google-app-password-4.png)
 
 :::note
 

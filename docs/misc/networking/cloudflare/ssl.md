@@ -10,4 +10,4 @@ A cool feature that Cloudflare offers is the option to receive emails whenever y
 
 To enable, go to your domain/website in [clouflare](https://dash.cloudflare.com) and then go to SSL/TLS sub menu -> Origin Server.
 
-![auth_orign_pull](/img/network/cloudflare/auth_orign_pull.png)
+![auth_orign_pull](./img/auth_orign_pull.png)
