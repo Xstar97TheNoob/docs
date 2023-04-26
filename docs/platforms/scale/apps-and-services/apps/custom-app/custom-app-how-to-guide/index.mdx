@@ -26,11 +26,11 @@ Set the `Container Tag` to a semVER version or use the latest tag, recommend jus
 0.0.11
 ```
 
-![courier-step-1](/img/apps/custom-app/courier/courier-step-1.png)
+![courier-step-1](./img/courier/courier-step-1.png)
 
 this can be left default
 
-![courier-step-2](/img/apps/custom-app/courier/courier-step-2.png)
+![courier-step-2](./img/courier/courier-step-2.png)
 
 Some images require specific variables to be set to make the image function, so go to `Extra Environment Variables` and create the variables.
 
@@ -44,17 +44,17 @@ TOKEN
 MY_TOKEN
 ```
 
-![courier-step-3](/img/apps/custom-app/courier/courier-step-3.png)
+![courier-step-3](./img/courier/courier-step-3.png)
 
 setup `Healthcheck Probes`, not all images are the same and may require custom health check points and if they do, you can just uncheck them
 
 <Tabs>
   <TabItem value="healthcheckon" label="Healthcheck Probes enabled" default>
     
-    <img src={require('/img/apps/custom-app/courier/courier-step-4a.png').default} alt="courier-step-4a" />
+    <img src={require('./img/courier/courier-step-4a.png').default} alt="courier-step-4a" />
   </TabItem>
   <TabItem value="healthcheckoff" label="Healthcheck Probes disabled">
-    <img src={require('/img/apps/custom-app/courier/courier-step-4b.png').default} alt="courier-step-4b" />
+    <img src={require('./img/courier/courier-step-4b.png').default} alt="courier-step-4b" />
   </TabItem>
 </Tabs>
 
@@ -76,10 +76,10 @@ Set `port` to the default port for the app which is `3000` in this image.
 
 <Tabs>
   <TabItem value="loadbalancer" label="Loadbalancer" default>
-    <img src={require('/img/apps/custom-app/courier/courier-step-5a.png').default} alt="courier-step-5a" />
+    <img src={require('./img/courier/courier-step-5a.png').default} alt="courier-step-5a" />
   </TabItem>
   <TabItem value="clusterip" label="ClusterIP">
-    <img src={require('/img/apps/custom-app/courier/courier-step-5b.png').default} alt="courier-step-5b" />
+    <img src={require('./img/courier/courier-step-5b.png').default} alt="courier-step-5b" />
   </TabItem>
 </Tabs>
 
@@ -96,6 +96,6 @@ This app runs as root:
 - `runAsGroup` is **0**.
 - `fsGroup` is **568**.
 
-![courier-step-6](/img/apps/custom-app/courier/courier-step-6.png)
+![courier-step-6](./img/courier/courier-step-6.png)
 
 Saved the app and wait for it to start, you should greeted by a static web page where you can your tracking number and select the courier type and get info on it.
