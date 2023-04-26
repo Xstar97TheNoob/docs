@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 21,
+    "count": 22,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -134,6 +134,13 @@
             "name": "whoogle",
             "train": "✅",
             "description": "A self-hosted, ad-free, privacy-respecting metasearch engine",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/wordpress.png",
+            "name": "wordpress 🆕",
+            "train": "✅",
+            "description": "The WordPress rich content management system can utilize plugins, widgets, and themes.",
             "instances": 1
         }
     ]
