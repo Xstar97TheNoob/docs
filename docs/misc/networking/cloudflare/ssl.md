@@ -2,7 +2,7 @@
 
 If you plan to Proxy your domain at all, make sure to go to the SSL tab of the domain and set it to Full(strict).
 
-![ssl](/img/network/cloudflare/cf-ssl-tab-fullstrict.png)
+![ssl](./img/cf-ssl-tab-fullstrict.png)
 
 ## Authenticated Origin Pulls
 
