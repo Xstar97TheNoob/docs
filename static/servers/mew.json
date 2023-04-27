@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 22,
+    "count": 23,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -22,7 +22,7 @@
             "name": "cloudflared",
             "train": "✅",
             "description": "Client for Cloudflare Tunnel, a daemon that exposes private services through the Cloudflare edge.",
-            "instances": 1
+            "instances": 2
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
