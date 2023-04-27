@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 23,
+    "count": 24,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -93,6 +93,13 @@
             "train": "✅",
             "description": "A dead simple URL shortener.",
             "instances": 2
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/static.png",
+            "name": "static 🆕",
+            "train": "✅",
+            "description": "A self-hosted static file serving app which does nothing more than just serve up static files from a mounted volume.",
+            "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/theme-park.png",
