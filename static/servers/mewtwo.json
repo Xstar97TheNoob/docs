@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 44,
+    "count": 46,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -50,7 +50,7 @@
             "name": "external-service",
             "train": "✅",
             "description": "Allow external services to be used like Apps.",
-            "instances": 2
+            "instances": 3
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firefox.png",
@@ -78,6 +78,13 @@
             "name": "home-assistant",
             "train": "✅",
             "description": "home-assistant App for TrueNAS SCALE",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png",
+            "name": "homepage 🆕",
+            "train": "✅",
+            "description": "A highly customizable homepage",
             "instances": 1
         },
         {
