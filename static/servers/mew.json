@@ -145,7 +145,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/wordpress.png",
-            "name": "wordpress 🆕",
+            "name": "wordpress",
             "train": "✅",
             "description": "The WordPress rich content management system can utilize plugins, widgets, and themes.",
             "instances": 1
