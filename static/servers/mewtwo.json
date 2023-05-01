@@ -89,7 +89,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png",
-            "name": "homepage 🆕",
+            "name": "homepage",
             "train": "✅",
             "description": "A highly customizable homepage",
             "instances": 1
