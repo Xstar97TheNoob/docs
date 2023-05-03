@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 51,
+    "count": 52,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -124,14 +124,14 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png",
-            "name": "mariadb 🆕",
+            "name": "mariadb",
             "train": "🔨",
             "description": "Fast, reliable, scalable, and easy to use open-source relational database system.",
             "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-bungeecord.png",
-            "name": "minecraft-bungeecord 🆕",
+            "name": "minecraft-bungeecord",
             "train": "✅",
             "description": "A Spigot BungeeCord server.",
             "instances": 1
@@ -267,6 +267,13 @@
             "name": "requestrr",
             "train": "✅",
             "description": "Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ring-mqtt.png",
+            "name": "ring-mqtt 🆕",
+            "train": "✅",
+            "description": "Interact with Ring Inc products (cameras/alarms/smart lighting) via MQTT.",
             "instances": 1
         },
         {
