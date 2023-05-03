@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 52,
+    "count": 53,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -267,6 +267,13 @@
             "name": "requestrr",
             "train": "✅",
             "description": "Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/retrobot.png",
+            "name": "retrobot 🆕",
+            "train": "✅",
+            "description": "A discord bot that allows you to play old nintendo games with your friends over chat.",
             "instances": 1
         },
         {
