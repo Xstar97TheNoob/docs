@@ -54,7 +54,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
-            "name": "fileflows 🆕",
+            "name": "fileflows",
             "train": "✅",
             "description": "An application that lets you automatically process files through a simple rule flow.",
             "instances": 1
@@ -201,7 +201,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plex.png",
-            "name": "plex 🆕",
+            "name": "plex",
             "train": "✅",
             "description": "Plex Media Server",
             "instances": 1
