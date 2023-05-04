@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 21,
+    "count": 22,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -106,6 +106,13 @@
             "name": "uptime-kuma",
             "train": "✅",
             "description": "A fancy self-hosted monitoring tool",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png",
+            "name": "vaultwarden 🆕",
+            "train": "👔",
+            "description": "Unofficial Bitwarden compatible server written in Rust",
             "instances": 1
         },
         {
