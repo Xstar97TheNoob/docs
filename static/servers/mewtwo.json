@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 50,
+    "count": 51,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -89,7 +89,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png",
-            "name": "jackett",
+            "name": "jackett 🆕",
             "train": "✅",
             "description": "API Support for your favorite torrent trackers.",
             "instances": 1
@@ -169,6 +169,13 @@
             "name": "overseerr",
             "train": "✅",
             "description": "Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services such as Sonarr, Radarr and Plex!",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/paperless-ngx.png",
+            "name": "paperless-ngx 🆕",
+            "train": "✅",
+            "description": "Paperless-ngx is an application by Daniel Quinn and contributors that indexes your scanned documents.",
             "instances": 1
         },
         {
