@@ -68,7 +68,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Docs',
           },{
-            href: 'https://docs.xstar97thenoob.com/donations',
+            href: '/donations',
             label: 'Donations',
             position: 'left',
           }
