@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 19,
+    "count": 18,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -78,13 +78,6 @@
             "name": "snipe-it 🆕",
             "train": "✅",
             "description": "Open source asset management",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/strapi.png",
-            "name": "strapi 🆕",
-            "train": "✅",
-            "description": "Open-source headless CMS. JavaScript, fully customizable and developer-first.",
             "instances": 1
         },
         {
