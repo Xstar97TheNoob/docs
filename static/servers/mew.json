@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 18,
+    "count": 17,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -74,13 +74,6 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/snipe-it.png",
-            "name": "snipe-it 🆕",
-            "train": "✅",
-            "description": "Open source asset management",
-            "instances": 1
-        },
-        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/theme-park.png",
             "name": "theme-park",
             "train": "✅",
@@ -110,7 +103,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/wg-easy.png",
-            "name": "wg-easy 🆕",
+            "name": "wg-easy",
             "train": "✅",
             "description": "The easiest way to run WireGuard VPN + Web-based Admin UI.",
             "instances": 1
