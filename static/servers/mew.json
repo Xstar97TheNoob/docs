@@ -47,7 +47,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png",
-            "name": "pihole",
+            "name": "pihole 🆕",
             "train": "✅",
             "description": "DNS and Ad-filtering for your network",
             "instances": 1
