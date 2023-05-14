@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 17,
+    "count": 18,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -15,6 +15,13 @@
             "name": "cert-manager",
             "train": "👔",
             "description": "Certificate management for Kubernetes",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
+            "name": "custom-app 🆕",
+            "train": "✅",
+            "description": "Advanced tool to create your own TrueCharts-based App",
             "instances": 1
         },
         {
