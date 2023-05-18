@@ -12,10 +12,10 @@ Create a tunnel and install [cloudflared](https://truecharts.org/charts/stable/c
 
 To add [**traefik**](https://truecharts.org/charts/enterprise/traefik/how-to#how-to) to the CloudFlared tunnel.
 
-Create two public hostname entries in this order:
+Create all the public hostname entries in this order:
 
-- The Root Domain
-- The Wildcard Sub Domain
+- the root domain (if you plan to use root domain).
+- each sub domain record.
 
 These are the values that would be needed and assumes that the app is named `traefik` and the port is set to `443`.
 
