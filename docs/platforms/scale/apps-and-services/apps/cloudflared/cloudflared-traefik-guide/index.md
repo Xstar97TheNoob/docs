@@ -19,31 +19,27 @@ Create two public hostname entries in this order:
 
 These are the values that would be needed and assumes that the app is named `traefik` and the port is set to `443`.
 
+**sub domain**: `app`
+
 **type**: `https`
 
 **url**: `traefik-tcp.ix-traefik.svc.cluster.local:443`
+
+if using scale certs(deprecated)
 
 - **Additional application settings**
   - **TLS**
     - **Origin Server Name**: `mydomain.tld`
 
+if using cert-manager (recommended)
+
+- **Additional application settings**
+  - **TLS**
+    - **Origin Server Name**: `app.mydomain.tld`
+
 ![traefik-root-domain](./img/traefik-cloudflared-root-domain.png)
 
 ![cf-cname-dns-root](./img/cf-cname-root-cfargotunnel.png)
-
-## The WildCard CNAME
-
-:::note
-
-When adding the sub hostname "**\***", it won't create the dns record automatically.
-
-:::
-
-![traefik-wild-domain](./img/traefik-cloudflared-wild-domain.png)
-
-Manually create a new CNAME record for `*` and then copy and paste the contents of the root domain's CNAME target value `XXXX..cfargotunnel.com` to the new DNS record.
-
-![cf-cname-dns-wild](./img/cf-cname-wild-cfargotunnel.png)
 
 ## Traefik MiddleWares
 
