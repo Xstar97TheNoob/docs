@@ -14,7 +14,7 @@ Search for cert-manager in the `available apps` tab and click **install**.
 
 ## Cloudflare DNS-Provider
 
-You can setup multiple domains with a single cert-manager app, all you have to do is either add the global API key (not recommended) or create multiple ACME Issuer for each domain if you created an API token, a guide [here](/docs/platforms/scale/networking/adding-letsencrypt-certificates/index.md#cloudflare). 
+You can setup multiple domains with a single cert-manager app, all you have to do is either add the global API key (not recommended) or create multiple ACME Issuer for each domain with a custom API token for each, a guide [here](/docs/misc/networking/cloudflare/api-token.md). 
 
 - Give it a decent and recognizable name.
 - Select the correct provider, for example `Cloudflare`.

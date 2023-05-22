@@ -1,30 +1,15 @@
-# Adding LetsEncrypt Certificates
+# Adding LetsEncrypt Certificates (Deprecated)
 
 A guide to adding lets encrypt certificates to truenas scale.
 
 Prerequisites:
 
+- This guide **assumes** you will be using **Cloudflare**.
 - Own a **real** domain(preferably CloudFlare)
   - If the domain is provided from another registrar, you can freely change the nameservers of your domain to CF and have it manage your domain.
-- This guide assumes you will be using CF.
+  - for **Cloudflare API Tokens**, follow this [guide](/docs/misc/networking/cloudflare/api-token.md).
 - Root/Admin user for scale should have an email setup prior to this task.
   - Edit the user in credentials -> local users and add an email.
-
-## Cloudflare
-
-Go to [CF API Tokens](https://dash.cloudflare.com/profile/api-tokens) and then `create a token`. Select the edit zone template token and create one for each root domain you want to add to scale's ACME section.
-
-![cf-tokens-template-edit-zone](./img/cf-tokens-template-edit-zone.png)
-
-![cf-tokens-template-edit-zone-create-token](./img/cf-tokens-template-edit-zone-create-token.png)
-
-Under Create token, edit the name for this token and give it a good name for example `token-xstar97thenoob`.
-
-Add both a **zone DNS** `edit` and `read` permissions.
-
-Add a specific `domain` to the **Zone Resources**.
-
-Continue to summary and then create token.
 
 ## Truenas Scale
 
