@@ -2,6 +2,13 @@
 
 A guide to adding lets encrypt certificates to truenas scale.
 
+
+:::note
+
+Truecharts released cert-manager, a better cert management system alternative, heres the [guide](/docs/platforms/scale/apps-and-services/apps/cert-manager/cert-manager-how-to-guide/index.md)
+
+:::
+
 Prerequisites:
 
 - This guide **assumes** you will be using **Cloudflare**.
