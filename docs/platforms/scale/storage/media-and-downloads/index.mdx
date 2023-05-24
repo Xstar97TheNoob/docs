@@ -86,3 +86,29 @@ For each app internally reference the media:
 the download client should be setup to download to `/media/downloads` so make sure their default download paths are set accordingly.
 
 make sure to follow the same naming conventions and each app has the same internal path or there **will** be conflicts.
+
+### SMB Access With Apps Perms
+
+This will allow you to access your media dataset via smb on your client devices
+
+:::note
+
+This guide was made by **zazx** from the truecharts [discord](https://discord.com/channels/830763548678291466/920795329132126249/1007812043765715024).
+
+:::
+
+You need a local user with access to the **apps** group.
+
+Go to Credentials -> Local Users, click on your local user and click Edit.
+Add **apps** to the Auxiliary Groups.
+
+Go to Shares tab, click Add and select the path to your dataset or edit a current media share.
+
+Click Advanced options and put the following in the Auxiliary Parameters field:
+
+```
+force user=apps
+force group=apps
+```
+
+save it and you might have to restart SMB service and re-connect for this to work.
