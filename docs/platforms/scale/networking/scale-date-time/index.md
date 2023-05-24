@@ -1,5 +1,7 @@
 # Truenas Scale's Date and Time Issues
 
+A guide on how to fix Scale's Date and time issues.
+
 Truenas Scale is a powerful operating system designed for data storage and management. However, like any other operating system, it can experience issues, one of which is time synchronization. If the time on your Truenas Scale system is not properly synchronized, it can cause a variety of problems, including issues with DNS resolution, file synchronization, and more.
 
 Fortunately, resolving time issues on Truenas Scale is relatively easy. The first step is to open the system shell and run the following command to verify if your current local time matches what scale reports:
