@@ -1,6 +1,6 @@
-# MullVadVPN How To Guide
+# MullVad VPN How To Guide
 
-In this guide I will show an example on how to create a wireguard vpn to be consumed by a truecharts app's vpn addon.
+A guide on how to create a MullVad vpn config.
 
 ## MullVad account
 
@@ -44,20 +44,3 @@ In this example from the [server list](https://mullvad.net/en/servers/), I chose
 Download the config and I recommend selecting and downloading multiple configs from the same city, just reselect the servers in the last option.
 
 ![wg-conf-gen](./img/mullvad-wg-conf-gen.png)
-
-## Truenas Scale
-
-In Truenas Scale, create a dataset for vpn configs.
-
-### Dataset Permissions
-
-The correct perms that truecharts use by default.
-
-![media-perms](./img/media-perms.png)
-
-## TrueChart VPN AddOn
-
-Please see the official doc from [truecharts](https://truecharts.org/manual/guides/vpn-setup).
-
-- Only caveat is that the 172 ip is added automatically, no need to add it manually.
-- Make sure to enable the KillSwitch and add only _your_ lan network in the `IPV4`.
