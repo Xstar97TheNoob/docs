@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 51,
+    "count": 61,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -18,8 +18,15 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
-            "name": "cert-manager",
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png",
+            "name": "cloudnative-pg 🆕",
+            "train": "👷",
+            "description": "CloudNativePG is a clustered postgresql database operator",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.png",
+            "name": "clusterissuer",
             "train": "👔",
             "description": "Certificate management for Kubernetes",
             "instances": 1
@@ -36,7 +43,7 @@
             "name": "custom-app",
             "train": "✅",
             "description": "Advanced tool to create your own TrueCharts-based App",
-            "instances": 2
+            "instances": 3
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/emulatorjs.png",
@@ -50,13 +57,20 @@
             "name": "external-service",
             "train": "✅",
             "description": "Allow external services to be used like Apps.",
-            "instances": 6
+            "instances": 9
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
             "name": "fileflows",
             "train": "✅",
             "description": "An application that lets you automatically process files through a simple rule flow.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firefox.png",
+            "name": "firefox 🆕",
+            "train": "⚠️",
+            "description": "a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.",
             "instances": 1
         },
         {
@@ -88,6 +102,13 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/immich.png",
+            "name": "immich",
+            "train": "✅",
+            "description": "High performance self-hosted photo and video backup solution.",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kavita.png",
             "name": "kavita",
             "train": "✅",
@@ -106,6 +127,13 @@
             "name": "lidarr",
             "train": "✅",
             "description": "Looks and smells like Sonarr but made for music",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/makemkv.png",
+            "name": "makemkv",
+            "train": "✅",
+            "description": "MakeMKV is your one-click solution to convert video that you own into free and patents-unencumbered format that can be played everywhere.",
             "instances": 1
         },
         {
@@ -139,7 +167,7 @@
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/muse.png",
             "name": "muse",
-            "train": "⚠️",
+            "train": "✅",
             "description": "A self-hosted midwestern Discord music bot that doesn't suck.",
             "instances": 1
         },
@@ -148,6 +176,13 @@
             "name": "n8n",
             "train": "✅",
             "description": "n8n is an extendable workflow automation tool.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/netbootxyz.png",
+            "name": "netbootxyz 🆕",
+            "train": "⚠️",
+            "description": "Your favorite operating systems in one place!",
             "instances": 1
         },
         {
@@ -229,7 +264,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png",
-            "name": "redis",
+            "name": "redis 🆕",
             "train": "🔨",
             "description": "Open source, advanced key-value store.",
             "instances": 1
@@ -263,6 +298,13 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/romm.png",
+            "name": "romm",
+            "train": "✅",
+            "description": "game library manager focused in retro gaming",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/scrutiny.png",
             "name": "scrutiny",
             "train": "✅",
@@ -271,9 +313,9 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/snippet-box.png",
-            "name": "snippet-box",
-            "train": "⚠️",
-            "description": "Snippet Box is a simple self-hosted app for organizing your code snippets. It allows you to easily create, edit, browse and manage your snippets in various languages.",
+            "name": "snippet-box 🆕",
+            "train": "✅",
+            "description": "Snippet Box is a simple self-hosted app for organizing your code snippets.",
             "instances": 1
         },
         {
@@ -305,17 +347,17 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/transmission.png",
-            "name": "transmission",
-            "train": "✅",
-            "description": "fast, easy, and free BitTorrent client.",
-            "instances": 1
-        },
-        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png",
             "name": "uptime-kuma",
             "train": "✅",
             "description": "A fancy self-hosted monitoring tool",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/whisper-asr-webservice.png",
+            "name": "whisper-asr-webservice",
+            "train": "⚠️",
+            "description": "Whisper is a general-purpose speech recognition model.",
             "instances": 1
         }
     ]
