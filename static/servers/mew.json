@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 18,
+    "count": 20,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -11,17 +11,24 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
-            "name": "cert-manager",
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/blocky.png",
+            "name": "blocky 🆕",
+            "train": "👔",
+            "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.png",
+            "name": "clusterissuer",
             "train": "👔",
             "description": "Certificate management for Kubernetes",
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
-            "name": "custom-app 🆕",
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/code-server.png",
+            "name": "code-server",
             "train": "✅",
-            "description": "Advanced tool to create your own TrueCharts-based App",
+            "description": "Run VS Code on any machine anywhere and access it in the browser.",
             "instances": 1
         },
         {
@@ -36,7 +43,7 @@
             "name": "external-service",
             "train": "✅",
             "description": "Allow external services to be used like Apps.",
-            "instances": 2
+            "instances": 3
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png",
@@ -53,6 +60,13 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pgadmin.png",
+            "name": "pgadmin 🆕",
+            "train": "✅",
+            "description": "Web-Based postgresql database management utility",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png",
             "name": "pihole 🆕",
             "train": "✅",
@@ -60,17 +74,10 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus.png",
-            "name": "prometheus",
-            "train": "👔",
-            "description": "kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.",
-            "instances": 1
-        },
-        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/rickroll.png",
             "name": "rickroll",
             "train": "⚠️",
-            "description": "Self-hosted Rickrolls. Image is based on Nginx stable alpine, and all the content is local to the Chart.",
+            "description": "Self-hosted Rick Roll chart.",
             "instances": 1
         },
         {
