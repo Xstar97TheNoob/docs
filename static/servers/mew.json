@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 20,
+    "count": 23,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
@@ -12,9 +12,16 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/blocky.png",
-            "name": "blocky 🆕",
+            "name": "blocky",
             "train": "👔",
             "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png",
+            "name": "cloudnative-pg",
+            "train": "👷",
+            "description": "CloudNativePG is a clustered postgresql database operator",
             "instances": 1
         },
         {
@@ -30,6 +37,13 @@
             "train": "✅",
             "description": "Run VS Code on any machine anywhere and access it in the browser.",
             "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
+            "name": "custom-app",
+            "train": "✅",
+            "description": "Advanced tool to create your own TrueCharts-based App",
+            "instances": 2
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ddns-updater.png",
@@ -60,24 +74,24 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/netdata.png",
+            "name": "netdata 🆕",
+            "train": "✅",
+            "description": "Netdata is high-fidelity infrastructure monitoring and troubleshooting.",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pgadmin.png",
-            "name": "pgadmin 🆕",
+            "name": "pgadmin",
             "train": "✅",
             "description": "Web-Based postgresql database management utility",
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png",
-            "name": "pihole 🆕",
-            "train": "✅",
-            "description": "DNS and Ad-filtering for your network",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/rickroll.png",
-            "name": "rickroll",
-            "train": "⚠️",
-            "description": "Self-hosted Rick Roll chart.",
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
+            "name": "prometheus-operator",
+            "train": "👷",
+            "description": "Prometheus Operator is an operator for prometheus",
             "instances": 1
         },
         {
