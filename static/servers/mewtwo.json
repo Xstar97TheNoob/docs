@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 61,
+    "count": 66,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -19,7 +19,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png",
-            "name": "cloudnative-pg 🆕",
+            "name": "cloudnative-pg",
             "train": "👷",
             "description": "CloudNativePG is a clustered postgresql database operator",
             "instances": 1
@@ -43,7 +43,14 @@
             "name": "custom-app",
             "train": "✅",
             "description": "Advanced tool to create your own TrueCharts-based App",
-            "instances": 3
+            "instances": 5
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/discordgsm.png",
+            "name": "discordgsm 🆕",
+            "train": "✅",
+            "description": "A discord bot that monitors your game server and tracks the live data of your game servers.",
+            "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/emulatorjs.png",
@@ -57,7 +64,7 @@
             "name": "external-service",
             "train": "✅",
             "description": "Allow external services to be used like Apps.",
-            "instances": 9
+            "instances": 6
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
@@ -68,8 +75,8 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firefox.png",
-            "name": "firefox 🆕",
-            "train": "⚠️",
+            "name": "firefox",
+            "train": "✅",
             "description": "a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.",
             "instances": 1
         },
@@ -109,6 +116,13 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/invitarr.png",
+            "name": "invitarr 🆕",
+            "train": "⚠️",
+            "description": "A chatbot that invites discord users to plex.",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kavita.png",
             "name": "kavita",
             "train": "✅",
@@ -144,10 +158,17 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mc-router.png",
+            "name": "mc-router",
+            "train": "✅",
+            "description": "Lightweight multiplexer/proxy for Minecraft-Java servers.",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-bungeecord.png",
             "name": "minecraft-bungeecord",
             "train": "✅",
-            "description": "A Spigot BungeeCord server.",
+            "description": "the front-end of a cluster of minecraft-java containers.",
             "instances": 1
         },
         {
@@ -155,7 +176,7 @@
             "name": "minecraft-java",
             "train": "✅",
             "description": "Minecraft Java Dedicated Server",
-            "instances": 1
+            "instances": 3
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mosquitto.png",
@@ -179,17 +200,10 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/netbootxyz.png",
-            "name": "netbootxyz 🆕",
-            "train": "⚠️",
-            "description": "Your favorite operating systems in one place!",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openbooks.png",
-            "name": "openbooks",
-            "train": "⚠️",
-            "description": "IRC Highway eBook Downloads.",
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/netdata.png",
+            "name": "netdata 🆕",
+            "train": "✅",
+            "description": "Netdata is high-fidelity infrastructure monitoring and troubleshooting.",
             "instances": 1
         },
         {
@@ -228,6 +242,13 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plexanisync.png",
+            "name": "plexanisync",
+            "train": "⚠️",
+            "description": "Plex to AniList Sync.",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plexripper.png",
             "name": "plexripper",
             "train": "⚠️",
@@ -235,10 +256,10 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus.png",
-            "name": "prometheus",
-            "train": "👔",
-            "description": "kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.",
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
+            "name": "prometheus-operator",
+            "train": "👷",
+            "description": "Prometheus Operator is an operator for prometheus",
             "instances": 1
         },
         {
@@ -267,13 +288,6 @@
             "name": "redis 🆕",
             "train": "🔨",
             "description": "Open source, advanced key-value store.",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redisinsight.png",
-            "name": "redisinsight",
-            "train": "⚠️",
-            "description": "GUI for Redis.",
             "instances": 1
         },
         {
@@ -313,7 +327,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/snippet-box.png",
-            "name": "snippet-box 🆕",
+            "name": "snippet-box",
             "train": "✅",
             "description": "Snippet Box is a simple self-hosted app for organizing your code snippets.",
             "instances": 1
@@ -330,6 +344,13 @@
             "name": "strapi",
             "train": "✅",
             "description": "Strapi is the leading open-source headless CMS. JavaScript, fully customizable and developer-first.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tauticord.png",
+            "name": "tauticord",
+            "train": "⚠️",
+            "description": "A Discord bot that displays live data from Tautulli.",
             "instances": 1
         },
         {
@@ -355,9 +376,16 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/whisper-asr-webservice.png",
-            "name": "whisper-asr-webservice",
+            "name": "whisper-asr-webservice 🆕",
             "train": "⚠️",
             "description": "Whisper is a general-purpose speech recognition model.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/wizarr.png",
+            "name": "wizarr",
+            "train": "✅",
+            "description": "A automatic user invitation system for Plex.",
             "instances": 1
         }
     ]
