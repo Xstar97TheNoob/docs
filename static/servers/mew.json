@@ -1,8 +1,15 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 23,
+    "count": 26,
     "apps": [
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
+            "name": "adguard-home",
+            "train": "✅",
+            "description": "Free and open source, powerful network-wide ads & trackers blocking DNS server.",
+            "instances": 1
+        },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
             "name": "authelia",
@@ -15,6 +22,13 @@
             "name": "blocky",
             "train": "👔",
             "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
+            "name": "cert-manager",
+            "train": "👷",
+            "description": "Cert-Manager is a kubernetes-aware certificate manager",
             "instances": 1
         },
         {
@@ -74,10 +88,10 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/netdata.png",
-            "name": "netdata 🆕",
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/organizr.png",
+            "name": "organizr",
             "train": "✅",
-            "description": "Netdata is high-fidelity infrastructure monitoring and troubleshooting.",
+            "description": "HTPC/Homelab Services Organizer",
             "instances": 1
         },
         {
@@ -99,6 +113,13 @@
             "name": "scrutiny",
             "train": "✅",
             "description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sshwifty.png",
+            "name": "sshwifty",
+            "train": "✅",
+            "description": "SSHwifty is a SSH and Telnet connector made for the Web.",
             "instances": 1
         },
         {
