@@ -1,7 +1,7 @@
 {
     "serverName": "Mew Scale Server",
     "serverDescription": "Networking and Authenication",
-    "count": 26,
+    "count": 25,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -57,7 +57,7 @@
             "name": "custom-app",
             "train": "✅",
             "description": "Advanced tool to create your own TrueCharts-based App",
-            "instances": 2
+            "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ddns-updater.png",
