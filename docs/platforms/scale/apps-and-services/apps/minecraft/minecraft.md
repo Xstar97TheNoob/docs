@@ -56,7 +56,6 @@ A server front-end to ease managing Minecraft administrative tasks, linked [here
 
 ### Exposing Your MineCraft Servers
 
-The simplest way would be to forward your server's port if you just want to have a few friends to play, however this can be insecure and leave you open to have many holes in your network.
+The most straightforward approach is to forward your server's port if you only intend to play with a small group of friends. Nonetheless, this method can be insecure and might expose your network to various vulnerabilities.
 
-MCRouter is a great app to use to forward a single port and expose all your mc servers with just one port is a great benefit.
-BungeeCord, Waterfall, Velocity can do the same as a proxy server but can only support a few server types.
+MCRouter offers a fantastic solution by allowing you to forward a single port and make all your Minecraft servers accessible through that one port. This offers a significant advantage. While BungeeCord, Waterfall, and Velocity function similarly as proxy servers, they are limited in their support for specific server types, unlike MCRouter.
