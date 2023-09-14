@@ -1,64 +1,69 @@
 # Static IP Guide
 
-A guide to set a static IP for scale and create alias IPs.
+This guide provides instructions for configuring static IP addresses and alias IPs.
 
 :::note
 
-If you been experiencing any issues installing or updating apps, this may resolve some of those issues as this has been a necessary step to fix your kubernetes in scale.
+If you've been experiencing issues with app installation or updates, following these steps can help resolve some of those problems. This is often a necessary step to ensure the stability of your Kubernetes setup for the Scale OS.
+
 :::
 
-## Network Global Config
+## Network Global Configuration
 
-Go to networks tab and edit the global config.
+1. Navigate to the "Networks" tab and edit the global configuration.
 
-remove all name server options and set cloudflare DNS (recommended)
+2. Remove all name server options and set Cloudflare DNS as the recommended choice.
 
-only use external dns only here, remove _any_ lan ips.
+   Ensure that you use external DNS exclusively here, and remove any LAN IP configurations.
 
-![scale_dns](../scale-nameservers/img/scale-network-global-config-cf.png)
+   ![Global Config with Cloudflare DNS](../scale-nameservers/img/scale-network-global-config-cf.png)
 
 ### Network Interfaces
 
-Edit your main interface and disable DHCP and IPv6.
+3. Edit your main network interface and perform the following actions:
+   
+   - Disable DHCP.
+   - Disable IPv6.
+   - Set your **own** custom alias IPs, typically set to 24 (default).
 
-Set alias IPs and set it to 24(default)
+   ![Edit Network Interface](./img/scale-network-interface-edit.png)
 
-![network_interface_edit](./img/scale-network-interface-edit.png)
+4. Create alias IPs as needed. For instance, you can have one for your web interface and another for apps only.
 
-I have an alias IP for my web interface and another for apps only.
+   ![Network Interface Settings](./img/scale-network-interface.png)
 
-![network_interface](./img/scale-network-interface.png)
+5. In "System Settings" -> "General" -> "GUI Settings," ensure your settings are correctly configured.
 
-In system settings -> general -> GUI | settings.
-
-![system-general-gui-settings](./img/system-general-gui-settings.png)
+   ![System General GUI Settings](./img/system-general-gui-settings.png)
 
 :::note
 
-You can just setup [metallb](https://truecharts.org/charts/enterprise/metallb-config/setup-guide) if you like all apps to have their own IPs.
+Alternatively, you can use [MetalLB](https://truecharts.org/charts/enterprise/metallb-config/setup-guide) if you prefer to assign individual IPs to all your apps.
 
 :::
 
 ## Apps Settings
 
-Go to apps -> apps settings -> advanced.
+6. Navigate to "Apps" -> "App Settings" -> "Advanced."
 
-Set your nodeIP to the static IP from the drop down list(alias IP)
-Set your interface to your main interface that matches that alias IP.
-Set your gateway to your own router IP.
+7. Configure the following settings:
+   
+   - Set your nodeIP to the static IP from the drop-down list (alias IP).
+   - Set your interface to your main network interface that corresponds to the alias IP.
+   - Set your gateway to your own router's IP.
 
-![apps-settings-advanced](./img/apps-settings-advanced.png)
+   ![Apps Advanced Settings](./img/apps-settings-advanced.png)
 
-Save it and let the apps get re-init.
+8. Save your settings and allow the apps to re-initialize.
 
-## Validate The Changes
+## Validating the Changes
 
-After making all the changes, wait a few mins for your apps to come up and then run the following command.
+9. After implementing all the changes, wait a few minutes for your apps to come up, and then run the following command.
 
-Go to system settings -> Shell:
+10. Go to "System Settings" -> "Shell," and execute the following command:
 
-```shell
-sudo k3s kubectl get pods,svc -A
-```
+    ```shell
+    sudo k3s kubectl get pods,svc -A
+    ```
 
-The pods should not report any errors and the services should report the correct IPs.
+    Ensure that the pods do not report any errors, and the services display the correct IPs.
