@@ -12,24 +12,10 @@ date
 
 If the time/date does match, its likely your scale server's [nameservers](/docs/platforms/scale/networking/scale-nameservers/index.md) are the issue, but if not proceed to run the following commands:
 
-```shell
-# stop ntp service
-sudo systemctl stop ntp
-```
+the command will stop ntp, sync the clock with ntp server, start the ntp service and print date afterwards.
 
 ```shell
-# Synchronize the system clock with NTP servers
-sudo ntpd -gq
-```
-
-```shell
-# Start the NTP service
-sudo systemctl start ntp
-```
-
-```shell
-# check the time again
-date
+sudo systemctl stop ntp && sudo ntpd -gq && sudo systemctl start ntp && date
 ```
 
 If the output of the "date" command matches the current local time for your system, then the time issue is resolved. However, if the output does not match, repeat the above steps until the system clock is properly synchronized.
