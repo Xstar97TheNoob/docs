@@ -1,12 +1,11 @@
 import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useThemeContext from '@theme/hooks/useThemeContext'; // Import the useThemeContext hook
 
 import links from '@site/static/donations/links.json';
 
 const DonationLinks = () => {
-  const { isDarkTheme } = useThemeContext(); // Get the current theme mode
-  const { siteConfig } = useDocusaurusContext();
+  const { colorMode } = useDocusaurusContext();
+  const isDarkTheme = colorMode === 'dark';
 
   return (
     <div className={`donation-grid ${isDarkTheme ? 'dark-mode' : 'light-mode'}`}>
@@ -30,10 +29,9 @@ const DonationLinks = () => {
         }
         a {
           text-decoration: none;
-          color: ${isDarkTheme ? '#fff' : '#333'}; // Adjust text color based on theme
+          color: ${isDarkTheme ? '#fff' : '#333'};
         }
 
-        // Define styles for dark mode
         .dark-mode {
           background-color: #333;
         }
@@ -41,7 +39,6 @@ const DonationLinks = () => {
           color: #fff;
         }
 
-        // Define styles for light mode
         .light-mode {
           background-color: #fff;
         }
