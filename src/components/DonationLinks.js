@@ -1,17 +1,13 @@
 import React from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import links from '@site/static/donations/links.json';
 
 const DonationLinks = () => {
-  const { colorMode } = useDocusaurusContext();
-  const isDarkTheme = colorMode === 'dark';
-
   return (
-    <div className={`donation-grid ${isDarkTheme ? 'dark-mode' : 'light-mode'}`}>
+    <div className="donation-grid">
       {links.map((link, index) => (
         <div className="donation-option" key={index}>
-          <a href={link.link} target="_blank" rel="noopener noreferrer">
+          <a href={link.link} target="_blank" rel="noopener noreferrer" style={{ color: 'red' }}>
             {link.name}
           </a>
         </div>
@@ -26,21 +22,6 @@ const DonationLinks = () => {
           padding: 16px;
           border: 1px solid #ddd;
           text-align: center;
-        }
-        a {
-          text-decoration: none;
-          color: ${isDarkTheme ? '#fff' : '#333'};
-        }
-
-        .dark-mode {
-          background-color: #333;
-        }
-        .dark-mode a {
-          color: #fff;
-        }
-
-        .light-mode {
-          background-color: #fff;
         }
       `}</style>
     </div>
