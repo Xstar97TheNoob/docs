@@ -4,12 +4,30 @@ import links from '@site/static/donations/links.json';
 
 const DonationLinks = () => {
   return (
-    <div>
+    <div className="donation-grid">
       {links.map((link, index) => (
         <div className="donation-option" key={index}>
-          <p><a href={link.link} target="_blank" rel="noopener noreferrer">{link.name}</a></p>
+          <a href={link.link} target="_blank" rel="noopener noreferrer">
+            {link.name}
+          </a>
         </div>
       ))}
+      <style jsx>{`
+        .donation-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+          gap: 16px;
+        }
+        .donation-option {
+          padding: 16px;
+          border: 1px solid #ddd;
+          text-align: center;
+        }
+        a {
+          text-decoration: none;
+          color: #333;
+        }
+      `}</style>
     </div>
   );
 };
