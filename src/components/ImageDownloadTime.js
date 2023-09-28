@@ -27,8 +27,49 @@ const DownloadTime = () => {
   const color = time <= 120 ? 'green' : 'red';
 
   const styles = {
-    // ... (your existing styles)
-  };
+    container: {
+      backgroundColor: 'var(--ifm-background-color)',
+      color: 'var(--ifm-font-color-base)',
+      boxShadow: 'var(--ifm-box-shadow)',
+      borderRadius: 'var(--ifm-border-radius)',
+      padding: '20px',
+      border: '1px solid var(--ifm-border-color)',
+      maxWidth: '400px',
+      margin: '0 auto',
+      textAlign: 'center', // Center align the child elements
+    },
+    title: {
+      fontSize: '1.5rem',
+      fontWeight: 'bold',
+      marginBottom: '10px',
+    },
+    inputContainer: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      marginBottom: '10px',
+    },
+    inputLabel: {
+      marginBottom: '5px',
+    },
+    inputField: {
+      display: 'flex',
+      alignItems: 'center',
+    },
+    inputUnit: {
+      marginLeft: '5px',
+    },
+    button: {
+      marginTop: '10px',
+    },
+    result: {
+      color,
+      marginTop: '10px',
+      fontSize: '1.2rem',
+      fontWeight: 'bold',
+      textAlign: 'center',
+    },
+  };  
 
   return (
     <div style={styles.container}>
