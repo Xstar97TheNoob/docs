@@ -13,16 +13,12 @@ function QueryParamCommand({ text, domain: defaultDomain = 'app.example.com', ip
       setDomain(updatedDomain);
       setIp(updatedIp);
 
-      return queries.map((query) => {
-        if (query === 'domain' && updatedDomain === defaultDomain) {
-          return '';
-        }
-        if (query === 'ip' && updatedIp === defaultIp) {
-          return '';
-        }
+      const paramValues = queries.map((query) => {
         const param = new URLSearchParams(window.location.search).get(query) || '';
-        return param ? `${param}` : '';
+        return param;
       });
+
+      return paramValues.filter((param) => param !== ''); // Filter out empty values
     };
 
     // Initial update of queryValues
@@ -40,10 +36,8 @@ function QueryParamCommand({ text, domain: defaultDomain = 'app.example.com', ip
     };
   }, [defaultDomain, defaultIp, queries]);
 
-  // Remove empty values from queryValues
-  const filteredQueryValues = queryValues.filter((value) => value !== '');
-
-  const command = [text, domain, ip, ...filteredQueryValues].join(' ');
+  // Join the filtered query parameter values with a space
+  const command = [text, domain, ip, ...queryValues].join(' ');
 
   return (
     <div>
