@@ -4,7 +4,7 @@ function WindowsDNS() {
   useEffect(() => {
     // Get query parameters from the URL
     const params = new URLSearchParams(window.location.search);
-    const domain = params.get('domain') || 'app.mydomain.tld';
+    const domain = params.get('domain') || 'app.example.com';
     const ip = params.get('ip') || '10.0.0.123';
 
     // Use the 'domain' and 'ip' values to update DNS settings
