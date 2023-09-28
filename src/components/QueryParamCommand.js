@@ -21,7 +21,7 @@ function QueryParamCommand({ text, domain: defaultDomain = 'app.example.com', ip
           return '';
         }
         const param = new URLSearchParams(window.location.search).get(query) || '';
-        return param ? `${query} ${param}` : '';
+        return param ? `${param}` : '';
       });
     };
 
