@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from 'react';
 
-function QueryParamCommand({ text, defaults = {}, queriesToReplace = [], queries }) {
-  // Check if window is defined (i.e., in a browser context)
-  const queryParams = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : new URLSearchParams();
+function QueryParamCommand({ text, defaults = {'domain': 'app.example.com'}, queriesToReplace = [], queries }) {
+  const queryParams = new URLSearchParams(window.location.search);
 
   // Replace specified query parameters with their default values
   queriesToReplace.forEach((query) => {
@@ -14,9 +13,9 @@ function QueryParamCommand({ text, defaults = {}, queriesToReplace = [], queries
   const queryValues = queries.map((query) => {
     const param = queryParams.get(query);
     if (param !== null && param !== undefined) {
-      return `${query} ${param}`;
+      return param; // Remove the query parameter name from the output
     } else if (defaults[query] !== undefined) {
-      return `${query} ${defaults[query]}`;
+      return defaults[query];
     } else {
       return '';
     }
