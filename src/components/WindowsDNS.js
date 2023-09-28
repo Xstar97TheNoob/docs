@@ -1,16 +1,22 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 function WindowsDNS() {
+  const [domain, setDomain] = useState(''); // Initialize domain state
+  const [ip, setIp] = useState(''); // Initialize ip state
+
   useEffect(() => {
     // Get query parameters from the URL
     const params = new URLSearchParams(window.location.search);
-    const domain = params.get('domain') || 'app.example.com';
-    const ip = params.get('ip') || '10.0.0.123';
+    const queryDomain = params.get('domain') || 'app.mydomain.tld';
+    const queryIp = params.get('ip') || '10.0.0.123';
 
-    // Use the 'domain' and 'ip' values to update DNS settings
+    // Set the extracted values to state
+    setDomain(queryDomain);
+    setIp(queryIp);
+
     // You can perform any necessary actions here, e.g., making API requests
 
-    console.log(`Custom DNS Configuration - Domain: ${domain}, IP: ${ip}`);
+    console.log(`Custom DNS Configuration - Domain: ${queryDomain}, IP: ${queryIp}`);
   }, []);
 
   return (
