@@ -1,0 +1,20 @@
+---
+query: |
+  {
+    allMarkdownRemark {
+      nodes {
+        frontmatter {
+          title
+        }
+        excerpt
+        fields {
+          slug
+        }
+      }
+    }
+  }
+---
+
+# Test
+
+You can embed GraphQL data in your MDX content like this: {data.allMarkdownRemark.nodes[0].frontmatter.title}.
