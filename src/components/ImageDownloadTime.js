@@ -13,10 +13,11 @@ const DownloadTime = () => {
   const [inputSpeed, setInputSpeed] = useState(speed);
   const [time, setTime] = useState(0);
 
-  const calculateTime = () => {
+  // Calculate time whenever inputSize or inputSpeed changes
+  useEffect(() => {
     const speedInMb = inputSpeed / 8; // Convert speed from Mbit/s to MB/s
     setTime(inputSize / speedInMb); // Calculate time in seconds
-  };
+  }, [inputSize, inputSpeed]);
 
   const formatTime = () => {
     const mins = Math.floor(time / 60);
@@ -24,7 +25,8 @@ const DownloadTime = () => {
     return `${mins} min ${secs} sec`;
   };
 
-  const color = time <= 120 ? 'green' : 'red';
+  const color = time <= 120 ? "green" : "red";
+
 
   const styles = {
     container: {
@@ -96,12 +98,7 @@ const DownloadTime = () => {
           <span style={styles.inputUnit}>Mb/s</span>
         </div>
       </div>
-      <button style={styles.button} onClick={calculateTime}>
-        Calculate
-      </button>
-      {time > 0 && (
-        <p style={styles.result}>Download time: {formatTime()}</p>
-      )}
+      <p style={styles.result}>Download time: {formatTime()}</p>
     </div>
   );
 };
