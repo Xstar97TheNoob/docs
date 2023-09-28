@@ -1,20 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 
-function QueryParamCommand({ text, defaults = {}, allowBlankIp = false, queries }) {
+
+function QueryParamCommand({ text, domain = 'app.example.com', ip = '', queries }) {
   const queryValues = queries.map((query) => {
-    const param = new URLSearchParams(window.location.search).get(query);
-    if (param !== null && param !== undefined) {
-      return `${query} ${param}`;
-    } else if (query === 'ip' && allowBlankIp) {
-      return ''; // Leave IP blank if allowed
-    } else if (defaults[query] !== undefined) {
-      return `${query} ${defaults[query]}`;
-    } else {
-      return '';
-    }
+    const param = new URLSearchParams(window.location.search).get(query) || '';
+    return param ? `${query} ${param}` : '';
   });
 
-  const command = [text, ...queryValues].filter((value) => value !== '').join(' ');
+  const command = [text, domain, ip, ...queryValues].join(' ');
 
   return (
     <div>
