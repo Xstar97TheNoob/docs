@@ -16,8 +16,8 @@ function WindowsDNS() {
   return (
     <div>
       <h1>Custom DNS Configuration</h1>
-      Domain: ${domain}
-      IP: ${ip}
+      <p>Domain: {domain}</p>
+      <p>IP: {ip}</p>
     </div>
   );
 }
