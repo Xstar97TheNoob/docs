@@ -8,7 +8,18 @@ function QueryParamCommand({ text, domain: defaultDomain = 'app.example.com', ip
   useEffect(() => {
     // Function to extract query parameter values
     const getQueryParamValues = () => {
+      const updatedDomain = new URLSearchParams(window.location.search).get('domain') || defaultDomain;
+      const updatedIp = new URLSearchParams(window.location.search).get('ip') || defaultIp;
+      setDomain(updatedDomain);
+      setIp(updatedIp);
+
       return queries.map((query) => {
+        if (query === 'domain' && updatedDomain === defaultDomain) {
+          return '';
+        }
+        if (query === 'ip' && updatedIp === defaultIp) {
+          return '';
+        }
         const param = new URLSearchParams(window.location.search).get(query) || '';
         return param ? `${query} ${param}` : '';
       });
@@ -27,9 +38,12 @@ function QueryParamCommand({ text, domain: defaultDomain = 'app.example.com', ip
     return () => {
       window.removeEventListener("popstate", handleQueryParamChange);
     };
-  }, [queries]);
+  }, [defaultDomain, defaultIp, queries]);
 
-  const command = [text, domain, ip, ...queryValues].join(' ');
+  // Remove empty values from queryValues
+  const filteredQueryValues = queryValues.filter((value) => value !== '');
+
+  const command = [text, domain, ip, ...filteredQueryValues].join(' ');
 
   return (
     <div>
