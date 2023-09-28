@@ -1,20 +1,12 @@
 ---
 query: |
-  {
-    allMarkdownRemark {
-      nodes {
-        frontmatter {
-          title
-        }
-        excerpt
-        fields {
-          slug
-        }
-      }
+  query ($title: String) {
+    titleQuery(title: $title) {
+      title
     }
   }
 ---
 
-# Test
+# My MDX Content
 
-You can embed GraphQL data in your MDX content like this: {data.allMarkdownRemark.nodes[0].frontmatter.title}.
+The title query parameter is: {data.titleQuery.title}.
