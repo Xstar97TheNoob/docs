@@ -1,18 +1,32 @@
 import React, { useState, useEffect } from "react";
 
-function QueryParamCommand({ text, domain = 'app.example.com', ip = '', queries }) {
+function QueryParamCommand({ text, domain: defaultDomain = 'app.example.com', ip: defaultIp = '', queries }) {
   const [queryValues, setQueryValues] = useState([]);
+  const [domain, setDomain] = useState(defaultDomain);
+  const [ip, setIp] = useState(defaultIp);
 
   useEffect(() => {
-    // Check if window object is available (running in the browser)
-    if (typeof window !== "undefined") {
-      const queryValues = queries.map((query) => {
+    // Function to extract query parameter values
+    const getQueryParamValues = () => {
+      return queries.map((query) => {
         const param = new URLSearchParams(window.location.search).get(query) || '';
         return param ? `${query} ${param}` : '';
       });
+    };
 
-      setQueryValues(queryValues);
-    }
+    // Initial update of queryValues
+    setQueryValues(getQueryParamValues());
+
+    // Update queryValues whenever the query parameters change
+    const handleQueryParamChange = () => {
+      setQueryValues(getQueryParamValues());
+    };
+
+    window.addEventListener("popstate", handleQueryParamChange);
+
+    return () => {
+      window.removeEventListener("popstate", handleQueryParamChange);
+    };
   }, [queries]);
 
   const command = [text, domain, ip, ...queryValues].join(' ');
