@@ -7,7 +7,7 @@ function WindowsDNS() {
   useEffect(() => {
     // Get query parameters from the URL
     const params = new URLSearchParams(window.location.search);
-    const queryDomain = params.get('domain') || 'app.mydomain.tld';
+    const queryDomain = params.get('domain') || 'app.example.com';
     const queryIp = params.get('ip') || '10.0.0.123';
 
     // Set the extracted values to state
