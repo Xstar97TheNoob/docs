@@ -37,9 +37,9 @@ ___
 
 run this command with your local dns server IP:
 
-<QueryParamCommand text="nslookup" defaults={domain: 'app.example.com',ip: '10.0.0.123'} queries={['domain', 'ip']} />
+<QueryParamCommand text="nslookup" defaults="{'domain': 'app.example.com','ip': '10.0.0.123'}" queries={['domain', 'ip']} />
 
 
 run this command without the dns ip:
 
-<QueryParamCommand text="nslookup" defaults={domain: 'app.example.com'} queries={['domain']} />
+<QueryParamCommand text="nslookup" defaults="{'domain': 'app.example.com'}" queries={['domain']} />
