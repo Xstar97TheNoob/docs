@@ -8,17 +8,19 @@ function QueryParamCommand({ text, domain: defaultDomain = 'app.example.com', ip
   useEffect(() => {
     // Function to extract query parameter values
     const getQueryParamValues = () => {
-      const updatedDomain = new URLSearchParams(window.location.search).get('domain') || defaultDomain;
-      const updatedIp = new URLSearchParams(window.location.search).get('ip') || defaultIp;
-      setDomain(updatedDomain);
-      setIp(updatedIp);
+      const updatedDomain = new URLSearchParams(window.location.search).get('domain');
+      const updatedIp = new URLSearchParams(window.location.search).get('ip');
+      if (updatedDomain !== null) {
+        setDomain(updatedDomain);
+      }
+      if (updatedIp !== null) {
+        setIp(updatedIp);
+      }
 
-      const paramValues = queries.map((query) => {
+      return queries.map((query) => {
         const param = new URLSearchParams(window.location.search).get(query) || '';
-        return param;
+        return param ? `${query} ${param}` : '';
       });
-
-      return paramValues.filter((param) => param !== ''); // Filter out empty values
     };
 
     // Initial update of queryValues
@@ -34,10 +36,23 @@ function QueryParamCommand({ text, domain: defaultDomain = 'app.example.com', ip
     return () => {
       window.removeEventListener("popstate", handleQueryParamChange);
     };
-  }, [defaultDomain, defaultIp, queries]);
+  }, [queries]);
 
-  // Join the filtered query parameter values with a space
-  const command = [text, domain, ip, ...queryValues].join(' ');
+  // Remove empty values from queryValues
+  const filteredQueryValues = queryValues.filter((value) => value !== '');
+
+  // Create an array of values to include in the command
+  const valuesToInclude = [text];
+  if (domain !== defaultDomain) {
+    valuesToInclude.push(domain);
+  }
+  if (ip !== defaultIp) {
+    valuesToInclude.push(ip);
+  }
+  valuesToInclude.push(...filteredQueryValues);
+
+  // Join the values with a space to form the command
+  const command = valuesToInclude.join(' ');
 
   return (
     <div>
