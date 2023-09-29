@@ -23,9 +23,10 @@ const MarkdownTrains = ({ trains }) => {
 };
 
 const ChartsOverView = () => {
-  const searchBarPlaceHolder="Search by App name or description.";
-  const loadingViewSrc="/img/loading-aesthetic.gif";
-  const loadingViewMsg="Loading charts data...";
+  const chartsJson = "/charts/charts.json";
+  const searchBarPlaceHolder = "Search by App name or description.";
+  const loadingViewSrc = "/img/loading-aesthetic.gif";
+  const loadingViewMsg = "Loading charts data...";
 
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
@@ -56,7 +57,7 @@ const ChartsOverView = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await fetch('/charts/charts.json');
+      const result = await fetch(chartsJson);
       const json = await result.json();
       let totalCount = json.totalCount;
       let trains = json.trains;
