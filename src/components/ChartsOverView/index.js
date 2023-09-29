@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import './searchbar.css';
 import HelperUtil,{ViewOptions,countArrayLength,capitalizeWords} from './HelperUtil.js';
+// Import the local JSON file directly
+import chartsJson from '/static/charts/charts.json';
 import SearchBar from './SearchBar.js';
 import GridView from './GridView.js';
 import TableView from './TableView.js';
@@ -23,7 +25,6 @@ const MarkdownTrains = ({ trains }) => {
 };
 
 const ChartsOverView = () => {
-  const chartsJson = "/charts/charts.json";
   const searchBarPlaceHolder = "Search name/description";
   const loadingViewSrc = "/img/loading-aesthetic.gif";
   const loadingViewMsg = "Loading charts data...";
@@ -56,20 +57,17 @@ const ChartsOverView = () => {
   };
 
   useEffect(() => {
-    const fetchData = async () => {
-      const result = await fetch(chartsJson);
-      const json = await result.json();
-      let totalCount = json.totalCount;
-      let trains = json.trains;
-      setTrains(trains);
-      setTotalCount(totalCount);
-      setLoading(trains.length > 1 ? false : true);
+    const json = chartsJson; // Use the imported JSON data
 
-      // Update active checkboxes based on fetched data
-      setActiveCheckboxes(trains.map(train => train.name));
-    };
-    fetchData();
-  }, []); // Empty dependency array to ensure this effect runs only once
+    let totalCount = json.totalCount;
+    let trains = json.trains;
+    setTrains(trains);
+    setTotalCount(totalCount);
+    setLoading(trains.length > 1 ? false : true);
+
+    // Update active checkboxes based on fetched data
+    setActiveCheckboxes(trains.map(train => train.name));
+  }, []);
 
   const filteredCharts = trains
     .map(train => {
