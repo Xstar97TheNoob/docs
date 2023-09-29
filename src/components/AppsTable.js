@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import SkeletonTable from './ChartsOverView/SkeletonTable.js';
+import SkeletonTable from './SkeletonTable.js';
 
 const AppsTable = ({link, rows = 20}) => {
   const [data, setData] = useState({});
