@@ -24,12 +24,13 @@ const ChartsOverView = () => {
   const [loading, setLoading] = useState(true);
   
   const TRAINS = [
-    { name: 'stable', emoji: '✅' },
     { name: 'enterprise', emoji: '👔'},
+    { name: 'operators', emoji: ''},
+    { name: 'stable', emoji: '✅' },
     { name: 'incubator', emoji: '⚠️' },
     { name: 'dependency', emoji: '🔨' }
   ];
-  
+
   const [activeCheckboxes, setActiveCheckboxes] = useState(
     TRAINS.map(checkbox => checkbox.name)
   );
