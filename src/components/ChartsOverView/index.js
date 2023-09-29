@@ -24,8 +24,8 @@ const ChartsOverView = () => {
   const [loading, setLoading] = useState(true);
   
   const TRAINS = [
-    { name: 'enterprise', emoji: '👔'},
     { name: 'operators', emoji: ''},
+    { name: 'enterprise', emoji: '👔'},
     { name: 'stable', emoji: '✅' },
     { name: 'incubator', emoji: '⚠️' },
     { name: 'dependency', emoji: '🔨' }
