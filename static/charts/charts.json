@@ -41,6 +41,77 @@
             ]
         },
         {
+            "name": "enterprise",
+            "count": 8,
+            "emoji": "👔",
+            "charts": [
+                {
+                    "name": "authelia",
+                    "description": "Authelia is a Single Sign-On Multi-Factor portal for web apps",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/authelia",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
+                    "version": "18.1.0"
+                },
+                {
+                    "name": "blocky",
+                    "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/blocky",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/blocky.png",
+                    "version": "8.0.1"
+                },
+                {
+                    "name": "clusterissuer",
+                    "description": "Certificate management for Kubernetes",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/clusterissuer",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.png",
+                    "version": "4.0.1"
+                },
+                {
+                    "name": "grafana",
+                    "description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB.",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/grafana",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/grafana.png",
+                    "version": "9.0.20"
+                },
+                {
+                    "name": "metallb-config",
+                    "description": "A network load-balancer implementation for Kubernetes using standard routing protocols",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/metallb-config",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/metallb-config.png",
+                    "version": "3.0.1"
+                },
+                {
+                    "name": "prometheus",
+                    "description": "kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/prometheus",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus.png",
+                    "version": "12.1.2"
+                },
+                {
+                    "name": "traefik",
+                    "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/traefik",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png",
+                    "version": "21.0.4"
+                },
+                {
+                    "name": "vaultwarden",
+                    "description": "Unofficial Bitwarden compatible server written in Rust",
+                    "train": "enterprise",
+                    "link": "https://truecharts.org/charts/enterprise/vaultwarden",
+                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png",
+                    "version": "23.0.1"
+                }
+            ]
+        },
+        {
             "name": "stable",
             "count": 381,
             "emoji": "✅",
@@ -3092,77 +3163,6 @@
                     "link": "https://truecharts.org/charts/stable/zwavejs2mqtt",
                     "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/zwavejs2mqtt.png",
                     "version": "16.0.8"
-                }
-            ]
-        },
-        {
-            "name": "enterprise",
-            "count": 8,
-            "emoji": "👔",
-            "charts": [
-                {
-                    "name": "authelia",
-                    "description": "Authelia is a Single Sign-On Multi-Factor portal for web apps",
-                    "train": "enterprise",
-                    "link": "https://truecharts.org/charts/enterprise/authelia",
-                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
-                    "version": "18.1.0"
-                },
-                {
-                    "name": "blocky",
-                    "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
-                    "train": "enterprise",
-                    "link": "https://truecharts.org/charts/enterprise/blocky",
-                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/blocky.png",
-                    "version": "8.0.1"
-                },
-                {
-                    "name": "clusterissuer",
-                    "description": "Certificate management for Kubernetes",
-                    "train": "enterprise",
-                    "link": "https://truecharts.org/charts/enterprise/clusterissuer",
-                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.png",
-                    "version": "4.0.1"
-                },
-                {
-                    "name": "grafana",
-                    "description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB.",
-                    "train": "enterprise",
-                    "link": "https://truecharts.org/charts/enterprise/grafana",
-                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/grafana.png",
-                    "version": "9.0.20"
-                },
-                {
-                    "name": "metallb-config",
-                    "description": "A network load-balancer implementation for Kubernetes using standard routing protocols",
-                    "train": "enterprise",
-                    "link": "https://truecharts.org/charts/enterprise/metallb-config",
-                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/metallb-config.png",
-                    "version": "3.0.1"
-                },
-                {
-                    "name": "prometheus",
-                    "description": "kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.",
-                    "train": "enterprise",
-                    "link": "https://truecharts.org/charts/enterprise/prometheus",
-                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus.png",
-                    "version": "12.1.2"
-                },
-                {
-                    "name": "traefik",
-                    "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
-                    "train": "enterprise",
-                    "link": "https://truecharts.org/charts/enterprise/traefik",
-                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png",
-                    "version": "21.0.4"
-                },
-                {
-                    "name": "vaultwarden",
-                    "description": "Unofficial Bitwarden compatible server written in Rust",
-                    "train": "enterprise",
-                    "link": "https://truecharts.org/charts/enterprise/vaultwarden",
-                    "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png",
-                    "version": "23.0.1"
                 }
             ]
         },
