@@ -24,6 +24,8 @@ const MarkdownTrains = ({ trains }) => {
 
 const ChartsOverView = () => {
   const searchBarPlaceHolder="Search by App name or description.";
+  const loadingViewSrc="/img/loading-aesthetic.gif";
+  const loadingViewMsg="Loading charts data...";
 
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
@@ -90,7 +92,7 @@ const ChartsOverView = () => {
         <SearchBar placeHolder={searchBarPlaceHolder} searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
       </div>
       <br/>
-      {loading ? <LoadingView />: (
+      {loading ? <LoadingView src={loadingViewSrc} msg={loadingViewMsg} />: (
         filteredCharts.length === 0 || filteredCharts.length === -1? <EmptyView/>:
           filteredCharts.map(train => {
             switch (view) {
