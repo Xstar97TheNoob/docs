@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import HelperUtil, {capitalizeWords }  from './HelperUtil.js';
 
-import gridCss from '../css/grid.css';
+import gridCss from './grid.css';
 import GridItem from './GridItem.js';
 import GridItemDialog from './GridItemDialog.js';
 import FootCountView from './FootCountView.js';

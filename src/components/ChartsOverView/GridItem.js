@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import gridCss from '../css/grid.css';
+import gridCss from './grid.css';
 import HelperUtil, { isLink,getSourceName }  from './HelperUtil.js';
 
 const GridItem = ({chart,onClick}) => {
