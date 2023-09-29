@@ -8,7 +8,6 @@ import ListView from './ListView.js';
 import LoadingView from './LoadingView.js';
 import EmptyView from './EmptyView.js';
 import CheckboxList from './CheckboxList.js';
-import TrainsOverView from './TrainsOverView.js';
 import { useLocation } from "react-router-dom";
 
 const ChartsOverView = () => {
@@ -71,10 +70,9 @@ const ChartsOverView = () => {
     
   return (
     <div>
-      <TrainsOverView trainsData={trains} />
+      <CheckboxList checkboxData={trains} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes} />
       <div className="{searchbarCss.search-container}">
         <SearchBar placeHolder="Search by App name" searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
-        <CheckboxList checkboxData={trains} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes} />
       </div>
       <br/>
       {loading ? <LoadingView />: (
