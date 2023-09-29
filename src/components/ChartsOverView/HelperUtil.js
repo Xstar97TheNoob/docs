@@ -27,3 +27,13 @@ export const isLink = (value) => {
     { name: 'Grid', value: 1, img: '/img/grid.png' },
     { name: 'List', value: 2, img: '/img/list.png' }
   ];
+
+  export const genTrainData = (trains) => {
+    const list = trains.map((train) => {
+      return {
+        count: train.count,
+        name: train.name,
+      };
+    });
+    return list;
+  }

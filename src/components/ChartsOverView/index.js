@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './searchbar.css';
-import HelperUtil,{ViewOptions,countArrayLength,capitalizeWords} from './HelperUtil.js';
+import HelperUtil,{ViewOptions,countArrayLength,capitalizeWords,genTrainData} from './HelperUtil.js';
 import chartsJson from '/static/charts/charts.json';
 import loadingViewSrc from '/img/loading-aesthetic.gif';
 import SearchBar from './SearchBar.js';
@@ -27,6 +27,7 @@ const ChartsOverView = () => {
   const [searchTerm, setSearchTerm] = useState(searchParam);
   const [view, setView] = useState(0);
   const [trains, setTrains] = useState([]);
+  const [trainsData, setTrainsData] = useState([]);
   const [totalCount, setTotalCount] = useState(["computing..."]);
   const [loading, setLoading] = useState(true);
 
@@ -51,11 +52,12 @@ const ChartsOverView = () => {
     let totalCount = json.totalCount;
     let trains = json.trains;
     setTrains(trains);
+    setTrainsData(genTrainData(trains))
     setTotalCount(totalCount);
     setLoading(trains.length > 1 ? false : true);
 
     // Update active checkboxes based on fetched data
-    setActiveCheckboxes(trains.map(train => train.name));
+    setActiveCheckboxes(trainsData.map(train => train.name));
   }, []);
 
   const filteredCharts = trains
@@ -132,8 +134,8 @@ const ChartsOverView = () => {
           <LoadingView src={loadingViewSrc} msg={loadingViewMsg} />
         ) : (
           <div>
-            <TrainsSection trains={trains} />
-            <SearchSection trains={trains} {...props} />
+            <TrainsSection trains={trainsData} />
+            <SearchSection trains={trainsData} {...props} />
             
             {filteredCharts.length === 0 || filteredCharts.length === -1 ? (
               <EmptyView title={emptyViewTitle} msg={emptyViewMsg} />
