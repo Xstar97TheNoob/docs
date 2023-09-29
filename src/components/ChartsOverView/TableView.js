@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import tableCss from './table.module.css';
+import './table.module.css';
 import HelperUtil, {capitalizeWords }  from './HelperUtil.js';
 
 import TableItem from './TableItem.js';
@@ -11,7 +11,7 @@ let getTrainName = capitalizeWords(train.name);
 return (
   <>
   <a href={`#${getTrainName}`} id={getTrainName}><h2>{getTrainName}</h2></a><hr />
-    <table className="{tableCss.full-width-table}">
+    <table className="full-width-table">
     <thead>
       <tr>
         <th>App</th>

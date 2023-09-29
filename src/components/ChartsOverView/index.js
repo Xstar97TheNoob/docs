@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import searchbarCss from './searchbar.module.css';
+import './searchbar.module.css';
 import HelperUtil,{ViewOptions,countArrayLength} from './HelperUtil.js';
 import SearchBar from './SearchBar.js';
 import GridView from './GridView.js';
@@ -70,7 +70,7 @@ const ChartsOverView = () => {
     
   return (
     <div>
-      <div className="{searchbarCss.searchContainer}">
+      <div className="search-container">
         <CheckboxList checkboxData={trains} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes} />
         <SearchBar placeHolder="Search by App name" searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
       </div>

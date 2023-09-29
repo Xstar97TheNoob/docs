@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import gridCss from './grid.module.css';
+import './grid.module.css';
 import HelperUtil, { isLink, getSourceName }  from './HelperUtil.js';
 
 const GridItemDialog = ({selectedChart,onClick}) => {
 
     return (
-      <div className="{gridCss.dialog-background}">
+      <div className="dialog-background">
         <div className="card card-dialog">
         <div className="card-header text-center" style={{ padding: "1rem", display: "flex", alignItems: "center", justifyContent: "center" }}>
             <h3><a href={selectedChart.link} target="_blank" rel="noopener noreferrer">{selectedChart.name}</a></h3>
