@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SkeletonGrid from './SkeletonGrid.js';
 import SearchBar from './SearchBar.js';
-import "../css/grid.css";
+import gridCss from '@site/src/css/grid.css';
 
 const TRAINS = ["stable", "enterprise", "incubator", "dependency"]
 
@@ -70,14 +70,14 @@ const TrainsGrid = () => {
               <h2>{train.name}</h2>
               </a>
               <hr />
-              <div className="grid">
+              <div className="{gridCss.grid}">
               {train.charts.map(chart => (
-                <div className="grid-item" onClick={() => handleOpenDialog(chart)} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", padding: "16px", height: "120px", width: "120px" }}>
+                <div className="{gridCss.grid-item}" onClick={() => handleOpenDialog(chart)} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", padding: "16px", height: "120px", width: "120px" }}>
                 <img src={chart.icon} alt={chart.name} style={{ width: "100%", height: "50%", objectFit: "cover" }} />
               </div>                      
               ))}
               {isDialogOpen && selectedChart && (
-                <div className="dialog-background">
+                <div className="{gridCss.dialog-background}">
                 <div className="card card-dialog">
                 <div className="card-header text-center" style={{ padding: "1rem", display: "flex", alignItems: "center", justifyContent: "center" }}>
                     <h3><a href={selectedChart.link}>{selectedChart.name}</a></h3>
