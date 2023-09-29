@@ -55,7 +55,7 @@ const ChartsOverView = () => {
     setTrains(trains);
     setTrainsData(listOfTrainsData)
     setTotalCount(totalCount);
-    setLoading(trains.length > 1 ? false : true);
+    setLoading(listOfTrainsData.length > 1 ? false : true);
 
     // Update active checkboxes based on fetched data
     setActiveCheckboxes(listOfTrainsData.map(train => train.name));
