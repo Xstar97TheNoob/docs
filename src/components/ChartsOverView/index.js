@@ -24,7 +24,7 @@ const MarkdownTrains = ({ trains }) => {
 
 const ChartsOverView = () => {
   const chartsJson = "/charts/charts.json";
-  const searchBarPlaceHolder = "Search by App name or description.";
+  const searchBarPlaceHolder = "Search name/description";
   const loadingViewSrc = "/img/loading-aesthetic.gif";
   const loadingViewMsg = "Loading charts data...";
 
