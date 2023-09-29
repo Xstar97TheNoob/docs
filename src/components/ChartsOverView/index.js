@@ -3,6 +3,7 @@ import './searchbar.css';
 import HelperUtil,{ViewOptions,countArrayLength,capitalizeWords} from './HelperUtil.js';
 // Import the local JSON file directly
 import chartsJson from '/static/charts/charts.json';
+import loadingViewSrc from '/img/loading-aesthetic.gif';
 import SearchBar from './SearchBar.js';
 import GridView from './GridView.js';
 import TableView from './TableView.js';
@@ -26,7 +27,6 @@ const MarkdownTrains = ({ trains }) => {
 
 const ChartsOverView = () => {
   const searchBarPlaceHolder = "Search name/description";
-  const loadingViewSrc = "/img/loading-aesthetic.gif";
   const loadingViewMsg = "Loading charts data...";
 
   const location = useLocation();
