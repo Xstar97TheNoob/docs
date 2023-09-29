@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import './table.module.css';
+import './table.css';
 import HelperUtil, { isLink, getSourceName }  from './HelperUtil.js';
 
 const TableItem = ({chart}) => {
