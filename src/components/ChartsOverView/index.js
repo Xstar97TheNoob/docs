@@ -22,18 +22,8 @@ const ChartsOverView = () => {
   const [trains, setTrains] = useState([]);
   const [totalCount, setTotalCount] = useState(["computing..."]);
   const [loading, setLoading] = useState(true);
-  
-  const TRAINS = [
-    { name: 'operators', emoji: ''},
-    { name: 'enterprise', emoji: '👔'},
-    { name: 'stable', emoji: '✅' },
-    { name: 'incubator', emoji: '⚠️' },
-    { name: 'dependency', emoji: '🔨' }
-  ];
 
-  const [activeCheckboxes, setActiveCheckboxes] = useState(
-    TRAINS.map(checkbox => checkbox.name)
-  );
+  const [activeCheckboxes, setActiveCheckboxes] = useState([]);
 
   const handleChange = (checkbox) => {
     if (activeCheckboxes.includes(checkbox.name)) {
@@ -56,10 +46,13 @@ const ChartsOverView = () => {
       let trains = json.trains;
       setTrains(trains);
       setTotalCount(totalCount);
-      setLoading(trains.length > 1 ? false:true);
+      setLoading(trains.length > 1 ? false : true);
+
+      // Update active checkboxes based on fetched data
+      setActiveCheckboxes(trains.map(train => train.name));
     };
     fetchData();
-  }, []);
+  }, []); // Empty dependency array to ensure this effect runs only once
 
   const filteredCharts = trains
     .map(train => {
@@ -79,7 +72,7 @@ const ChartsOverView = () => {
     <div>
       <div className="{searchbarCss.search-container}">
         <SearchBar placeHolder="Search by App name" searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
-        <CheckboxList checkboxData={TRAINS} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes}/>
+        <CheckboxList checkboxData={trains} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes} />
       </div>
       <br/>
       {loading ? <LoadingView />: (
