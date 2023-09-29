@@ -15,9 +15,9 @@ const ChartsOverView = () => {
   const queryParams = new URLSearchParams(location.search);
   
   // Get the search query parameters from the URL, or use default values if they are not provided
-  const searchParam = queryParams.get("search") ? queryParams.get("search") : "";
+  const searchParam = queryParams.get("search") || "";
 
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState(searchParam);
   const [view, setView] = useState(0);
   const [trains, setData] = useState([]);
   const [totalCount, setTotalCount] = useState(["computing..."]);
@@ -36,7 +36,7 @@ const ChartsOverView = () => {
   };
 
   const handleSearch = event => {
-    let txtsearch = searchParam == "" ? event.target.value.toLowerCase() : searchParam.toLowerCase();
+    const txtsearch = event.target.value.toLowerCase();
     setSearchTerm(txtsearch);
   };
 
@@ -61,35 +61,35 @@ const ChartsOverView = () => {
         count: train.count,
         charts: train.charts.filter(
           chart =>
-            chart.name.toLowerCase().indexOf(searchTerm) !== -1
+            chart.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
         )
       };
     })
     .filter(train => train.charts.length > 0 && activeCheckboxes.includes(train.name));
     
-    return (
-        <div>
-          <div className="{searchbarCss.search-container}">
-            <SearchBar placeHolder="Search by App name" searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
-            <CheckboxList checkboxData={TRAINS} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes}/>
-          </div>
-          <br/>
-          {loading ? <LoadingView />: (
-            filteredCharts.length == 0 || filteredCharts.length == -1? <EmptyView/>:
-              filteredCharts.map(train => {
-                switch (view) {
-                  case 1:
-                  return <GridView train={train} />;
-                  case 2:
-                  return <ListView train={train} />;
-                  default:
-                  return <TableView train={train} />;
-                  }
+  return (
+    <div>
+      <div className="{searchbarCss.search-container}">
+        <SearchBar placeHolder="Search by App name" searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
+        <CheckboxList checkboxData={TRAINS} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes}/>
+      </div>
+      <br/>
+      {loading ? <LoadingView />: (
+        filteredCharts.length === 0 || filteredCharts.length === -1? <EmptyView/>:
+          filteredCharts.map(train => {
+            switch (view) {
+              case 1:
+                return <GridView train={train} />;
+              case 2:
+                return <ListView train={train} />;
+              default:
+                return <TableView train={train} />;
               }
-              ))}
-          { countArrayLength(filteredCharts) == 0 || countArrayLength(filteredCharts) == -1 ? <br/>:<p>Total charts: <strong>{countArrayLength(filteredCharts) !== totalCount ? `${countArrayLength(filteredCharts)} (${totalCount})`: totalCount}</strong></p> }
-        </div>
-      );
-    };
+          })
+      )}
+      { countArrayLength(filteredCharts) === 0 || countArrayLength(filteredCharts) === -1 ? <br/>:<p>Total charts: <strong>{countArrayLength(filteredCharts) !== totalCount ? `${countArrayLength(filteredCharts)} (${totalCount})`: totalCount}</strong></p> }
+    </div>
+  );
+};
 
 export default ChartsOverView;
