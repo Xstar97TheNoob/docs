@@ -23,6 +23,8 @@ const MarkdownTrains = ({ trains }) => {
 };
 
 const ChartsOverView = () => {
+  const searchBarPlaceHolder="Search by App name or description.";
+
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   
@@ -85,7 +87,7 @@ const ChartsOverView = () => {
       <MarkdownTrains trains={trains}/>
       <div className="search-container">
         <CheckboxList checkboxData={trains} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes} />
-        <SearchBar placeHolder="Search by App name" searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
+        <SearchBar placeHolder={searchBarPlaceHolder} searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
       </div>
       <br/>
       {loading ? <LoadingView />: (
