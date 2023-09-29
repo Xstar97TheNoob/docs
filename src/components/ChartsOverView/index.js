@@ -135,7 +135,9 @@ const ChartsOverView = () => {
         ) : (
           <div>
             <TrainsSection trains={trainsData} />
-            <SearchSection trains={trainsData} {...props} />
+            <SearchSection trains={trainsData} handleChange={handleChange} activeCheckboxes={activeCheckboxes} 
+            searchBarPlaceHolder={searchBarPlaceHolder} searchTerm={searchTerm} 
+            handleSearch={handleSearch} setView={setView} view={view} />
             
             {filteredCharts.length === 0 || filteredCharts.length === -1 ? (
               <EmptyView title={emptyViewTitle} msg={emptyViewMsg} />
