@@ -8,7 +8,7 @@ import ListView from './ListView.js';
 import LoadingView from './LoadingView.js';
 import EmptyView from './EmptyView.js';
 import CheckboxList from './CheckboxList.js';
-import ChartsJson from '@site/charts/charts.json';
+import ChartsJson from '/charts/charts.json';
   
 const ChartsOverView = () => {
   const [searchTerm, setSearchTerm] = useState("");
