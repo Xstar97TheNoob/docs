@@ -4,6 +4,7 @@
         {
             "name": "operators",
             "count": 4,
+            "emoji": "👷",
             "charts": [
                 {
                     "name": "cert-manager",
@@ -42,6 +43,7 @@
         {
             "name": "stable",
             "count": 381,
+            "emoji": "✅",
             "charts": [
                 {
                     "name": "actualserver",
@@ -3096,6 +3098,7 @@
         {
             "name": "enterprise",
             "count": 8,
+            "emoji": "👔",
             "charts": [
                 {
                     "name": "authelia",
@@ -3166,6 +3169,7 @@
         {
             "name": "incubator",
             "count": 440,
+            "emoji": "⚠️",
             "charts": [
                 {
                     "name": "acestream",
@@ -6692,6 +6696,7 @@
         {
             "name": "dependency",
             "count": 8,
+            "emoji": "🔨",
             "charts": [
                 {
                     "name": "clickhouse",

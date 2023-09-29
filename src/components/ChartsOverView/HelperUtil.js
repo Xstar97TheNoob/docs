@@ -27,9 +27,10 @@ export const isLink = (value) => {
     { name: 'Grid', value: 1, img: '/img/grid.png' },
     { name: 'List', value: 2, img: '/img/list.png' }
   ];
+  /*
   export const TRAINS = [
     { name: 'stable', emoji: '✅' },
     { name: 'enterprise', emoji: '👔'},
     { name: 'incubator', emoji: '⚠️' },
     { name: 'dependency', emoji: '🔨' }
-  ];
+  ];*/
