@@ -8,7 +8,14 @@ import ListView from './ListView.js';
 import LoadingView from './LoadingView.js';
 import EmptyView from './EmptyView.js';
 import CheckboxList from './CheckboxList.js';
+
 const ChartsOverView = () => {
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  
+  // Get the search query parameters from the URL, or use default values if they are not provided
+  const searchParam = queryParams.get("search") ? queryParams.get("search") : "";
+
   const [searchTerm, setSearchTerm] = useState("");
   const [view, setView] = useState(0);
   const [trains, setData] = useState([]);
@@ -28,7 +35,8 @@ const ChartsOverView = () => {
   };
 
   const handleSearch = event => {
-    setSearchTerm(event.target.value.toLowerCase());
+    let txtsearch = searchParam == "" ? event.target.value.toLowerCase() : searchParam.toLowerCase();
+    setSearchTerm(txtsearch);
   };
 
   useEffect(() => {
