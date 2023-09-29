@@ -8,7 +8,6 @@ import ListView from './ListView.js';
 import LoadingView from './LoadingView.js';
 import EmptyView from './EmptyView.js';
 import CheckboxList from './CheckboxList.js';
-import MarkdownTrains from './MarkdownTrains';
 import { useLocation } from "react-router-dom";
 
 const MarkdownTrains = ({ trains }) => {
