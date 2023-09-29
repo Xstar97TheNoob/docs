@@ -8,8 +8,6 @@ import ListView from './ListView.js';
 import LoadingView from './LoadingView.js';
 import EmptyView from './EmptyView.js';
 import CheckboxList from './CheckboxList.js';
-import ChartsJson from '/charts/charts.json';
-  
 const ChartsOverView = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [view, setView] = useState(0);
@@ -35,7 +33,7 @@ const ChartsOverView = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await fetch(ChartsJson);
+      const result = await fetch('/charts/charts.json');
       const json = await result.json();
       let totalCount = json.totalCount;
       let trains = json.trains;
