@@ -51,13 +51,14 @@ const ChartsOverView = () => {
 
     let totalCount = json.totalCount;
     let trains = json.trains;
+    let listOfTrainsData = genTrainData(trains)
     setTrains(trains);
-    setTrainsData(genTrainData(trains))
+    setTrainsData(listOfTrainsData)
     setTotalCount(totalCount);
     setLoading(trains.length > 1 ? false : true);
 
     // Update active checkboxes based on fetched data
-    setActiveCheckboxes(trainsData.map(train => train.name));
+    setActiveCheckboxes(listOfTrainsData.map(train => train.name));
   }, []);
 
   const filteredCharts = trains

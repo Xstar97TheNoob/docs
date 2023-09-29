@@ -31,8 +31,8 @@ export const isLink = (value) => {
   export const genTrainData = (trains) => {
     const list = trains.map((train) => {
       return {
-        count: train.count,
         name: train.name,
+        count: train.count
       };
     });
     return list;
