@@ -86,35 +86,6 @@ const ChartsOverView = () => {
       );
     };
     
-    const SearchSection = ({
-      trains,
-      handleChange,
-      activeCheckboxes,
-      searchBarPlaceHolder,
-      searchTerm,
-      handleSearch,
-      setView,
-      view,
-    }) => {
-      return (
-        <div className="search-container">
-          <CheckboxList
-            checkboxData={trains}
-            handleChange={(checkbox) => handleChange(checkbox)}
-            activeCheckboxes={activeCheckboxes}
-          />
-          <SearchBar
-            placeHolder={searchBarPlaceHolder}
-            searchTerm={searchTerm}
-            handleSearch={handleSearch}
-            setSelectedOption={(i) => setView(ViewOptions[i].value)}
-            view={view}
-          />
-          <br />
-        </div>
-      );
-    };
-    
     const CountSection = ({ filteredCharts, totalCount }) => {
       return (
         <p>
@@ -135,10 +106,21 @@ const ChartsOverView = () => {
         ) : (
           <div>
             <TrainsSection trains={trainsData} />
-            <SearchSection trains={trainsData} handleChange={handleChange} activeCheckboxes={activeCheckboxes} 
-            searchBarPlaceHolder={searchBarPlaceHolder} searchTerm={searchTerm} 
-            handleSearch={handleSearch} setView={setView} view={view} />
-            
+            <div className="search-container">
+              <CheckboxList
+                checkboxData={trains}
+                handleChange={(checkbox) => handleChange(checkbox)}
+                activeCheckboxes={activeCheckboxes}
+              />
+              <SearchBar
+                placeHolder={searchBarPlaceHolder}
+                searchTerm={searchTerm}
+                handleSearch={handleSearch}
+                setSelectedOption={(i) => setView(ViewOptions[i].value)}
+                view={view}
+              />
+              <br />
+            </div>
             {filteredCharts.length === 0 || filteredCharts.length === -1 ? (
               <EmptyView title={emptyViewTitle} msg={emptyViewMsg} />
             ) : (
