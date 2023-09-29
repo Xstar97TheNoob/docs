@@ -61,7 +61,8 @@ const ChartsOverView = () => {
         count: train.count,
         charts: train.charts.filter(
           chart =>
-            chart.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+            chart.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1 ||
+            chart.description.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
         )
       };
     })
