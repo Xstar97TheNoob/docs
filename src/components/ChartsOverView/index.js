@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import searchbarCss from '@site/src/css/searchbar.css';
-import HelperUtil,{ViewOptions,countArrayLength} from './HelperUtil.js';
+import HelperUtil, { ViewOptions, countArrayLength } from './HelperUtil.js';
 import SearchBar from './SearchBar.js';
 import GridView from './GridView.js';
 import TableView from './TableView.js';
@@ -13,7 +13,7 @@ import { useLocation } from "react-router-dom";
 const ChartsOverView = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
-  
+
   // Get the search query parameters from the URL, or use default values if they are not provided
   const searchParam = queryParams.get("search") || "";
 
@@ -22,16 +22,8 @@ const ChartsOverView = () => {
   const [trains, setTrains] = useState([]);
   const [totalCount, setTotalCount] = useState(["computing..."]);
   const [loading, setLoading] = useState(true);
-  
-  const TRAINS = [
-    { name: 'stable', emoji: '✅' },
-    { name: 'enterprise', emoji: '👔'},
-    { name: 'incubator', emoji: '⚠️' },
-    { name: 'dependency', emoji: '🔨' }
-  ];
-  const [activeCheckboxes, setActiveCheckboxes] = useState(
-    TRAINS.map(checkbox => checkbox.name)
-  );
+
+  const [activeCheckboxes, setActiveCheckboxes] = useState([]);
 
   const handleChange = (checkbox) => {
     if (activeCheckboxes.includes(checkbox.name)) {
@@ -52,13 +44,18 @@ const ChartsOverView = () => {
       const json = await result.json();
       let totalCount = json.totalCount;
       let trains = json.trains;
-      console.log("trains: " + trains)
+
       setTrains(trains);
       setTotalCount(totalCount);
-      setLoading(trains.length > 1 ? false:true);
+      setLoading(trains.length > 1 ? false : true);
     };
     fetchData();
   }, []);
+
+  // Update active checkboxes when trains data is available
+  useEffect(() => {
+    setActiveCheckboxes(trains.map(train => train.name));
+  }, [trains]);
 
   const filteredCharts = trains
     .map(train => {
@@ -73,16 +70,16 @@ const ChartsOverView = () => {
       };
     })
     .filter(train => train.charts.length > 0 && activeCheckboxes.includes(train.name));
-    
+
   return (
     <div>
       <div className="{searchbarCss.search-container}">
-        <SearchBar placeHolder="Search by App name" searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
-        <CheckboxList checkboxData={TRAINS} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes}/>
+        <SearchBar placeHolder="Search by App name" searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i) => setView(ViewOptions[i].value)} view={view} />
+        <CheckboxList checkboxData={activeCheckboxes} handleChange={(checkbox) => handleChange(checkbox)} activeCheckboxes={activeCheckboxes} />
       </div>
-      <br/>
-      {loading ? <LoadingView />: (
-        filteredCharts.length === 0 || filteredCharts.length === -1? <EmptyView/>:
+      <br />
+      {loading ? <LoadingView /> : (
+        filteredCharts.length === 0 || filteredCharts.length === -1 ? <EmptyView /> :
           filteredCharts.map(train => {
             switch (view) {
               case 1:
@@ -91,10 +88,10 @@ const ChartsOverView = () => {
                 return <ListView train={train} />;
               default:
                 return <TableView train={train} />;
-              }
+            }
           })
       )}
-      { countArrayLength(filteredCharts) === 0 || countArrayLength(filteredCharts) === -1 ? <br/>:<p>Total charts: <strong>{countArrayLength(filteredCharts) !== totalCount ? `${countArrayLength(filteredCharts)} (${totalCount})`: totalCount}</strong></p> }
+      {countArrayLength(filteredCharts) === 0 || countArrayLength(filteredCharts) === -1 ? <br /> : <p>Total charts: <strong>{countArrayLength(filteredCharts) !== totalCount ? `${countArrayLength(filteredCharts)} (${totalCount})` : totalCount}</strong></p>}
     </div>
   );
 };
