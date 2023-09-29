@@ -1,11 +1,14 @@
 import React from 'react';
 
-const MarkdownTrain = ({ chart }) => {
-  // Assuming you want to link to an element with the same id as chart
-  const link = `#${chart}`;
-
+const MarkdownTrain = ({ trains }) => {
   return (
-    <a href={link}>{chart}</a>
+    <ul>
+      {trains.map(train => (
+        <li key={train.name}>
+          <a href={`#${train.name}`}>{train.name}</a>
+        </li>
+      ))}
+    </ul>
   );
 };
 

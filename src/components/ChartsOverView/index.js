@@ -71,7 +71,7 @@ const ChartsOverView = () => {
     
   return (
     <div>
-      <MarkdownTrain chart="Stable"/>
+      <MarkdownTrain trains={trains}/>
       <div className="search-container">
         <CheckboxList checkboxData={trains} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes} />
         <SearchBar placeHolder="Search by App name" searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
