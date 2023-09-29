@@ -70,7 +70,7 @@ const ChartsOverView = () => {
     
   return (
     <div>
-      <div className="{searchbarCss.search-container}">
+      <div className="{searchbarCss.searchContainer}">
         <CheckboxList checkboxData={trains} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes} />
         <SearchBar placeHolder="Search by App name" searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
       </div>
