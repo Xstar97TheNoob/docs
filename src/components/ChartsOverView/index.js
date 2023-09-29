@@ -85,15 +85,30 @@ const ChartsOverView = () => {
     
   return (
     <div>
-      <MarkdownTrains trains={trains}/>
-      <div className="search-container">
-        <CheckboxList checkboxData={trains} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes} />
-        <SearchBar placeHolder={searchBarPlaceHolder} searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
-      </div>
-      <br/>
-      {loading ? <LoadingView src={loadingViewSrc} msg={loadingViewMsg} />: (
-        filteredCharts.length === 0 || filteredCharts.length === -1? <EmptyView/>:
-          filteredCharts.map(train => {
+  {loading ? (
+    <LoadingView src={loadingViewSrc} msg={loadingViewMsg} />
+  ) : (
+      <div>
+        <MarkdownTrains trains={trains} />
+        <div className="search-container">
+          <CheckboxList
+            checkboxData={trains}
+            handleChange={(checkbox) => handleChange(checkbox)}
+            activeCheckboxes={activeCheckboxes}
+          />
+          <SearchBar
+            placeHolder={searchBarPlaceHolder}
+            searchTerm={searchTerm}
+            handleSearch={handleSearch}
+            setSelectedOption={(i) => setView(ViewOptions[i].value)}
+            view={view}
+          />
+        </div>
+        <br />
+        {filteredCharts.length === 0 || filteredCharts.length === -1 ? (
+          <EmptyView />
+        ) : (
+          filteredCharts.map((train) => {
             switch (view) {
               case 1:
                 return <GridView train={train} />;
@@ -101,11 +116,24 @@ const ChartsOverView = () => {
                 return <ListView train={train} />;
               default:
                 return <TableView train={train} />;
-              }
+            }
           })
-      )}
-      { countArrayLength(filteredCharts) === 0 || countArrayLength(filteredCharts) === -1 ? <br/>:<p>Total charts: <strong>{countArrayLength(filteredCharts) !== totalCount ? `${countArrayLength(filteredCharts)} (${totalCount})`: totalCount}</strong></p> }
-    </div>
+        )}
+        {countArrayLength(filteredCharts) === 0 || countArrayLength(filteredCharts) === -1 ? (
+          <br />
+        ) : (
+          <p>
+            Total charts:{" "}
+            <strong>
+              {countArrayLength(filteredCharts) !== totalCount
+                ? `${countArrayLength(filteredCharts)} (${totalCount})`
+                : totalCount}
+            </strong>
+          </p>
+        )}
+      </div>
+  )}
+</div>
   );
 };
 
