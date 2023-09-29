@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './searchbar.css';
-import HelperUtil,{ViewOptions,countArrayLength} from './HelperUtil.js';
+import HelperUtil,{ViewOptions,countArrayLength,capitalizeWords} from './HelperUtil.js';
 import SearchBar from './SearchBar.js';
 import GridView from './GridView.js';
 import TableView from './TableView.js';
@@ -10,6 +10,18 @@ import EmptyView from './EmptyView.js';
 import CheckboxList from './CheckboxList.js';
 import MarkdownTrains from './MarkdownTrains';
 import { useLocation } from "react-router-dom";
+
+const MarkdownTrains = ({ trains }) => {
+  return (
+    <ul>
+      {trains.map(train => (
+        <li key={train.name}>
+          <a href={`#${capitalizeWords(train.name)}`}>{capitalizeWords(train.name)}</a>
+        </li>
+      ))}
+    </ul>
+  );
+};
 
 const ChartsOverView = () => {
   const location = useLocation();
