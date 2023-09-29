@@ -8,6 +8,7 @@ import ListView from './ListView.js';
 import LoadingView from './LoadingView.js';
 import EmptyView from './EmptyView.js';
 import CheckboxList from './CheckboxList.js';
+import MarkdownTrain from './MarkdownTrain';
 import { useLocation } from "react-router-dom";
 
 const ChartsOverView = () => {
@@ -70,6 +71,7 @@ const ChartsOverView = () => {
     
   return (
     <div>
+      <MarkdownTrain chart="Stable"/>
       <div className="search-container">
         <CheckboxList checkboxData={trains} handleChange={(checkbox)=> handleChange(checkbox)} activeCheckboxes={activeCheckboxes} />
         <SearchBar placeHolder="Search by App name" searchTerm={searchTerm} handleSearch={handleSearch} setSelectedOption={(i)=> setView(ViewOptions[i].value)} view={view}/>
