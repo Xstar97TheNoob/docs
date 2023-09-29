@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import tableCss from '@site/src/css/table.css';
+import tableCss from '../css/table.css';
 import HelperUtil, {capitalizeWords }  from './HelperUtil.js';
 
 import TableItem from './TableItem.js';
