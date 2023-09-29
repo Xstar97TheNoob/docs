@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './searchbar.css';
 import HelperUtil,{ViewOptions,countArrayLength,capitalizeWords} from './HelperUtil.js';
-// Import the local JSON file directly
 import chartsJson from '/static/charts/charts.json';
 import loadingViewSrc from '/img/loading-aesthetic.gif';
 import SearchBar from './SearchBar.js';
@@ -13,21 +12,11 @@ import EmptyView from './EmptyView.js';
 import CheckboxList from './CheckboxList.js';
 import { useLocation } from "react-router-dom";
 
-const MarkdownTrains = ({ trains }) => {
-  return (
-    <ul>
-      {trains.map(train => (
-        <li key={train.name}>
-          <a href={`#${capitalizeWords(train.name)}`}>{capitalizeWords(train.name)}</a>
-        </li>
-      ))}
-    </ul>
-  );
-};
-
 const ChartsOverView = () => {
   const searchBarPlaceHolder = "Search name/description";
   const loadingViewMsg = "Loading charts data...";
+  const emptyViewTitle = "Whoops!";
+  const emptyViewMsg = "No charts left to filter out!";
 
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
@@ -83,13 +72,29 @@ const ChartsOverView = () => {
     })
     .filter(train => train.charts.length > 0 && activeCheckboxes.includes(train.name));
     
-  return (
-    <div>
-  {loading ? (
-    <LoadingView src={loadingViewSrc} msg={loadingViewMsg} />
-  ) : (
-      <div>
-        <MarkdownTrains trains={trains} />
+    const TrainsSection = ({ trains }) => {
+      return (
+        <ul>
+          {trains.map((train) => (
+            <li key={train.name}>
+              <a href={`#${capitalizeWords(train.name)}`}>{capitalizeWords(train.name)}</a>
+            </li>
+          ))}
+        </ul>
+      );
+    };
+    
+    const SearchSection = ({
+      trains,
+      handleChange,
+      activeCheckboxes,
+      searchBarPlaceHolder,
+      searchTerm,
+      handleSearch,
+      setView,
+      view,
+    }) => {
+      return (
         <div className="search-container">
           <CheckboxList
             checkboxData={trains}
@@ -103,38 +108,57 @@ const ChartsOverView = () => {
             setSelectedOption={(i) => setView(ViewOptions[i].value)}
             view={view}
           />
-        </div>
-        <br />
-        {filteredCharts.length === 0 || filteredCharts.length === -1 ? (
-          <EmptyView />
-        ) : (
-          filteredCharts.map((train) => {
-            switch (view) {
-              case 1:
-                return <GridView train={train} />;
-              case 2:
-                return <ListView train={train} />;
-              default:
-                return <TableView train={train} />;
-            }
-          })
-        )}
-        {countArrayLength(filteredCharts) === 0 || countArrayLength(filteredCharts) === -1 ? (
           <br />
+        </div>
+      );
+    };
+    
+    const CountSection = ({ filteredCharts, totalCount }) => {
+      return (
+        <p>
+          Total charts:{" "}
+          <strong>
+            {countArrayLength(filteredCharts) !== totalCount
+              ? `${countArrayLength(filteredCharts)} (${totalCount})`
+              : totalCount}
+          </strong>
+        </p>
+      );
+    };
+
+    return (
+      <div>
+        {loading ? (
+          <LoadingView src={loadingViewSrc} msg={loadingViewMsg} />
         ) : (
-          <p>
-            Total charts:{" "}
-            <strong>
-              {countArrayLength(filteredCharts) !== totalCount
-                ? `${countArrayLength(filteredCharts)} (${totalCount})`
-                : totalCount}
-            </strong>
-          </p>
+          <div>
+            <TrainsSection trains={trains} />
+            <SearchSection trains={trains} {...props} />
+            
+            {filteredCharts.length === 0 || filteredCharts.length === -1 ? (
+              <EmptyView title={emptyViewTitle} msg={emptyViewMsg} />
+            ) : (
+              filteredCharts.map((train) => {
+                switch (view) {
+                  case 1:
+                    return <GridView train={train} />;
+                  case 2:
+                    return <ListView train={train} />;
+                  default:
+                    return <TableView train={train} />;
+                }
+              })
+            )}
+            
+            {countArrayLength(filteredCharts) === 0 || countArrayLength(filteredCharts) === -1 ? (
+              <br />
+            ) : (
+              <CountSection filteredCharts={filteredCharts} totalCount={totalCount} />
+            )}
+          </div>
         )}
       </div>
-  )}
-</div>
-  );
-};
+    );
+}    
 
 export default ChartsOverView;
