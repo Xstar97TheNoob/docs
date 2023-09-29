@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import searchbarCss from '@site/src/css/searchbar.css';
+//import searchbarCss from '@site/src/css/searchbar.css';
 import HelperUtil, { ViewOptions, TRAINS, countArrayLength } from './HelperUtil.js';
 import SearchBar from './SearchBar.js';
 import GridView from './GridView.js';
@@ -73,7 +73,7 @@ const ChartsOverView = ({ location }) => { // Inject location prop
 
   return (
     <div>
-      <div className="{searchbarCss.search-container}">
+      <div className="search-container">
         <SearchBar
           placeHolder="Search by App name"
           searchTerm={searchTerm}
