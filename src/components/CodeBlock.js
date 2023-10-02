@@ -8,8 +8,8 @@ const CodeBlock = ({ code, queryParams }) => {
   
       const queryParamsStr = queryParams
         .map((param) => {
-          if (typeof param === 'object' && param.name && param.defaultValue) {
-            return param.defaultValue;
+          if (typeof param === 'object' && param.name && param.value) {
+            return param.value;
           } else if (typeof param === 'string') {
             return param;
           }
@@ -17,8 +17,10 @@ const CodeBlock = ({ code, queryParams }) => {
         })
         .join(' ');
   
-      return queryParamsStr ? `${code} ${queryParamsStr}` : code;
+      return queryParamsStr;
     };
+  
+    const commandWithParams = `${code} ${generateQueryParams()}`;
   
     return (
         <pre>
