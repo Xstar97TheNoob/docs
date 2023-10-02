@@ -8,8 +8,8 @@ const CodeBlock = ({ code, queryParams }) => {
   
       const queryParamsStr = queryParams
         .map((param) => {
-          if (typeof param === 'object' && param.name && param.defaultValue) {
-            return param.defaultValue;
+          if (typeof param === 'object' && param.name && param.value) {
+            return param.value;
           }
           return '';
         })
