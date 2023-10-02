@@ -8,8 +8,10 @@ const CodeBlock = ({ code, queryParams }) => {
   
       const queryParamsStr = queryParams
         .map((param) => {
-          if (typeof param === 'object' && param.name && param.value) {
-            return param.value;
+          if (typeof param === 'object' && param.name && param.defaultValue) {
+            return param.defaultValue;
+          } else if (typeof param === 'string') {
+            return param;
           }
           return '';
         })
@@ -19,7 +21,9 @@ const CodeBlock = ({ code, queryParams }) => {
     };
   
     return (
-      <>{`\`\`\`shell\n\n${generateQueryParams()}\n\n\`\`\``}</>
+        <pre>
+        <code>{generateQueryParams()}</code>
+        </pre>
     );
   };
   
