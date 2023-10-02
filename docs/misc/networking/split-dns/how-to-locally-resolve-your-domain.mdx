@@ -1,0 +1,33 @@
+import CodeBlock from '@site/src/components/CodeBlock';
+
+# How to Locally Resolve Your Domain
+
+A simple guide on split dns.
+
+
+## Why you should Locally Resolve Your Domain
+
+
+Split DNS or locally resolving the domain can offer several advantages, including:
+
+- Improved network performance: Split DNS allows for local resolution of domain names, which can reduce the need for external DNS queries and improve network performance.
+
+- Increased security: Split DNS can help prevent DNS-based attacks, such as cache poisoning or DNS spoofing, by keeping DNS queries local to the network and reducing exposure to external DNS servers.
+
+- Better control over internal network resources: Locally resolving domain names can provide better control over internal network resources, such as servers or applications, by allowing for custom DNS records and routing rules.
+
+- Reduced reliance on external DNS servers: Split DNS can reduce reliance on external DNS servers, which can improve network resilience and reduce the risk of service disruption caused by external factors such as DNS outages or network congestion.
+
+Overall, split DNS or locally resolving domain names can offer several benefits for network administrators looking to improve network performance, security, and control over their internal resources.
+
+## Validate Split DNS
+
+Validate your local dns server works.
+
+<CodeBlock code="nslookup" queryParams={[{ name: 'domain', defaultValue: "app.example.com" }, { name: 'dns', defaultValue: "10.0.0.123" }]} />
+
+Validate the commmand works without the IP.
+
+<CodeBlock code="nslookup" queryParams={[{ name: 'domain', defaultValue: "app.example.com" }]} />
+
+If the above commands output the same lan IP of your reverse proxy, congrats, split dns should be active for your lan.

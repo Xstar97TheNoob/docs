@@ -61,21 +61,3 @@ ipconfig /renew
 ```terminal
 ipconfig /flushdns
 ```
-
-___
-
-If you do any split DNS for a domain, run these commands...
-
-```terminal
-nslookup sub.domain.tld dns_ip
-```
-
-```terminal
-nslookup sub.domain.tld
-```
-
-otherwise just run:
-
-```terminal
-nslookup google.com
-```
