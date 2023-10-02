@@ -3,12 +3,12 @@ import React, { useState } from "react";
 const CodeBlock = ({ code, queryParams }) => {
     const generateQueryParams = () => {
       if (!queryParams || !Array.isArray(queryParams) || queryParams.length === 0) {
-        return '';
+        return code;
       }
   
       const queryParamsStr = queryParams
         .map((param) => {
-          if (typeof param === 'object' && param.name && param.value) {
+          if (typeof param === 'object' && param.value) {
             return param.value;
           } else if (typeof param === 'string') {
             return param;
@@ -17,15 +17,13 @@ const CodeBlock = ({ code, queryParams }) => {
         })
         .join(' ');
   
-      return queryParamsStr;
+      return `${code} ${queryParamsStr}`;
     };
   
-    const commandWithParams = `${code} ${generateQueryParams()}`;
-  
     return (
-        <pre>
-        <code>{commandWithParams}</code>
-        </pre>
+      <pre>
+        <code>{generateQueryParams()}</code>
+      </pre>
     );
   };
   
