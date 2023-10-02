@@ -24,7 +24,7 @@ const CodeBlock = ({ code, queryParams }) => {
   
     return (
         <pre>
-        <code>{generateQueryParams()}</code>
+        <code>{commandWithParams}</code>
         </pre>
     );
   };
