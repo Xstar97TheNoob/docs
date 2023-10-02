@@ -24,10 +24,10 @@ Overall, split DNS or locally resolving domain names can offer several benefits 
 
 Validate your local dns server works.
 
-<CodeBlock code="nslookup" queryParams={[{ name: 'domain', value: "app.example.com" }, { name: 'dns', value: "10.0.0.123" }]} />
+<CodeBlock code="nslookup {domain} {dns}" queryParams={[{ name: 'domain', value: "app.example.com" }, { name: 'dns', value: "10.0.0.123" }]} />
 
 Validate the commmand works without the IP.
 
-<CodeBlock code="nslookup" queryParams={[{ name: 'domain', value: "app.example.com" }]} />
+<CodeBlock code="nslookup {domain}" queryParams={[{ name: 'domain', value: "app.example.com" }]} />
 
 If the above commands output the same lan IP of your reverse proxy, congrats, split dns should be active for your lan.

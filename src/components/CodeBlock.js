@@ -1,30 +1,34 @@
 import React, { useState } from "react";
 
 const CodeBlock = ({ code, queryParams }) => {
-    const generateQueryParams = () => {
-      if (!queryParams || !Array.isArray(queryParams) || queryParams.length === 0) {
-        return code;
+  const generateQueryParams = () => {
+    if (!queryParams || !Array.isArray(queryParams) || queryParams.length === 0) {
+      return code;
+    }
+
+    // Create an object to hold the values for each parameter
+    const paramValues = {};
+
+    // Iterate through the queryParams array and populate the paramValues object
+    queryParams.forEach((param) => {
+      if (param.name && param.value) {
+        paramValues[param.name] = param.value;
       }
-  
-      const queryParamsStr = queryParams
-        .map((param) => {
-          if (typeof param === 'object' && param.value) {
-            return param.value;
-          } else if (typeof param === 'string') {
-            return param;
-          }
-          return '';
-        })
-        .join(' ');
-  
-      return `${code} ${queryParamsStr}`;
-    };
-  
-    return (
-      <pre>
-        <code>{generateQueryParams()}</code>
-      </pre>
-    );
+    });
+
+    // Replace placeholders in the code with the actual parameter values
+    const replacedCode = code.replace(/\{(\w+)\}/g, (match, paramName) => {
+      return paramValues[paramName] || "";
+    });
+
+    return replacedCode;
   };
-  
-  export default CodeBlock;
+
+  return (
+    <pre>
+      <code>{generateQueryParams()}</code>
+    </pre>
+  );
+};
+
+export default CodeBlock;
