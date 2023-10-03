@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Switch } from '@theme-ui/components';
 
 const GeneratePullCommand = () => {
   const [inputText, setInputText] = useState('');
@@ -10,7 +11,7 @@ const GeneratePullCommand = () => {
     const uniqueCommands = new Set(); // Use a Set to track unique commands
 
     lines.forEach((line) => {
-      if (line.includes('Back-off pulling image') || lines.includes("Failed to pull imag")) {
+      if (line.includes('Back-off pulling image')) {
         const imageNameMatch = line.match(/"([^"]+)"/);
         if (imageNameMatch) {
           const imageName = imageNameMatch[1];
@@ -43,8 +44,7 @@ const GeneratePullCommand = () => {
         <div className="switch-container">
           <label>
             Use Cobia:
-            <input
-              type="checkbox"
+            <Switch
               checked={useCobia}
               onChange={() => setUseCobia(!useCobia)}
             />
