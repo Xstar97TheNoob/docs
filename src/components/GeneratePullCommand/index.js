@@ -43,7 +43,7 @@ const GeneratePullCommand = () => {
         </div>
         <div className="switch-container">
           <label className="switch-label">
-            Use Cobia:
+            Scale Version Cobia:
             <label className="switch">
               <input
                 type="checkbox"
