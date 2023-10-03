@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import './searchbar.css';
 import HelperUtil,{ViewOptions,countArrayLength,capitalizeWords,genTrainData} from './HelperUtil.js';
 import chartsJson from '/static/charts/charts.json';
-import loadingViewSrc from '/svg/favicon.svg';
+import loadingViewSrc from '/static/svg/favicon.svg';
 import SearchBar from './SearchBar.js';
 import GridView from './GridView.js';
 import TableView from './TableView.js';
