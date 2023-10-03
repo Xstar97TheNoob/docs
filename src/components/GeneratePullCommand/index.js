@@ -3,24 +3,27 @@ import React, { useState, useEffect } from 'react';
 const GeneratePullCommand = () => {
   const [inputText, setInputText] = useState('');
   const [outputCommands, setOutputCommands] = useState(new Set()); // Use a Set to store unique commands
+  const [useCobia, setUseCobia] = useState(false);
 
   useEffect(() => {
     const lines = inputText.split('\n');
     const uniqueCommands = new Set(); // Use a Set to track unique commands
 
     lines.forEach((line) => {
-      if (line.includes('Back-off pulling image')) {
+      if (line.includes('Back-off pulling image') || lines.includes("Failed to pull imag")) {
         const imageNameMatch = line.match(/"([^"]+)"/);
         if (imageNameMatch) {
           const imageName = imageNameMatch[1];
-          const command = `sudo docker pull ${imageName}`;
+          const command = useCobia
+            ? `sudo ctr image pull ${imageName}`
+            : `sudo docker pull ${imageName}`;
           uniqueCommands.add(command); // Add the command to the Set
         }
       }
     });
 
     setOutputCommands(Array.from(uniqueCommands)); // Convert Set to Array for rendering
-  }, [inputText]);
+  }, [inputText, useCobia]);
 
   return (
     <div className="centered-card">
@@ -36,6 +39,16 @@ const GeneratePullCommand = () => {
             value={inputText}
             onChange={(e) => setInputText(e.target.value)}
           />
+        </div>
+        <div className="switch-container">
+          <label>
+            Use Cobia:
+            <input
+              type="checkbox"
+              checked={useCobia}
+              onChange={() => setUseCobia(!useCobia)}
+            />
+          </label>
         </div>
         {outputCommands.length > 0 && (
           <div className="output-commands">
