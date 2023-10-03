@@ -1,33 +1,35 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const GeneratePullCommand = () => {
   const [inputText, setInputText] = useState('');
   const [loading, setLoading] = useState(false);
   const [outputCommands, setOutputCommands] = useState([]);
 
-  const handleProcess = () => {
-    setLoading(true);
-    // Simulate processing the input text to generate output commands
-    setTimeout(() => {
-      const lines = inputText.split('\n');
-      const uniqueCommands = new Set();
+  useEffect(() => {
+    if (inputText) {
+      // Text has been added to the "App Events" textarea, auto-generate commands.
+      setLoading(true);
+      // Simulate processing the input text to generate output commands
+      setTimeout(() => {
+        const lines = inputText.split('\n');
+        const output = [];
 
-      lines.forEach((line) => {
-        if (line.includes('Back-off pulling image')) {
-          const imageNameMatch = line.match(/"([^"]+)"/);
-          if (imageNameMatch) {
-            const imageName = imageNameMatch[1];
-            const command = `sudo docker pull ${imageName}`;
-            uniqueCommands.add(command);
+        lines.forEach((line) => {
+          if (line.includes('Back-off pulling image')) {
+            const imageNameMatch = line.match(/"([^"]+)"/);
+            if (imageNameMatch) {
+              const imageName = imageNameMatch[1];
+              const command = `sudo docker pull ${imageName}`;
+              output.push(command);
+            }
           }
-        }
-      });
+        });
 
-      const output = Array.from(uniqueCommands);
-      setOutputCommands(output);
-      setLoading(false);
-    }, 2000);
-  };
+        setOutputCommands(output);
+        setLoading(false);
+      }, 2000);
+    }
+  }, [inputText]);
 
   return (
     <div className="centered-card">
@@ -46,13 +48,6 @@ const GeneratePullCommand = () => {
             disabled={loading}
           />
         </div>
-        <button
-          onClick={handleProcess}
-          disabled={loading}
-          className="button button--primary"
-        >
-          {loading ? 'Generating...' : 'Submit'}
-        </button>
         {loading && (
           <div className="loading-spinner">
             <div className="spinner"></div>
