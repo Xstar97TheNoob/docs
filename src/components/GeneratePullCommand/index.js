@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Switch } from '@theme-ui/components';
+import "./styles.css"
 
 const GeneratePullCommand = () => {
   const [inputText, setInputText] = useState('');
@@ -11,7 +11,7 @@ const GeneratePullCommand = () => {
     const uniqueCommands = new Set(); // Use a Set to track unique commands
 
     lines.forEach((line) => {
-      if (line.includes('Back-off pulling image')) {
+      if (line.includes('Back-off pulling image') || line.includes('Failed to pull image')) {
         const imageNameMatch = line.match(/"([^"]+)"/);
         if (imageNameMatch) {
           const imageName = imageNameMatch[1];
@@ -42,12 +42,16 @@ const GeneratePullCommand = () => {
           />
         </div>
         <div className="switch-container">
-          <label>
+          <label className="switch-label">
             Use Cobia:
-            <Switch
-              checked={useCobia}
-              onChange={() => setUseCobia(!useCobia)}
-            />
+            <label className="switch">
+              <input
+                type="checkbox"
+                checked={useCobia}
+                onChange={() => setUseCobia(!useCobia)}
+              />
+              <span className="slider round"></span>
+            </label>
           </label>
         </div>
         {outputCommands.length > 0 && (
