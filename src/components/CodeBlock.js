@@ -23,7 +23,7 @@ const CodeBlock = ({ code, queryParams }) => {
       }
   
       // Merge query parameters from the URL with the provided queryParams prop
-      const mergedQueryParams = { ...queryParamObject, ...queryParams };
+      const mergedQueryParams = { ...queryParams };
   
       // Replace placeholders in the code with the actual query parameter values
       const replacedCode = code.replace(/{(\w+)}/g, (match, paramName) => {
