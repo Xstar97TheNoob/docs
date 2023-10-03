@@ -41,14 +41,11 @@ const GeneratePullCommand = () => {
         {outputCommands.length > 0 && (
           <div className="output-commands">
             <h3>Generated Commands:</h3>
-            <pre>
-              {outputCommands.map((command, index) => (
-                <code key={index}>
-                  {command}
-                  {index < outputCommands.length - 1 && '\n'} {/* Add newline if not the last command */}
-                </code>
-              ))}
-            </pre>
+            {outputCommands.map((command, index) => (
+              <pre key={index}>
+                <code>{command}</code>
+              </pre>
+            ))}
           </div>
         )}
       </div>
