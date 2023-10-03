@@ -1,20 +1,9 @@
 import React, { useState } from 'react';
 
-import './styles.css';
-
 const GeneratePullCommand = () => {
-  const [open, setOpen] = useState(false);
   const [inputText, setInputText] = useState('');
   const [loading, setLoading] = useState(false);
   const [outputCommands, setOutputCommands] = useState([]);
-
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
 
   const handleProcess = () => {
     setLoading(true);
@@ -26,7 +15,7 @@ const GeneratePullCommand = () => {
       lines.forEach((line) => {
         if (line.includes('Back-off pulling image')) {
           const imageName = line.match(/"([^"]+)"/)[1];
-          const command = `sudo docker pull ${imageName}`;
+          const command = `docker pull ${imageName}`;
           uniqueCommands.add(command);
         }
       });
@@ -38,36 +27,40 @@ const GeneratePullCommand = () => {
   };
 
   return (
-    <div>
-      <button onClick={handleOpen}>Auto Generate Pull Commands</button>
-      {open && (
-        <div className="dialog-overlay">
-          <dialog open className="dialog">
-            <button className="close-button" onClick={handleClose}>
-              Close
-            </button>
-            <div>
-              <textarea
-                rows="6"
-                cols="50"
-                placeholder="Input App Events"
-                value={inputText}
-                onChange={(e) => setInputText(e.target.value)}
-              />
-            </div>
-            {loading && <div>Loading...</div>}
-            <div>
-              <button onClick={handleProcess}>Submit</button>
-            </div>
-            <div>
-              <h3>Generated Commands:</h3>
-              <ul>
-                {outputCommands.map((command, index) => (
-                  <li key={index}>{command}</li>
-                ))}
-              </ul>
-            </div>
-          </dialog>
+    <div className="centered-card">
+      <h2>Auto Generate Pull Commands</h2>
+      <div className="input-container">
+        <label htmlFor="appEvents">App Events:</label>
+        <textarea
+          id="appEvents"
+          rows="6"
+          cols="50"
+          placeholder="Enter App Events here..."
+          value={inputText}
+          onChange={(e) => setInputText(e.target.value)}
+          disabled={loading}
+        />
+      </div>
+      <button
+        onClick={handleProcess}
+        disabled={loading}
+        className="button button--primary"
+      >
+        {loading ? 'Generating...' : 'Submit'}
+      </button>
+      {loading && (
+        <div className="loading-spinner">
+          <div className="spinner"></div>
+        </div>
+      )}
+      {outputCommands.length > 0 && (
+        <div className="output-commands">
+          <h3>Generated Commands:</h3>
+          <pre>
+            {outputCommands.map((command, index) => (
+              <code key={index}>{command}</code>
+            ))}
+          </pre>
         </div>
       )}
     </div>
