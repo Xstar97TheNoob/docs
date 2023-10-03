@@ -6,19 +6,21 @@ const CodeBlock = ({ code, queryParams }) => {
       return code;
     }
 
-    // Create an object to hold the values for each parameter
-    const paramValues = {};
+    // Parse the URL query string into an object
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const queryParamObject = {};
 
-    // Iterate through the queryParams array and populate the paramValues object
-    queryParams.forEach((param) => {
-      if (param.name && param.value) {
-        paramValues[param.name] = param.value;
-      }
-    });
+    for (const [key, value] of urlSearchParams.entries()) {
+      queryParamObject[key] = value;
+    }
 
-    // Replace placeholders in the code with the actual parameter values
-    const replacedCode = code.replace(/\{(\w+)\}/g, (match, paramName) => {
-      return paramValues[paramName] || "";
+    // Replace placeholders in the code with the actual query parameter values
+    const replacedCode = code.replace(/{(\w+)}/g, (match, paramName) => {
+      // Find the corresponding query parameter
+      const queryParamValue = queryParamObject[paramName];
+
+      // If the query parameter exists and has a value, use it; otherwise, keep the placeholder
+      return queryParamValue !== undefined ? queryParamValue : match;
     });
 
     return replacedCode;
