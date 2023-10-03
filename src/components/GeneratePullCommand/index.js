@@ -14,9 +14,12 @@ const GeneratePullCommand = () => {
 
       lines.forEach((line) => {
         if (line.includes('Back-off pulling image')) {
-          const imageName = line.match(/"([^"]+)"/)[1];
-          const command = `docker pull ${imageName}`;
-          uniqueCommands.add(command);
+          const imageNameMatch = line.match(/"([^"]+)"/);
+          if (imageNameMatch) {
+            const imageName = imageNameMatch[1];
+            const command = `docker pull ${imageName}`;
+            uniqueCommands.add(command);
+          }
         }
       });
 
