@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 
 const GeneratePullCommand = () => {
   const [inputText, setInputText] = useState('');
-  const [outputCommands, setOutputCommands] = useState([]);
+  const [outputCommands, setOutputCommands] = useState(new Set()); // Use a Set to store unique commands
 
   useEffect(() => {
     const lines = inputText.split('\n');
-    const output = [];
+    const uniqueCommands = new Set(); // Use a Set to track unique commands
 
     lines.forEach((line) => {
       if (line.includes('Back-off pulling image')) {
@@ -14,12 +14,12 @@ const GeneratePullCommand = () => {
         if (imageNameMatch) {
           const imageName = imageNameMatch[1];
           const command = `sudo docker pull ${imageName}`;
-          output.push(command);
+          uniqueCommands.add(command); // Add the command to the Set
         }
       }
     });
 
-    setOutputCommands(output);
+    setOutputCommands(Array.from(uniqueCommands)); // Convert Set to Array for rendering
   }, [inputText]);
 
   return (
