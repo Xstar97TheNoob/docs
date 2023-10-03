@@ -17,7 +17,7 @@ const GeneratePullCommand = () => {
           const imageNameMatch = line.match(/"([^"]+)"/);
           if (imageNameMatch) {
             const imageName = imageNameMatch[1];
-            const command = `docker pull ${imageName}`;
+            const command = `sudo docker pull ${imageName}`;
             uniqueCommands.add(command);
           }
         }
