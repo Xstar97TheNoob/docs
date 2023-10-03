@@ -25,7 +25,6 @@ const GeneratePullCommand = () => {
   return (
     <div className="centered-card">
       <div className="centered-content">
-        <h2>Auto Generate Pull Commands</h2>
         <div className="input-container">
           <label htmlFor="appEvents">App Events:</label>
           <textarea
