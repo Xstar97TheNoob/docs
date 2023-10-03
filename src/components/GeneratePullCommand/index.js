@@ -32,7 +32,7 @@ const GeneratePullCommand = () => {
             id="appEvents"
             rows="6"
             cols="50"
-            style={{ width: '100%', height: '400px' }} // Set the width to 100% and height to 400px
+            style={{ width: '100%', height: '400px' }}
             placeholder="Enter App Events here..."
             value={inputText}
             onChange={(e) => setInputText(e.target.value)}
@@ -43,7 +43,10 @@ const GeneratePullCommand = () => {
             <h3>Generated Commands:</h3>
             <pre>
               {outputCommands.map((command, index) => (
-                <code key={index}>{command}</code>
+                <code key={index}>
+                  {command}
+                  {index < outputCommands.length - 1 && '\n'} {/* Add newline if not the last command */}
+                </code>
               ))}
             </pre>
           </div>
