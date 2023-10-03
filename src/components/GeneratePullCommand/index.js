@@ -28,41 +28,44 @@ const GeneratePullCommand = () => {
 
   return (
     <div className="centered-card">
-      <h2>Auto Generate Pull Commands</h2>
-      <div className="input-container">
-        <label htmlFor="appEvents">App Events:</label>
-        <textarea
-          id="appEvents"
-          rows="6"
-          cols="50"
-          placeholder="Enter App Events here..."
-          value={inputText}
-          onChange={(e) => setInputText(e.target.value)}
+      <div className="centered-content">
+        <h2>Auto Generate Pull Commands</h2>
+        <div className="input-container">
+          <label htmlFor="appEvents">App Events:</label>
+          <textarea
+            id="appEvents"
+            rows="6"
+            cols="50"
+            style={{ width: '100%', height: '400px' }} // Set the width to 100% and height to 400px
+            placeholder="Enter App Events here..."
+            value={inputText}
+            onChange={(e) => setInputText(e.target.value)}
+            disabled={loading}
+          />
+        </div>
+        <button
+          onClick={handleProcess}
           disabled={loading}
-        />
+          className="button button--primary"
+        >
+          {loading ? 'Generating...' : 'Submit'}
+        </button>
+        {loading && (
+          <div className="loading-spinner">
+            <div className="spinner"></div>
+          </div>
+        )}
+        {outputCommands.length > 0 && (
+          <div className="output-commands">
+            <h3>Generated Commands:</h3>
+            <pre>
+              {outputCommands.map((command, index) => (
+                <code key={index}>{command}</code>
+              ))}
+            </pre>
+          </div>
+        )}
       </div>
-      <button
-        onClick={handleProcess}
-        disabled={loading}
-        className="button button--primary"
-      >
-        {loading ? 'Generating...' : 'Submit'}
-      </button>
-      {loading && (
-        <div className="loading-spinner">
-          <div className="spinner"></div>
-        </div>
-      )}
-      {outputCommands.length > 0 && (
-        <div className="output-commands">
-          <h3>Generated Commands:</h3>
-          <pre>
-            {outputCommands.map((command, index) => (
-              <code key={index}>{command}</code>
-            ))}
-          </pre>
-        </div>
-      )}
     </div>
   );
 };
