@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './styles.css';
 
 const GeneratePullCommand = () => {
     const [open, setOpen] = useState(false);
@@ -19,14 +20,21 @@ const GeneratePullCommand = () => {
       // Simulate processing the input text to generate output commands
       setTimeout(() => {
         const lines = inputText.split('\n');
-        const output = lines.filter((line) => line.includes('Back-off pulling image')).map((line) => {
-          const imageName = line.match(/"([^"]+)"/)[1];
-          return `sudo docker pull ${imageName}`;
+        const uniqueCommands = new Set();
+        
+        lines.forEach((line) => {
+          if (line.includes('Back-off pulling image')) {
+            const imageName = line.match(/"([^"]+)"/)[1];
+            const command = `sudo docker pull ${imageName}`;
+            uniqueCommands.add(command);
+          }
         });
+    
+        const output = Array.from(uniqueCommands);
         setOutputCommands(output);
         setLoading(false);
       }, 2000);
-    };
+    };    
   
     return (
       <div>
