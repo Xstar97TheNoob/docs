@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './styles.css';
+
 const GeneratePullCommand = () => {
   const [open, setOpen] = useState(false);
   const [inputText, setInputText] = useState('');
@@ -39,30 +41,34 @@ const GeneratePullCommand = () => {
     <div>
       <button onClick={handleOpen}>Auto Generate Pull Commands</button>
       {open && (
-        <dialog open>
-          <div>
-            <textarea
-              rows="6"
-              cols="50"
-              placeholder="Input Text"
-              value={inputText}
-              onChange={(e) => setInputText(e.target.value)}
-            />
-          </div>
-          {loading && <div>Loading...</div>}
-          <div>
-            <button onClick={handleClose}>Cancel</button>
-            <button onClick={handleProcess}>Submit</button>
-          </div>
-          <div>
-            <h3>Generated Commands:</h3>
-            <ul>
-              {outputCommands.map((command, index) => (
-                <li key={index}>{command}</li>
-              ))}
-            </ul>
-          </div>
-        </dialog>
+        <div className="dialog-overlay">
+          <dialog open className="dialog">
+            <button className="close-button" onClick={handleClose}>
+              Close
+            </button>
+            <div>
+              <textarea
+                rows="6"
+                cols="50"
+                placeholder="Input App Events"
+                value={inputText}
+                onChange={(e) => setInputText(e.target.value)}
+              />
+            </div>
+            {loading && <div>Loading...</div>}
+            <div>
+              <button onClick={handleProcess}>Submit</button>
+            </div>
+            <div>
+              <h3>Generated Commands:</h3>
+              <ul>
+                {outputCommands.map((command, index) => (
+                  <li key={index}>{command}</li>
+                ))}
+              </ul>
+            </div>
+          </dialog>
+        </div>
       )}
     </div>
   );
