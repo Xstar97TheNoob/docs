@@ -13,15 +13,26 @@ const CodeBlock = ({ code, queryParams }) => {
       }
   
       // Merge query parameters from the URL with the provided queryParams prop
-      const mergedQueryParams = { ...queryParams, ...queryParamObject };
+      const mergedQueryParams = { ...queryParamObject, ...queryParams };
   
       // Replace placeholders in the code with the actual query parameter values
       const replacedCode = code.replace(/{(\w+)}/g, (match, paramName) => {
         // Find the corresponding query parameter
         const queryParamValue = mergedQueryParams[paramName];
   
-        // If the query parameter exists and has a value, use it; otherwise, use the default value
-        return queryParamValue !== undefined ? queryParamValue : queryParams[paramName]?.value || match;
+        // If the query parameter exists and has a value, use it
+        if (queryParamValue !== undefined) {
+          return queryParamValue;
+        }
+  
+        // If the parameter doesn't exist in queryParams but is present in the code, use its default value
+        const defaultQueryParam = queryParams.find(param => param.name === paramName);
+        if (defaultQueryParam) {
+          return defaultQueryParam.value;
+        }
+  
+        // If the parameter is not found anywhere, keep the placeholder
+        return match;
       });
   
       return replacedCode;
