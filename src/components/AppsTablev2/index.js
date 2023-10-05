@@ -1,26 +1,22 @@
 import React, { useState, useEffect } from "react";
-import loadingViewSrc from '/img/loading-aesthetic.gif';
-import LoadingView from './LoadingView.js';
 import jsonData from '/servers/servers.json';
 
 const AppsTablev2 = () => {
   const loadingViewMsg = "Loading server data...";
   const [data, setData] = useState(null);
-  const [isLoading, setIsLoading] = useState(true); // Add loading state
+  const [isLoading, setIsLoading] = useState(true); // Initialize isLoading as true
 
   useEffect(() => {
     if (jsonData && jsonData.length > 0) {
-      // Simulate loading delay for demonstration purposes
-      setTimeout(() => {
-        setData(jsonData);
-        setIsLoading(false); // Set isLoading to false when data is ready
-      }, 2000); // Adjust the delay time as needed
+      // You can remove the setTimeout, and setIsLoading(false) immediately
+      setData(jsonData);
+      setIsLoading(false); // Set isLoading to false when data is ready
     }
   }, []);
 
   if (isLoading) {
     // Render a loading view while data is being fetched
-    return <LoadingView src={loadingViewSrc} msg={loadingViewMsg} />
+    return <p>{loadingViewMsg}</p>;
   }
 
   if (!data || data.length === 0) {
@@ -33,7 +29,7 @@ const AppsTablev2 = () => {
       {data.map((server, index) => (
         <div key={index}>
           <br />
-          <a href={`#${server.serverName}`} id={server.serverName}><h2>{server.serverName}</h2></a><hr />
+          <a href={`#${server.serverName.replace(" ","-")}`} id={server.serverName.replace(" ","-")}><h2>{server.serverName}</h2></a><hr />
           <p>{server.serverDescription}</p>
           <table>
             <thead>
