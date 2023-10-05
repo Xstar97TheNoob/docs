@@ -4,15 +4,18 @@ import jsonData from '/servers/servers.json';
 const AppsTablev2 = () => {
   const loadingViewMsg = "Loading server data...";
   const [data, setData] = useState(null);
-  const [isLoading, setIsLoading] = useState(true); // Initialize isLoading as true
+  const [isLoading, setIsLoading] = useState(true);
+  const [dataLoaded, setDataLoaded] = useState(false); // Track if data has been loaded
 
   useEffect(() => {
-    if (jsonData && jsonData.length > 0) {
-      // You can remove the setTimeout, and setIsLoading(false) immediately
-      setData(jsonData);
-      setIsLoading(false); // Set isLoading to false when data is ready
+    if (!dataLoaded) { // Check if data has not been loaded
+      if (jsonData && jsonData.length > 0) {
+        setData(jsonData);
+        setIsLoading(false);
+        setDataLoaded(true); // Set dataLoaded to true once data is loaded
+      }
     }
-  }, []);
+  }, [dataLoaded]); // Trigger this effect only when dataLoaded changes
 
   if (isLoading) {
     // Render a loading view while data is being fetched
