@@ -19,6 +19,7 @@ const AppsTablev2 = () => {
     <div>
       {data.map((server, index) => (
         <div key={index}>
+          < br />
           <a href={`#${server.serverName}`} id={server.serverName}><h2>{server.serverName}</h2></a><hr />
           <p>{server.serverDescription}</p>
           <table>
