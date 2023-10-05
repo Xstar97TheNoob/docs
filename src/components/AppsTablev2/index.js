@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import jsonData from '/servers/servers.json';
+import jsonData from '/static/servers/servers.json';
 
 const AppsTablev2 = () => {
   const [data, setData] = useState(null);
