@@ -20,14 +20,14 @@
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
             "name": "cert-manager",
-            "train": "🔨",
+            "train": "📦",
             "description": "Cert-Manager is a kubernetes-aware certificate manager",
             "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png",
             "name": "cloudnative-pg",
-            "train": "🔨",
+            "train": "📦",
             "description": "CloudNativePG is a clustered postgresql database operator",
             "instances": 1
         },
@@ -286,7 +286,7 @@
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
             "name": "prometheus-operator",
-            "train": "🔨",
+            "train": "📦",
             "description": "Prometheus Operator is an operator for prometheus",
             "instances": 1
         },
