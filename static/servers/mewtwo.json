@@ -1,7 +1,7 @@
 {
     "serverName": "MewTwo Scale Server",
     "serverDescription": "Media and Automations",
-    "count": 61,
+    "count": 69,
     "apps": [
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -20,14 +20,14 @@
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
             "name": "cert-manager",
-            "train": "👷",
+            "train": "🔨",
             "description": "Cert-Manager is a kubernetes-aware certificate manager",
             "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png",
             "name": "cloudnative-pg",
-            "train": "👷",
+            "train": "🔨",
             "description": "CloudNativePG is a clustered postgresql database operator",
             "instances": 1
         },
@@ -50,7 +50,7 @@
             "name": "custom-app",
             "train": "✅",
             "description": "Advanced tool to create your own TrueCharts-based App",
-            "instances": 4
+            "instances": 2
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
@@ -67,6 +67,13 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/doublecommander.png",
+            "name": "doublecommander",
+            "train": "✅",
+            "description": "A free cross platform open source file manager with two panels side by side.",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/emulatorjs.png",
             "name": "emulatorjs",
             "train": "✅",
@@ -78,7 +85,7 @@
             "name": "external-service",
             "train": "✅",
             "description": "Allow external services to be used like Apps.",
-            "instances": 7
+            "instances": 9
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
@@ -99,6 +106,13 @@
             "name": "flaresolverr",
             "train": "✅",
             "description": "FlareSolverr is a proxy server to bypass Cloudflare protection",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/handbrake.png",
+            "name": "handbrake 🆕",
+            "train": "✅",
+            "description": "HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.",
             "instances": 1
         },
         {
@@ -144,6 +158,13 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/local-ai.png",
+            "name": "local-ai",
+            "train": "✅",
+            "description": "Self-hosted, community-driven, local OpenAI-compatible API.",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/makemkv.png",
             "name": "makemkv",
             "train": "✅",
@@ -176,7 +197,14 @@
             "name": "minecraft-java",
             "train": "✅",
             "description": "Minecraft Java Dedicated Server",
-            "instances": 2
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mkvtoolnix.png",
+            "name": "mkvtoolnix 🆕",
+            "train": "✅",
+            "description": "MKVToolNix is a set of tools to create, alter and inspect Matroska files.",
+            "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mosquitto.png",
@@ -194,7 +222,7 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/n8n.png",
-            "name": "n8n",
+            "name": "n8n 🆕",
             "train": "✅",
             "description": "n8n is an extendable workflow automation tool.",
             "instances": 1
@@ -221,6 +249,13 @@
             "instances": 1
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pgadmin.png",
+            "name": "pgadmin 🆕",
+            "train": "✅",
+            "description": "Web-Based postgresql database management utility",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plex.png",
             "name": "plex",
             "train": "✅",
@@ -236,15 +271,22 @@
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plexanisync.png",
-            "name": "plexanisync",
-            "train": "⚠️",
+            "name": "plexanisync 🆕",
+            "train": "✅",
             "description": "Plex to AniList Sync.",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plexripper.png",
+            "name": "plexripper",
+            "train": "✅",
+            "description": "A multi-platform media downloader that indexes and downloads content from your accessible Plex servers.",
             "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
             "name": "prometheus-operator",
-            "train": "👷",
+            "train": "🔨",
             "description": "Prometheus Operator is an operator for prometheus",
             "instances": 1
         },
@@ -260,6 +302,13 @@
             "name": "radarr",
             "train": "✅",
             "description": "A fork of Sonarr to work with movies à la Couchpotato",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/recyclarr.png",
+            "name": "recyclarr",
+            "train": "✅",
+            "description": "A command-line application that will automatically synchronize recommended settings from TRaSH guides to your Sonarr/Radarr instances.",
             "instances": 1
         },
         {
@@ -309,6 +358,13 @@
             "name": "sonarr",
             "train": "✅",
             "description": "Smart PVR for newsgroup and bittorrent users",
+            "instances": 2
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/static-web-server.png",
+            "name": "static-web-server",
+            "train": "✅",
+            "description": "A cross-platform, high-performance and asynchronous web server for static files-serving.",
             "instances": 1
         },
         {
