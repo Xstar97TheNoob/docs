@@ -18,23 +18,16 @@
             "instances": 1
         },
         {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/blocky.png",
-            "name": "blocky",
-            "train": "👔",
-            "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
-            "instances": 1
-        },
-        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
             "name": "cert-manager",
-            "train": "👷",
+            "train": "🔨",
             "description": "Cert-Manager is a kubernetes-aware certificate manager",
             "instances": 1
         },
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png",
             "name": "cloudnative-pg",
-            "train": "👷",
+            "train": "🔨",
             "description": "CloudNativePG is a clustered postgresql database operator",
             "instances": 1
         },
@@ -67,10 +60,24 @@
             "instances": 3
         },
         {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firezone.png",
+            "name": "firezone",
+            "train": "✅",
+            "description": "WireGuard-based VPN server and egress firewall",
+            "instances": 1
+        },
+        {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png",
             "name": "homepage",
             "train": "✅",
             "description": "A highly customizable homepage",
+            "instances": 1
+        },
+        {
+            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
+            "name": "librespeed 🆕",
+            "train": "✅",
+            "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
             "instances": 1
         },
         {
@@ -97,7 +104,7 @@
         {
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
             "name": "prometheus-operator",
-            "train": "👷",
+            "train": "🔨",
             "description": "Prometheus Operator is an operator for prometheus",
             "instances": 1
         },
@@ -141,13 +148,6 @@
             "name": "vaultwarden",
             "train": "👔",
             "description": "Unofficial Bitwarden compatible server written in Rust",
-            "instances": 1
-        },
-        {
-            "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/wg-easy.png",
-            "name": "wg-easy",
-            "train": "✅",
-            "description": "The easiest way to run WireGuard VPN + Web-based Admin UI.",
             "instances": 1
         },
         {
