@@ -1,12 +1,19 @@
 import React, { useState, useEffect } from "react";
-import jsonData from '/static/servers/servers.json';
+import jsonData from '/servers/servers.json';
 
 const AppsTablev2 = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    setData(jsonData); // Use the entire JSON array
+    if (jsonData && jsonData.length > 0) {
+      setData(jsonData); // Use the entire JSON array if it's not empty or undefined
+    }
   }, []);
+
+  if (!data || data.length === 0) {
+    // Handle the case when jsonData is empty or undefined
+    return <p>No server data available. 😔</p>;
+  }
 
   return (
     <div>
@@ -39,7 +46,7 @@ const AppsTablev2 = () => {
             </tbody>
           </table>
           <p>Currently Installed: {server.count}</p>
-        <hr/>
+          <hr />
         </div>
       ))}
     </div>
