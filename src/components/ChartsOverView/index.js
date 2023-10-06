@@ -27,7 +27,7 @@ const ChartsOverView = () => {
   const searchParam = queryParams.get("search") || "";
 
   const [searchTerm, setSearchTerm] = useState(searchParam);
-  const [view, setView] = useState(getViewType);
+  const [view, setView] = useState(0);
   const [trains, setTrains] = useState([]);
   const [trainsData, setTrainsData] = useState([]);
   const [totalCount, setTotalCount] = useState([countingMsg]);
@@ -54,6 +54,7 @@ const ChartsOverView = () => {
     let totalCount = json.totalCount;
     let trains = json.trains;
     let listOfTrainsData = genTrainData(trains)
+    setView(getViewType)
     setTrains(trains);
     setTrainsData(listOfTrainsData)
     setTotalCount(totalCount);
