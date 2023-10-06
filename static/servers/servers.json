@@ -212,7 +212,7 @@
                 "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
-                "instances": 1
+                "instances": 2
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
@@ -272,7 +272,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/handbrake.png",
-                "name": "handbrake 🆕",
+                "name": "handbrake",
                 "train": "✅",
                 "description": "HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.",
                 "instances": 1
@@ -520,7 +520,7 @@
                 "name": "static-web-server",
                 "train": "✅",
                 "description": "A cross-platform, high-performance and asynchronous web server for static files-serving.",
-                "instances": 2
+                "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/strapi.png",
