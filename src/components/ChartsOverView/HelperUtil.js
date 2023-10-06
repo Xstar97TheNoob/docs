@@ -1,3 +1,31 @@
+const TRAINS_VIEW = "trainsView";
+const ACTIVE_TRAINS_LIST = "activeTrainsList";
+
+export const getViewType = () => {
+    // Use logical OR (||) to provide a default value (0 in this case)
+    return parseInt(localStorage.getItem(TRAINS_VIEW)) || 0;
+  };
+    
+export const setViewType = (view) => {
+    try {
+      localStorage.setItem(TRAINS_VIEW, view);
+    } catch (_) {
+      // Handle errors if localStorage is not available or the quota is exceeded
+    }
+  };
+
+  export const getActiveTrains = (trains) => {
+    // Use logical OR (||) to provide a default value (0 in this case)
+    return localStorage.getItem(ACTIVE_TRAINS_LIST) || trains;
+  };
+
+  export const setActiveTrains = (trains) => {
+    try {
+      localStorage.setItem(ACTIVE_TRAINS_LIST, trains);
+    } catch (_) {
+      // Handle errors if localStorage is not available or the quota is exceeded
+    }
+  };
 
 export const getSourceName = (source) => {
     let stripped = source.toString().replace(/^https:\/\//, '');

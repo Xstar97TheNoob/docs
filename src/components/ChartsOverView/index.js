@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './searchbar.css';
-import {ViewOptions,countArrayLength,capitalizeWords,genTrainData} from './HelperUtil.js';
-import {getViewType,setViewType} from './preferences.js';
+import {ViewOptions,countArrayLength,capitalizeWords,genTrainData,getViewType,setViewType,getActiveTrains,setActiveTrains} from './HelperUtil.js';
 import chartsJson from '/static/charts/charts.json';
 import loadingViewSrc from '/img/loading-aesthetic.gif';
 import SearchBar from './SearchBar.js';
@@ -41,6 +40,7 @@ const ChartsOverView = () => {
     } else {
       setActiveCheckboxes([...activeCheckboxes, checkbox.name]);
     }
+    setActiveTrains(activeCheckboxes)
   };
   
   const handleSearch = event => {
@@ -59,9 +59,9 @@ const ChartsOverView = () => {
     setTrainsData(listOfTrainsData)
     setTotalCount(totalCount);
     setLoading(listOfTrainsData.length > 1 ? false : true);
-
+    let getActiveTrainsData = getActiveTrains(listOfTrainsData);
     // Update active checkboxes based on fetched data
-    setActiveCheckboxes(listOfTrainsData.map(train => train.name));
+    setActiveCheckboxes(getActiveTrainsData.map(train => train.name));
   }, []);
 
   const filteredCharts = trains
@@ -122,7 +122,7 @@ const ChartsOverView = () => {
                 handleSearch={handleSearch}
                 setSelectedOption={(i) => {
                   setView(ViewOptions[i].value);
-                  setViewType(ViewOptions[i].value); // Update setViewType here
+                  setViewType(ViewOptions[i].value); 
                 }}
                 view={view}
               />
