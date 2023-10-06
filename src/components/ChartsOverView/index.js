@@ -16,6 +16,7 @@ import { useLocation } from "react-router-dom";
 const ChartsOverView = () => {
   const searchBarPlaceHolder = "Search name/description";
   const loadingViewMsg = "Loading charts data...";
+  const countingMsg = "computing...";
   const emptyViewTitle = "Whoops!";
   const emptyViewMsg = "No charts left to filter out!";
 
@@ -29,7 +30,7 @@ const ChartsOverView = () => {
   const [view, setView] = useState(getViewType);
   const [trains, setTrains] = useState([]);
   const [trainsData, setTrainsData] = useState([]);
-  const [totalCount, setTotalCount] = useState(["computing..."]);
+  const [totalCount, setTotalCount] = useState([countingMsg]);
   const [loading, setLoading] = useState(true);
 
   const [activeCheckboxes, setActiveCheckboxes] = useState([]);
