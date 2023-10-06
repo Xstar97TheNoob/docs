@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './searchbar.css';
-import HelperUtil,{ViewOptions,countArrayLength,capitalizeWords,genTrainData} from './HelperUtil.js';
+import {ViewOptions,countArrayLength,capitalizeWords,genTrainData} from './HelperUtil.js';
+import {getViewType,setViewType} from './preferences.js';
 import chartsJson from '/static/charts/charts.json';
 import loadingViewSrc from '/img/loading-aesthetic.gif';
 import SearchBar from './SearchBar.js';
@@ -25,7 +26,7 @@ const ChartsOverView = () => {
   const searchParam = queryParams.get("search") || "";
 
   const [searchTerm, setSearchTerm] = useState(searchParam);
-  const [view, setView] = useState(0);
+  const [view, setView] = useState(getViewType);
   const [trains, setTrains] = useState([]);
   const [trainsData, setTrainsData] = useState([]);
   const [totalCount, setTotalCount] = useState(["computing..."]);
@@ -40,7 +41,7 @@ const ChartsOverView = () => {
       setActiveCheckboxes([...activeCheckboxes, checkbox.name]);
     }
   };
-
+  
   const handleSearch = event => {
     const txtsearch = event.target.value.toLowerCase();
     setSearchTerm(txtsearch);
@@ -117,7 +118,10 @@ const ChartsOverView = () => {
                 placeHolder={searchBarPlaceHolder}
                 searchTerm={searchTerm}
                 handleSearch={handleSearch}
-                setSelectedOption={(i) => setView(ViewOptions[i].value)}
+                setSelectedOption={(i) => {
+                  setView(ViewOptions[i].value);
+                  setViewType(ViewOptions[i].value); // Update setViewType here
+                }}
                 view={view}
               />
               <br />
