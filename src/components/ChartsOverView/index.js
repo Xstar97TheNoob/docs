@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './searchbar.css';
-import {ViewOptions,countArrayLength,capitalizeWords,genTrainData,getViewType,setViewType,getActiveTrains,setActiveTrains} from './HelperUtil.js';
+import {ViewOptions,countArrayLength,capitalizeWords,genTrainData,getViewType,setViewType} from './HelperUtil.js';
 import chartsJson from '/static/charts/charts.json';
 import loadingViewSrc from '/img/loading-aesthetic.gif';
 import SearchBar from './SearchBar.js';
@@ -40,7 +40,6 @@ const ChartsOverView = () => {
     } else {
       setActiveCheckboxes([...activeCheckboxes, checkbox.name]);
     }
-    setActiveTrains(activeCheckboxes)
   };
   
   const handleSearch = event => {
@@ -49,19 +48,16 @@ const ChartsOverView = () => {
   };
 
   useEffect(() => {
-    const json = chartsJson; // Use the imported JSON data
-
-    let totalCount = json.totalCount;
-    let trains = json.trains;
+    let totalCount = chartsJson.totalCount;
+    let trains = chartsJson.trains;
     let listOfTrainsData = genTrainData(trains)
     setView(getViewType)
     setTrains(trains);
     setTrainsData(listOfTrainsData)
     setTotalCount(totalCount);
     setLoading(listOfTrainsData.length > 1 ? false : true);
-    let getActiveTrainsData = getActiveTrains(listOfTrainsData);
     // Update active checkboxes based on fetched data
-    setActiveCheckboxes(getActiveTrainsData.map(train => train.name));
+    setActiveCheckboxes(listOfTrainsData.map(train => train.name));
   }, []);
 
   const filteredCharts = trains
