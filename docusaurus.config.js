@@ -37,26 +37,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       }),
     ],
   ],
-  plugins: [
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        /**
-         * Required for any multi-instance plugin
-         */
-        id: 'new-charts',
-        /**
-         * URL route for the blog section of your site.
-         * *DO NOT* include a trailing slash.
-         */
-        routeBasePath: 'new-charts',
-        /**
-         * Path to data on filesystem relative to site dir.
-         */
-        path: './new-charts',
-      },
-    ],
-  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -77,7 +57,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/new-charts', label: 'New Charts', position: 'left'},
           {
             href: 'https://github.com/Xstar97TheNoob/docs',
             label: 'GitHub',
