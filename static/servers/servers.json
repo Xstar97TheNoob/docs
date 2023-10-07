@@ -163,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 68,
+        "count": 69,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -296,6 +296,13 @@
                 "name": "immich",
                 "train": "✅",
                 "description": "High performance self-hosted photo and video backup solution.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png",
+                "name": "jackett 🆕",
+                "train": "✅",
+                "description": "API Support for your favorite torrent trackers.",
                 "instances": 1
             },
             {
