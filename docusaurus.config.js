@@ -23,8 +23,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         blogTitle: 'Charts',
         blogDescription: 'Truecharts Charts Catalog',
         blogSidebarCount: 5,
-        blogSidebarTitle: 'All our posts',
-        routeBasePath: 'docs/charts',
+        blogSidebarTitle: 'All our charts',
+        routeBasePath: 'blog/charts',
         include: ['**/*.{md,mdx}'],
         showReadingTime: false,
         postsPerPage: 10
