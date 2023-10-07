@@ -7,7 +7,7 @@ image: https://truecharts.org/img/hotlink-ok/chart-icons/smtp-relay.png
 hide_table_of_contents: false
 ---
 
-# smtp-replay (incubator)
+# [smtp-replay (incubator)](https://truecharts.org/charts/incubator/smtp-relay)
 
 A SMTP service for relaying emails.
 

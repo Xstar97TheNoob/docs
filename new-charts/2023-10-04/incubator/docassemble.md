@@ -7,7 +7,7 @@ image: https://truecharts.org/img/hotlink-ok/chart-icons/docassemble.png
 hide_table_of_contents: false
 ---
 
-# docassemble (incubator)
+# [docassemble (incubator)](https://truecharts.org/charts/incubator/docassemble)
 
 A free, open-source expert system for guided interviews and document assembly.
 
