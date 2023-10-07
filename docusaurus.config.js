@@ -18,12 +18,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     [
       '@docusaurus/plugin-content-blog',
       {
+        id: 'charts',
         path: 'docs/charts',
         blogTitle: 'Charts',
         blogDescription: 'Truecharts Charts Catalog',
         blogSidebarCount: 5,
         blogSidebarTitle: 'All our posts',
-        routeBasePath: 'docs',
+        routeBasePath: 'docs/charts',
         include: ['**/*.{md,mdx}'],
         showReadingTime: false,
         postsPerPage: 10
