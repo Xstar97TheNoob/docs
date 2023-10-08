@@ -37,11 +37,11 @@ const AppsTable = () => {
     <div>
       {data.map((server, index) => (
         <div key={index}>
+          <a href={`#${replaceCharWithChar(server.serverName, " ", "-")}`} id={replaceCharWithChar(server.serverName, " ", "-")}><h2>{server.serverName}</h2></a>
+          <hr />
           <details open>
-            <summary><a href={`#${replaceCharWithChar(server.serverName, " ", "-")}`} id={replaceCharWithChar(server.serverName, " ", "-")}><h2>{server.serverName}</h2></a></summary>
-            <hr />
+            <summary><p>{server.serverDescription}</p></summary>
             <br />
-            <p>{server.serverDescription}</p>
             <table>
               <thead>
                 <tr>
