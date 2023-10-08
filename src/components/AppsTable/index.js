@@ -5,8 +5,7 @@ const AppsTable = () => {
   const loadingViewMsg = "Loading server data...";
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [dataLoaded, setDataLoaded] = useState(false);
-  const [openTables, setOpenTables] = useState({}); // State to track open tables
+  const [dataLoaded, setDataLoaded] = useState(false); // Track if data has been loaded
 
   function replaceCharWithChar(inputString, oldChar, charToReplaceWith) {
     const regex = new RegExp(oldChar, 'g');
@@ -15,44 +14,33 @@ const AppsTable = () => {
   }
 
   useEffect(() => {
-    if (!dataLoaded) {
+    if (!dataLoaded) { // Check if data has not been loaded
       if (jsonData && jsonData.length > 0) {
         setData(jsonData);
         setIsLoading(false);
-        setDataLoaded(true);
+        setDataLoaded(true); // Set dataLoaded to true once data is loaded
       }
     }
-  }, [dataLoaded]);
+  }, [dataLoaded]); // Trigger this effect only when dataLoaded changes
 
   if (isLoading) {
+    // Render a loading view while data is being fetched
     return <p>{loadingViewMsg}</p>;
   }
 
   if (!data || data.length === 0) {
+    // Handle the case when jsonData is empty or undefined
     return <p>No server data available. 😔</p>;
   }
-
-  const toggleTable = (serverName) => {
-    // Toggle the open state of the table for a given server
-    setOpenTables((prevOpenTables) => ({
-      ...prevOpenTables,
-      [serverName]: !prevOpenTables[serverName],
-    }));
-  };
 
   return (
     <div>
       {data.map((server, index) => (
         <div key={index}>
-          <br />
-          <a href={`#${replaceCharWithChar(server.serverName, " ", "-")}`} id={replaceCharWithChar(server.serverName, " ", "-")}>
-            <h2>{server.serverName}</h2>
-          </a>
-          <button onClick={() => toggleTable(server.serverName)}>
-            {openTables[server.serverName] ? "Hide Table" : "Show Table"}
-          </button>
-          <hr />
-          <div className={`table-container ${openTables[server.serverName] ? 'open' : 'closed'}`}>
+          <details>
+            <summary>{server.serverName}</summary>
+            <br />
+            <a href={`#${replaceCharWithChar(server.serverName, " ", "-")}`} id={replaceCharWithChar(server.serverName, " ", "-")}><h2>{server.serverName}</h2></a><hr />
             <p>{server.serverDescription}</p>
             <table>
               <thead>
@@ -65,7 +53,7 @@ const AppsTable = () => {
               </thead>
               <tbody>
                 {server.apps &&
-                  server.apps.map((app) => (
+                  server.apps.map(app => (
                     <tr key={app.name}>
                       <td><img src={app.icon} alt={app.name} width="48" height="36" /></td>
                       <td>
@@ -79,8 +67,8 @@ const AppsTable = () => {
               </tbody>
             </table>
             <p>Currently Installed: {server.count}</p>
-          </div>
-          <hr />
+            <hr />
+          </details>
         </div>
       ))}
     </div>
