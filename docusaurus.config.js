@@ -18,20 +18,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     [
       '@docusaurus/plugin-content-blog',
       {
-        /**
-         * Required for any multi-instance plugin
-         */
-        id: 'charts-feed',
-        /**
-         * URL route for the blog section of your site.
-         * *DO NOT* include a trailing slash.
-         */
+        path: 'docs/charts',
+        blogTitle: 'Charts Feed',
+        blogDescription: 'A curate list of Charts.',
+        blogSidebarCount: 5,
+        blogSidebarTitle: 'All our charts',
         routeBasePath: 'charts-feed',
-        include: ['*/*/index.{md,mdx}'],
-        /**
-         * Path to data on filesystem relative to site dir.
-         */
-        path: './docs/charts',
+        include: ['**/index.{md,mdx}'],
+        exclude: [
+          '**/_*.{js,jsx,ts,tsx,md,mdx}',
+          '**/_*/**',
+          '**/*.test.{js,jsx,ts,tsx}',
+          '**/__tests__/**',
+        ],
+        postsPerPage: 25,
+        showReadingTime: false
       },
     ],
   ],
