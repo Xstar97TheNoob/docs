@@ -1,5 +1,6 @@
 ---
 tags: [operators]
+date: 2023-07-15
 ---
 
 # cert-manager
