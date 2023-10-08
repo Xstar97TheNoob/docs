@@ -209,10 +209,10 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
-                "name": "custom-app",
+                "name": "custom-app 🆕",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
-                "instances": 2
+                "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
@@ -555,6 +555,13 @@
                 "name": "traefik",
                 "train": "👔",
                 "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/transmission.png",
+                "name": "transmission 🆕",
+                "train": "✅",
+                "description": "fast, easy, and free BitTorrent client.",
                 "instances": 1
             },
             {
