@@ -27,6 +27,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
          * *DO NOT* include a trailing slash.
          */
         routeBasePath: 'charts-feed',
+        include: ['*/*/index.{md,mdx}'],
         /**
          * Path to data on filesystem relative to site dir.
          */
