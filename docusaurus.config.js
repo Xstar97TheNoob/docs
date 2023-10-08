@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   tagline: "The Noob's Guide for a HomeLab.",
   url: 'https://docs.xstar97thenoob.com',
   baseUrl: '/',
-  onBrokenLinks: 'warn', //dont fasil to build with broken links
+  onBrokenLinks: 'warn', //dont fail to build with broken links
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Xstar97TheNoob', // Usually your GitHub org/user name.
@@ -29,6 +29,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         exclude: [
           '**/_*.{js,jsx,ts,tsx,md,mdx,json}',
           '**/_*/**',
+          '**/CHANGELOG.md',
+          '**/container-security.md',
+          '**/helm-security.md',
           '**/*.test.{js,jsx,ts,tsx}',
           '**/__tests__/**',
         ],
