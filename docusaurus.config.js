@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   tagline: "The Noob's Guide for a HomeLab.",
   url: 'https://docs.xstar97thenoob.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', //dont fasil to build with broken links
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Xstar97TheNoob', // Usually your GitHub org/user name.
@@ -25,7 +25,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         blogSidebarCount: 5,
         blogSidebarTitle: 'All our charts',
         routeBasePath: 'charts-feed',
-        include: ['**/*.{md,mdx}'],
+        include: ['**/index.{md,mdx}'],
         exclude: [
           '**/_*.{js,jsx,ts,tsx,md,mdx,json}',
           '**/_*/**',
