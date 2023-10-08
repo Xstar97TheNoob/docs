@@ -26,7 +26,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         routeBasePath: 'charts-feed',
         include: ['**/index.{md,mdx}'],
         exclude: [
-          '**/_*.{js,jsx,ts,tsx,md,mdx}',
+          '**/_*.{js,jsx,ts,tsx,md,mdx,json}',
           '**/_*/**',
           '**/*.test.{js,jsx,ts,tsx}',
           '**/__tests__/**',
