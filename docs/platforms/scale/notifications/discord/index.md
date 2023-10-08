@@ -2,7 +2,7 @@
 
 A guide on how to send TrueNAS Scale alerts to your private discord server.
 
-::: prerequisite
+:::note prerequisite
 
 Need to setup a discord server and have a discord webhook from a notifications channel that you setup.
 

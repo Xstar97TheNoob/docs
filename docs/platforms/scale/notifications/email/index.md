@@ -2,10 +2,15 @@
 
 A basic guide on how to send TrueNAS Scale alerts to your email.
 
+:::note prerequisite
+
+Your root or admin user needs to have a valid email filled out or otherwise this will fail.
+
+:::
+
 ## SMTP Service
 
 Add your smtp service info here and test send an email.
-    - Your root or admin user needs to have a valid email filled out or otherwise this will fail.
 
 ![email-service-smtp](./imgs/email-settings-smtp.png)
 
