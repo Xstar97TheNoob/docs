@@ -14,7 +14,26 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'Xstar97TheNoob', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
-
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'charts-feed',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'charts-feed',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './docs/charts',
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -57,6 +76,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/charts-feed', label: 'Charts Feed', position: 'left'},
           {
             href: 'https://github.com/Xstar97TheNoob/docs',
             label: 'GitHub',
