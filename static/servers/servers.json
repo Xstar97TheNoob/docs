@@ -76,7 +76,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
-                "name": "librespeed 🆕",
+                "name": "librespeed",
                 "train": "✅",
                 "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
                 "instances": 1
@@ -391,7 +391,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/n8n.png",
-                "name": "n8n 🆕",
+                "name": "n8n",
                 "train": "✅",
                 "description": "n8n is an extendable workflow automation tool.",
                 "instances": 1
@@ -433,7 +433,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plexanisync.png",
-                "name": "plexanisync 🆕",
+                "name": "plexanisync",
                 "train": "✅",
                 "description": "Plex to AniList Sync.",
                 "instances": 1
