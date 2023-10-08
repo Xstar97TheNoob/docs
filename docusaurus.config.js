@@ -25,7 +25,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         blogSidebarCount: 5,
         blogSidebarTitle: 'All our charts',
         routeBasePath: 'charts-feed',
-        include: ['**/index.{md,mdx}'],
+        include: ['**/*.{md,mdx}'],
         exclude: [
           '**/_*.{js,jsx,ts,tsx,md,mdx,json}',
           '**/_*/**',
