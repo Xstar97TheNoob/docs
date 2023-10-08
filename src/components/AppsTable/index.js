@@ -34,7 +34,7 @@ const AppsTable = () => {
 
   const toggleTable = (serverName) => {
     // Toggle the open state of the table for a given server
-    setOpenTables(prevOpenTables => ({
+    setOpenTables((prevOpenTables) => ({
       ...prevOpenTables,
       [serverName]: !prevOpenTables[serverName],
     }));
@@ -46,8 +46,11 @@ const AppsTable = () => {
         <div key={index}>
           <br />
           <a href={`#${replaceCharWithChar(server.serverName, " ", "-")}`} id={replaceCharWithChar(server.serverName, " ", "-")}>
-            <h2 onClick={() => toggleTable(server.serverName)}>{server.serverName}</h2>
+            <h2>{server.serverName}</h2>
           </a>
+          <button onClick={() => toggleTable(server.serverName)}>
+            {openTables[server.serverName] ? "Hide Table" : "Show Table"}
+          </button>
           <hr />
           <div className={`table-container ${openTables[server.serverName] ? 'open' : 'closed'}`}>
             <p>{server.serverDescription}</p>
@@ -62,7 +65,7 @@ const AppsTable = () => {
               </thead>
               <tbody>
                 {server.apps &&
-                  server.apps.map(app => (
+                  server.apps.map((app) => (
                     <tr key={app.name}>
                       <td><img src={app.icon} alt={app.name} width="48" height="36" /></td>
                       <td>
