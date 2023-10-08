@@ -72,8 +72,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'My Apps and Services',
           },
           {
-            href: '/donations',
-            label: 'Donations',
+            href: 'https://links.xstar97thenoob.com',
+            label: 'Links',
             position: 'left',
           }
         ],

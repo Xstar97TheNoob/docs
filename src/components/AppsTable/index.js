@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import jsonData from '/servers/servers.json';
 
-const AppsTablev2 = () => {
+const AppsTable = () => {
   const loadingViewMsg = "Loading server data...";
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -66,4 +66,4 @@ const AppsTablev2 = () => {
   );
 }
 
-export default AppsTablev2;
+export default AppsTable;
