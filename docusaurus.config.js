@@ -62,15 +62,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'right',
           },{
             type: 'doc',
-            docId: 'platforms/scale/apps-and-services/my-apps-and-services',
-            position: 'left',
-            label: 'My Apps and Services',
-          },{
-            type: 'doc',
             docId: 'intro/index',
             position: 'left',
             label: 'Docs',
           },{
+            type: 'doc',
+            docId: 'platforms/scale/apps-and-services/my-apps-and-services',
+            position: 'left',
+            label: 'My Apps and Services',
+          },
+          {
             href: '/donations',
             label: 'Donations',
             position: 'left',
