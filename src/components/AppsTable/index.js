@@ -40,7 +40,7 @@ const AppsTable = () => {
           <a href={`#${replaceCharWithChar(server.serverName, " ", "-")}`} id={replaceCharWithChar(server.serverName, " ", "-")}><h2>{server.serverName}</h2></a>
           <hr />
           <details open>
-            <summary><p>{server.serverDescription}</p></summary>
+            <summary>{server.serverDescription}</summary>
             <br />
             <table>
               <thead>
