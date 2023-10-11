@@ -559,7 +559,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/transmission.png",
-                "name": "transmission 🆕",
+                "name": "transmission",
                 "train": "✅",
                 "description": "fast, easy, and free BitTorrent client.",
                 "instances": 1
