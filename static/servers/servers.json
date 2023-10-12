@@ -580,7 +580,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/wizarr.png",
-                "name": "wizarr 🆕",
+                "name": "wizarr",
                 "train": "✅",
                 "description": "A automatic user invitation system for Plex.",
                 "instances": 1
