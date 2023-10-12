@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 24,
+        "count": 23,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -72,13 +72,6 @@
                 "name": "homepage",
                 "train": "✅",
                 "description": "A highly customizable homepage",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
-                "name": "librespeed",
-                "train": "✅",
-                "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
                 "instances": 1
             },
             {
