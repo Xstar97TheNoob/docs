@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 69,
+        "count": 70,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -513,7 +513,7 @@
                 "name": "sonarr",
                 "train": "✅",
                 "description": "Smart PVR for newsgroup and bittorrent users",
-                "instances": 2
+                "instances": 3
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/static-web-server.png",
