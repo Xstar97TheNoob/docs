@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 70,
+        "count": 71,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -205,7 +205,7 @@
                 "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
-                "instances": 1
+                "instances": 2
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
@@ -293,7 +293,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png",
-                "name": "jackett 🆕",
+                "name": "jackett",
                 "train": "✅",
                 "description": "API Support for your favorite torrent trackers.",
                 "instances": 1
