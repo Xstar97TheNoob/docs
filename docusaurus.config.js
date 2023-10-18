@@ -57,7 +57,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/Xstar97TheNoob/docs',
+            href: '/s/docs',
             label: 'GitHub',
             position: 'right',
           },{
@@ -72,7 +72,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'My Apps and Services',
           },
           {
-            href: 'https://links.xstar97thenoob.com',
+            href: '/s/links',
             label: 'Links',
             position: 'left',
           }
@@ -95,11 +95,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Links',
-                href: 'https://links.xstar97thenoob.com',
+                href: '/s/links',
               },
               {
                 label: 'Discord',
-                href: 'https://s.xstar97thenoob.com/discord',
+                href: '/s/discord',
               },
             ],
           },
@@ -112,7 +112,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Xstar97TheNoob/docs',
+                href: '/s/docs',
               },
             ],
           },
