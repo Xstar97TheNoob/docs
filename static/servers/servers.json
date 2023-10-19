@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 71,
+        "count": 68,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -292,20 +292,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png",
-                "name": "jackett",
-                "train": "✅",
-                "description": "API Support for your favorite torrent trackers.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.png",
-                "name": "jellyfin 🆕",
-                "train": "✅",
-                "description": "Jellyfin is a Free Software Media System",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kavita.png",
                 "name": "kavita",
                 "train": "✅",
@@ -394,13 +380,6 @@
                 "name": "n8n",
                 "train": "✅",
                 "description": "n8n is an extendable workflow automation tool.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/odoo.png",
-                "name": "odoo 🆕",
-                "train": "⚠️",
-                "description": "All-in-one business software. Beautiful. Easy-to-use. CRM, Accounting, PM, HR, Procurement, Point of Sale, MRP, Marketing, etc.",
                 "instances": 1
             },
             {
