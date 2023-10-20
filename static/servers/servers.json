@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 68,
+        "count": 69,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -380,6 +380,13 @@
                 "name": "n8n",
                 "train": "✅",
                 "description": "n8n is an extendable workflow automation tool.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/odoo.png",
+                "name": "odoo 🆕",
+                "train": "✅",
+                "description": "All-in-one business software. Beautiful. Easy-to-use. CRM, Accounting, PM, HR, Procurement, Point of Sale, MRP, Marketing, etc.",
                 "instances": 1
             },
             {
