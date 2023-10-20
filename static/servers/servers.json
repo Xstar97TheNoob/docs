@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 23,
+        "count": 24,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -72,6 +72,13 @@
                 "name": "homepage",
                 "train": "✅",
                 "description": "A highly customizable homepage",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
+                "name": "librespeed 🆕",
+                "train": "✅",
+                "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
                 "instances": 1
             },
             {
@@ -156,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 68,
+        "count": 69,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -303,6 +310,13 @@
                 "name": "kavitaemail",
                 "train": "⚠️",
                 "description": "Simple email relay server for kavita.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kitchenowl.png",
+                "name": "kitchenowl 🆕",
+                "train": "✅",
+                "description": "KitchenOwl is a smart self-hosted grocery list and recipe manager.",
                 "instances": 1
             },
             {
