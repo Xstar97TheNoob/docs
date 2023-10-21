@@ -163,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 69,
+        "count": 70,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -457,6 +457,13 @@
                 "name": "prowlarr",
                 "train": "✅",
                 "description": "Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png",
+                "name": "qbittorrent 🆕",
+                "train": "✅",
+                "description": "qBittorrent is a cross-platform free and open-source BitTorrent client",
                 "instances": 1
             },
             {
