@@ -163,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 71,
+        "count": 70,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -366,13 +366,6 @@
                 "name": "minecraft-java",
                 "train": "✅",
                 "description": "Minecraft Java Dedicated Server",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minetest.png",
-                "name": "minetest 🆕",
-                "train": "✅",
-                "description": "Minetest (server) is a near-infinite-world block sandbox game and a game engine.",
                 "instances": 1
             },
             {
