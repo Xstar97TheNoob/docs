@@ -76,7 +76,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
-                "name": "librespeed 🆕",
+                "name": "librespeed",
                 "train": "✅",
                 "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
                 "instances": 1
@@ -314,7 +314,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kitchenowl.png",
-                "name": "kitchenowl 🆕",
+                "name": "kitchenowl",
                 "train": "✅",
                 "description": "KitchenOwl is a smart self-hosted grocery list and recipe manager.",
                 "instances": 1
