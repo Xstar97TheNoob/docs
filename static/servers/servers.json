@@ -163,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 70,
+        "count": 71,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -296,6 +296,13 @@
                 "name": "immich",
                 "train": "✅",
                 "description": "High performance self-hosted photo and video backup solution.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kasm.png",
+                "name": "kasm 🆕",
+                "train": "✅",
+                "description": "Kasm Workspaces is a streaming platform for delivering browser-based access to desktops, applications, and web services.",
                 "instances": 1
             },
             {
