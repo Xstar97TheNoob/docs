@@ -16,7 +16,7 @@ const GeneratePullCommand = () => {
         if (imageNameMatch) {
           const imageName = imageNameMatch[1];
           const command = useCobia
-            ? `sudo ctr image pull ${imageName}`
+            ? `sudo k3s crictl pull ${imageName}`
             : `sudo docker pull ${imageName}`;
           uniqueCommands.add(command); // Add the command to the Set
         }

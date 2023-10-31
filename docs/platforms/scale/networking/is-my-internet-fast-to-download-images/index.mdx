@@ -41,9 +41,18 @@ some apps may have more than 1 image
 
 after you copied the entire `tccr.io/truecharts/APP_NAME:APP_VERSION@sha256:SHA` go to system settings -> shell:
 
+### Bluefin
+
 ```shell
 sudo docker pull tccr.io/truecharts/tdarr:2.00.19.1@sha256:f772a66f8bfce1f43df9d208176ae46396d9169566412b3c930efcb4a6a88c75
 ```
+
+### Cobia
+
+```shell
+sudo k3s crictl pull tccr.io/truecharts/tdarr:2.00.19.1@sha256:f772a66f8bfce1f43df9d208176ae46396d9169566412b3c930efcb4a6a88c75
+```
+
 Once its manually pulled the app should start working automatically.
 
 ### Auto Generate Pull Commands
