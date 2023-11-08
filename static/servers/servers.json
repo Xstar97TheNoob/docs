@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 23,
+        "count": 24,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -20,7 +20,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
-                "name": "cert-manager",
+                "name": "cert-manager 🆕",
                 "train": "📦",
                 "description": "Cert-Manager is a kubernetes-aware certificate manager",
                 "instances": 1
@@ -37,13 +37,6 @@
                 "name": "clusterissuer",
                 "train": "👔",
                 "description": "Certificate management for Kubernetes",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/code-server.png",
-                "name": "code-server",
-                "train": "✅",
-                "description": "Run VS Code on any machine anywhere and access it in the browser.",
                 "instances": 1
             },
             {
@@ -72,6 +65,20 @@
                 "name": "homepage",
                 "train": "✅",
                 "description": "A highly customizable homepage",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kubernetes-reflector.png",
+                "name": "kubernetes-reflector 🆕",
+                "train": "👔",
+                "description": "Kubernetes-Reflector is a Kubernetes addon designed to monitor and reflect changes to secrets and configmaps across namespaces",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
+                "name": "librespeed 🆕",
+                "train": "✅",
+                "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
                 "instances": 1
             },
             {
@@ -156,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 70,
+        "count": 72,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -310,6 +317,20 @@
                 "name": "kitchenowl",
                 "train": "✅",
                 "description": "KitchenOwl is a smart self-hosted grocery list and recipe manager.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kubernetes-reflector.png",
+                "name": "kubernetes-reflector 🆕",
+                "train": "👔",
+                "description": "Kubernetes-Reflector is a Kubernetes addon designed to monitor and reflect changes to secrets and configmaps across namespaces",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
+                "name": "librespeed 🆕",
+                "train": "✅",
+                "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
                 "instances": 1
             },
             {
