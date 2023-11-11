@@ -20,7 +20,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
-                "name": "cert-manager 🆕",
+                "name": "cert-manager",
                 "train": "📦",
                 "description": "Cert-Manager is a kubernetes-aware certificate manager",
                 "instances": 1
@@ -69,14 +69,14 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kubernetes-reflector.png",
-                "name": "kubernetes-reflector 🆕",
+                "name": "kubernetes-reflector",
                 "train": "👔",
                 "description": "Kubernetes-Reflector is a Kubernetes addon designed to monitor and reflect changes to secrets and configmaps across namespaces",
                 "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
-                "name": "librespeed 🆕",
+                "name": "librespeed",
                 "train": "✅",
                 "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
                 "instances": 1
@@ -163,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 72,
+        "count": 73,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -247,7 +247,7 @@
                 "name": "external-service",
                 "train": "✅",
                 "description": "Allow external services to be used like Apps.",
-                "instances": 8
+                "instances": 9
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
@@ -321,14 +321,14 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kubernetes-reflector.png",
-                "name": "kubernetes-reflector 🆕",
+                "name": "kubernetes-reflector",
                 "train": "👔",
                 "description": "Kubernetes-Reflector is a Kubernetes addon designed to monitor and reflect changes to secrets and configmaps across namespaces",
                 "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
-                "name": "librespeed 🆕",
+                "name": "librespeed",
                 "train": "✅",
                 "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
                 "instances": 1
