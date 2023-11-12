@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 24,
+        "count": 22,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -51,7 +51,7 @@
                 "name": "external-service",
                 "train": "✅",
                 "description": "Allow external services to be used like Apps.",
-                "instances": 3
+                "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firezone.png",
@@ -163,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 75,
+        "count": 67,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/aria2.png",
@@ -261,7 +261,7 @@
                 "name": "external-service",
                 "train": "✅",
                 "description": "Allow external services to be used like Apps.",
-                "instances": 9
+                "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
