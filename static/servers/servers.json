@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 22,
+        "count": 21,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -93,13 +93,6 @@
                 "name": "organizr",
                 "train": "✅",
                 "description": "HTPC/Homelab Services Organizer",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pgadmin.png",
-                "name": "pgadmin",
-                "train": "✅",
-                "description": "Web-Based postgresql database management utility",
                 "instances": 1
             },
             {
