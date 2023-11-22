@@ -163,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 67,
+        "count": 68,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -177,6 +177,13 @@
                 "name": "blocky",
                 "train": "👔",
                 "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/borg-server.png",
+                "name": "borg-server 🆕",
+                "train": "⚠️",
+                "description": "A borg Backup server",
                 "instances": 1
             },
             {
@@ -212,7 +219,7 @@
                 "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
-                "instances": 1
+                "instances": 2
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
@@ -338,13 +345,6 @@
                 "name": "lidarr",
                 "train": "✅",
                 "description": "Looks and smells like Sonarr but made for music",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/local-ai.png",
-                "name": "local-ai",
-                "train": "✅",
-                "description": "Self-hosted, community-driven, local OpenAI-compatible API.",
                 "instances": 1
             },
             {
