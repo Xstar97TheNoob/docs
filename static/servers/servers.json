@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 22,
+        "count": 24,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -75,6 +75,13 @@
                 "instances": 1
             },
             {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/it-tools.png",
+                "name": "it-tools 🆕",
+                "train": "✅",
+                "description": "Useful tools for developer and people working in IT.",
+                "instances": 1
+            },
+            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kubernetes-reflector.png",
                 "name": "kubernetes-reflector",
                 "train": "👔",
@@ -114,6 +121,13 @@
                 "name": "scrutiny",
                 "train": "✅",
                 "description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/snippet-box.png",
+                "name": "snippet-box 🆕",
+                "train": "✅",
+                "description": "Snippet Box is a simple self-hosted app for organizing your code snippets.",
                 "instances": 1
             },
             {
