@@ -177,7 +177,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 68,
+        "count": 69,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -422,6 +422,13 @@
                 "name": "n8n",
                 "train": "✅",
                 "description": "n8n is an extendable workflow automation tool.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/nitter.png",
+                "name": "nitter 🆕",
+                "train": "⚠️",
+                "description": "A free and open source alternative Twitter front-end focused on privacy and performance.",
                 "instances": 1
             },
             {
