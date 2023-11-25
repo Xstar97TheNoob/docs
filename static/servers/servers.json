@@ -195,7 +195,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/borg-server.png",
-                "name": "borg-server 🆕",
+                "name": "borg-server",
                 "train": "⚠️",
                 "description": "A borg Backup server",
                 "instances": 1
