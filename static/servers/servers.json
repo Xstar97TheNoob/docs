@@ -426,7 +426,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/nitter.png",
-                "name": "nitter 🆕",
+                "name": "nitter",
                 "train": "⚠️",
                 "description": "A free and open source alternative Twitter front-end focused on privacy and performance.",
                 "instances": 1
