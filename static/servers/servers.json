@@ -177,7 +177,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 70,
+        "count": 69,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -541,13 +541,6 @@
                 "name": "romm",
                 "train": "✅",
                 "description": "game library manager focused in retro gaming",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/rss-bridge.png",
-                "name": "rss-bridge 🆕",
-                "train": "✅",
-                "description": "RSS-Bridge is a PHP project capable of generating RSS and Atom feeds for websites that don't have one.",
                 "instances": 1
             },
             {
