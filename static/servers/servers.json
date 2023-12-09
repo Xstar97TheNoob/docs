@@ -177,8 +177,22 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 69,
+        "count": 60,
         "apps": [
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/aria2.png",
+                "name": "aria2 🆕",
+                "train": "✅",
+                "description": "aria server for downloading web content",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ariang.png",
+                "name": "ariang 🆕",
+                "train": "✅",
+                "description": "A modern web frontend making aria2 easier to use | Aria2 WebUI.",
+                "instances": 1
+            },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
                 "name": "bazarr",
@@ -191,13 +205,6 @@
                 "name": "blocky",
                 "train": "👔",
                 "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/borg-server.png",
-                "name": "borg-server",
-                "train": "⚠️",
-                "description": "A borg Backup server",
                 "instances": 1
             },
             {
@@ -233,20 +240,13 @@
                 "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
-                "instances": 2
+                "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
                 "name": "deemix",
                 "train": "✅",
                 "description": "deemix is a deezer downloader built from the ashes of Deezloader Remix.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/discordgsm.png",
-                "name": "discordgsm",
-                "train": "✅",
-                "description": "A discord bot that monitors your game server and tracks the live data of your game servers.",
                 "instances": 1
             },
             {
@@ -292,13 +292,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/handbrake.png",
-                "name": "handbrake",
-                "train": "✅",
-                "description": "HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/home-assistant.png",
                 "name": "home-assistant",
                 "train": "✅",
@@ -334,13 +327,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kitchenowl.png",
-                "name": "kitchenowl",
-                "train": "✅",
-                "description": "KitchenOwl is a smart self-hosted grocery list and recipe manager.",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kubernetes-reflector.png",
                 "name": "kubernetes-reflector",
                 "train": "👔",
@@ -348,24 +334,10 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
-                "name": "librespeed",
-                "train": "✅",
-                "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png",
                 "name": "lidarr",
                 "train": "✅",
                 "description": "Looks and smells like Sonarr but made for music",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/makemkv.png",
-                "name": "makemkv",
-                "train": "✅",
-                "description": "MakeMKV is your one-click solution to convert video that you own into free and patents-unencumbered format that can be played everywhere.",
                 "instances": 1
             },
             {
@@ -397,13 +369,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mkvtoolnix.png",
-                "name": "mkvtoolnix",
-                "train": "✅",
-                "description": "MKVToolNix is a set of tools to create, alter and inspect Matroska files.",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mosquitto.png",
                 "name": "mosquitto",
                 "train": "✅",
@@ -422,13 +387,6 @@
                 "name": "n8n",
                 "train": "✅",
                 "description": "n8n is an extendable workflow automation tool.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/nitter.png",
-                "name": "nitter",
-                "train": "⚠️",
-                "description": "A free and open source alternative Twitter front-end focused on privacy and performance.",
                 "instances": 1
             },
             {
@@ -495,13 +453,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png",
-                "name": "qbittorrent",
-                "train": "✅",
-                "description": "qBittorrent is a cross-platform free and open-source BitTorrent client",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png",
                 "name": "radarr",
                 "train": "✅",
@@ -513,13 +464,6 @@
                 "name": "recyclarr",
                 "train": "✅",
                 "description": "A command-line application that will automatically synchronize recommended settings from TRaSH guides to your Sonarr/Radarr instances.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/requestrr.png",
-                "name": "requestrr",
-                "train": "✅",
-                "description": "Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat.",
                 "instances": 1
             },
             {
