@@ -177,7 +177,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 59,
+        "count": 60,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -279,9 +279,16 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/gamevault-backend.png",
-                "name": "gamevault-backend 🆕",
+                "name": "gamevault-backend",
                 "train": "✅",
                 "description": "the self-hosted gaming platform for alternatively obtained games.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/hastebin.png",
+                "name": "hastebin 🆕",
+                "train": "✅",
+                "description": "Alpine-based Chart for Hastebin, the node.js paste service",
                 "instances": 1
             },
             {
