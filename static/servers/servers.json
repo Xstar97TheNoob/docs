@@ -177,7 +177,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 60,
+        "count": 61,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -387,6 +387,13 @@
                 "name": "n8n",
                 "train": "✅",
                 "description": "n8n is an extendable workflow automation tool.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openhab.png",
+                "name": "openhab 🆕",
+                "train": "✅",
+                "description": "OpenHab is a home-automation application",
                 "instances": 1
             },
             {
