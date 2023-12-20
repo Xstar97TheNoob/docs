@@ -286,7 +286,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/hastebin.png",
-                "name": "hastebin 🆕",
+                "name": "hastebin",
                 "train": "✅",
                 "description": "Alpine-based Chart for Hastebin, the node.js paste service",
                 "instances": 1
