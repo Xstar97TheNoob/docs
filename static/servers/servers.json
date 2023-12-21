@@ -391,7 +391,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openhab.png",
-                "name": "openhab 🆕",
+                "name": "openhab",
                 "train": "✅",
                 "description": "OpenHab is a home-automation application",
                 "instances": 1
