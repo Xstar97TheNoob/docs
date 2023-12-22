@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 25,
+        "count": 22,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -37,13 +37,6 @@
                 "name": "clusterissuer",
                 "train": "👔",
                 "description": "Certificate management for Kubernetes",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
-                "name": "custom-app",
-                "train": "✅",
-                "description": "Advanced tool to create your own TrueCharts-based App",
                 "instances": 1
             },
             {
@@ -89,13 +82,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
-                "name": "librespeed",
-                "train": "✅",
-                "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/lldap.png",
                 "name": "lldap",
                 "train": "✅",
@@ -128,13 +114,6 @@
                 "name": "snippet-box",
                 "train": "✅",
                 "description": "Snippet Box is a simple self-hosted app for organizing your code snippets.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sshwifty.png",
-                "name": "sshwifty",
-                "train": "✅",
-                "description": "SSHwifty is a SSH and Telnet connector made for the Web.",
                 "instances": 1
             },
             {
