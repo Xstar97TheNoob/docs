@@ -149,7 +149,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 61,
+        "count": 62,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -268,6 +268,13 @@
                 "name": "homepage",
                 "train": "✅",
                 "description": "A highly customizable homepage",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/humhub.png",
+                "name": "humhub 🆕",
+                "train": "✅",
+                "description": "A feature rich and highly flexible OpenSource Social Network Kit written in PHP.",
                 "instances": 1
             },
             {
