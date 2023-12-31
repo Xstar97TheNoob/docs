@@ -48,7 +48,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/dockerregistry.png",
-                "name": "dockerregistry 🆕",
+                "name": "dockerregistry",
                 "train": "✅",
                 "description": "Docker Registry is used to store and distribute Docker images using HTTP API. This allows you host your own private Registry and store your images. Uses official Chart Registry image @ https://hub.Chart.com/_/registry/",
                 "instances": 1
