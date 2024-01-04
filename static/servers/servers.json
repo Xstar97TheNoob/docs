@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 22,
+        "count": 25,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -96,10 +96,31 @@
                 "instances": 1
             },
             {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png",
+                "name": "mariadb 🆕",
+                "train": "🔨",
+                "description": "Fast, reliable, scalable, and easy to use open-source relational database system.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png",
+                "name": "memcached 🆕",
+                "train": "🔨",
+                "description": "Memcached is a memory-backed database caching solution",
+                "instances": 1
+            },
+            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
                 "name": "prometheus-operator 🆕",
                 "train": "📦",
                 "description": "Prometheus Operator is an operator for prometheus",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png",
+                "name": "redis 🆕",
+                "train": "🔨",
+                "description": "Open source, advanced key-value store.",
                 "instances": 1
             },
             {
