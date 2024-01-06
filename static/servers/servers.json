@@ -184,7 +184,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 63,
+        "count": 65,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -233,7 +233,7 @@
                 "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
-                "instances": 3
+                "instances": 4
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
@@ -422,6 +422,13 @@
                 "name": "pasta",
                 "train": "✅",
                 "description": "PASTA - Audio and Subtitle Track Changer for Plex",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/piwigo.png",
+                "name": "piwigo 🆕",
+                "train": "✅",
+                "description": "A photo gallery software for the web.",
                 "instances": 1
             },
             {
