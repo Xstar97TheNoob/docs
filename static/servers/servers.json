@@ -454,7 +454,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
-                "name": "prometheus-operator 🆕",
+                "name": "prometheus-operator",
                 "train": "📦",
                 "description": "Prometheus Operator is an operator for prometheus",
                 "instances": 1
@@ -566,7 +566,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/unpackerr.png",
-                "name": "unpackerr 🆕",
+                "name": "unpackerr",
                 "train": "✅",
                 "description": "This application runs as a daemon on your download host. It checks for completed downloads and extracts them so Radarr, Lidarr, Sonarr, and Readarr may import them",
                 "instances": 1
