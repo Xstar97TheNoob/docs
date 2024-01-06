@@ -118,7 +118,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
-                "name": "prometheus-operator 🆕",
+                "name": "prometheus-operator",
                 "train": "📦",
                 "description": "Prometheus Operator is an operator for prometheus",
                 "instances": 1
@@ -195,7 +195,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/blocky.png",
-                "name": "blocky 🆕",
+                "name": "blocky",
                 "train": "👔",
                 "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
                 "instances": 1
