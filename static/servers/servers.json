@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 26,
+        "count": 27,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -75,6 +75,13 @@
                 "instances": 1
             },
             {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homebox.png",
+                "name": "homebox 🆕",
+                "train": "✅",
+                "description": "Inventory and organization system built for the Home User.",
+                "instances": 1
+            },
+            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png",
                 "name": "homepage",
                 "train": "✅",
@@ -104,14 +111,14 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png",
-                "name": "mariadb 🆕",
+                "name": "mariadb",
                 "train": "🔨",
                 "description": "Fast, reliable, scalable, and easy to use open-source relational database system.",
                 "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png",
-                "name": "memcached 🆕",
+                "name": "memcached",
                 "train": "🔨",
                 "description": "Memcached is a memory-backed database caching solution",
                 "instances": 1
@@ -125,7 +132,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png",
-                "name": "redis 🆕",
+                "name": "redis",
                 "train": "🔨",
                 "description": "Open source, advanced key-value store.",
                 "instances": 1
