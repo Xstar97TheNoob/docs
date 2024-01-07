@@ -41,7 +41,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
-                "name": "custom-app 🆕",
+                "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
                 "instances": 1
@@ -191,7 +191,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 65,
+        "count": 64,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -317,13 +317,6 @@
                 "name": "homepage",
                 "train": "✅",
                 "description": "A highly customizable homepage",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/humhub.png",
-                "name": "humhub",
-                "train": "✅",
-                "description": "A feature rich and highly flexible OpenSource Social Network Kit written in PHP.",
                 "instances": 1
             },
             {
