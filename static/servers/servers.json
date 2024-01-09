@@ -191,7 +191,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 65,
+        "count": 66,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -369,6 +369,13 @@
                 "instances": 1
             },
             {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/metube.png",
+                "name": "metube 🆕",
+                "train": "✅",
+                "description": "Web GUI for youtube-dl.",
+                "instances": 1
+            },
+            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-bungeecord.png",
                 "name": "minecraft-bungeecord",
                 "train": "✅",
@@ -426,7 +433,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/piwigo.png",
-                "name": "piwigo 🆕",
+                "name": "piwigo",
                 "train": "✅",
                 "description": "A photo gallery software for the web.",
                 "instances": 1
