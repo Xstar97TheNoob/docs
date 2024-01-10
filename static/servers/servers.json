@@ -191,7 +191,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 66,
+        "count": 64,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -269,13 +269,6 @@
                 "train": "✅",
                 "description": "Allow external services to be used like Apps.",
                 "instances": 3
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fabulinus.png",
-                "name": "fabulinus 🆕",
-                "train": "👷",
-                "description": "Fabulinus is the server component of the TitanML Takeoff server.",
-                "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
@@ -362,13 +355,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/maintainerr.png",
-                "name": "maintainerr 🆕",
-                "train": "👷",
-                "description": "Looks and smells like Overseerr, does the opposite. Maintenance tool for the Plex ecosystem.",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png",
                 "name": "mariadb",
                 "train": "🔨",
@@ -427,7 +413,7 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ollama.png",
                 "name": "ollama 🆕",
-                "train": "👷",
+                "train": "⚠️",
                 "description": "Get up and running with large language models locally.",
                 "instances": 1
             },
