@@ -76,7 +76,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homebox.png",
-                "name": "homebox 🆕",
+                "name": "homebox",
                 "train": "✅",
                 "description": "Inventory and organization system built for the Home User.",
                 "instances": 1
@@ -240,7 +240,7 @@
                 "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
-                "instances": 5
+                "instances": 2
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
@@ -269,6 +269,13 @@
                 "train": "✅",
                 "description": "Allow external services to be used like Apps.",
                 "instances": 3
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fabulinus.png",
+                "name": "fabulinus 🆕",
+                "train": "👷",
+                "description": "Fabulinus is the server component of the TitanML Takeoff server.",
+                "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
@@ -355,6 +362,13 @@
                 "instances": 1
             },
             {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/maintainerr.png",
+                "name": "maintainerr 🆕",
+                "train": "👷",
+                "description": "Looks and smells like Overseerr, does the opposite. Maintenance tool for the Plex ecosystem.",
+                "instances": 1
+            },
+            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png",
                 "name": "mariadb",
                 "train": "🔨",
@@ -408,6 +422,13 @@
                 "name": "n8n",
                 "train": "✅",
                 "description": "n8n is an extendable workflow automation tool.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ollama.png",
+                "name": "ollama 🆕",
+                "train": "👷",
+                "description": "Get up and running with large language models locally.",
                 "instances": 1
             },
             {
