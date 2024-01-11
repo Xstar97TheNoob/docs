@@ -191,7 +191,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 63,
+        "count": 65,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -247,6 +247,13 @@
                 "name": "deemix",
                 "train": "✅",
                 "description": "deemix is a deezer downloader built from the ashes of Deezloader Remix.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deluge.png",
+                "name": "deluge 🆕",
+                "train": "✅",
+                "description": "Deluge App for TrueNAS SCALE",
                 "instances": 1
             },
             {
@@ -541,6 +548,13 @@
                 "name": "static-web-server",
                 "train": "✅",
                 "description": "A cross-platform, high-performance and asynchronous web server for static files-serving.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/storm.png",
+                "name": "storm 🆕",
+                "train": "✅",
+                "description": "Introducing Storm",
                 "instances": 1
             },
             {
