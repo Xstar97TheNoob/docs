@@ -191,7 +191,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 64,
+        "count": 63,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -331,13 +331,6 @@
                 "name": "kavita",
                 "train": "✅",
                 "description": "Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kavitaemail.png",
-                "name": "kavitaemail",
-                "train": "⚠️",
-                "description": "Simple email relay server for kavita.",
                 "instances": 1
             },
             {
