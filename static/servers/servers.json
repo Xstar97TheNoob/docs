@@ -370,7 +370,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/metube.png",
-                "name": "metube 🆕",
+                "name": "metube",
                 "train": "✅",
                 "description": "Web GUI for youtube-dl.",
                 "instances": 1
