@@ -163,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 67,
+        "count": 66,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -254,7 +254,7 @@
                 "name": "external-service",
                 "train": "✅",
                 "description": "Allow external services to be used like Apps.",
-                "instances": 3
+                "instances": 2
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
@@ -398,7 +398,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ollama.png",
-                "name": "ollama 🆕",
+                "name": "ollama",
                 "train": "⚠️",
                 "description": "Get up and running with large language models locally.",
                 "instances": 1
