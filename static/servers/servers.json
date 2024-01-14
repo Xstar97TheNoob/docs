@@ -230,7 +230,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deluge.png",
-                "name": "deluge 🆕",
+                "name": "deluge",
                 "train": "✅",
                 "description": "Deluge App for TrueNAS SCALE",
                 "instances": 1
@@ -538,7 +538,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/storm.png",
-                "name": "storm 🆕",
+                "name": "storm",
                 "train": "✅",
                 "description": "Introducing Storm",
                 "instances": 1
