@@ -167,7 +167,7 @@
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
-                "name": "atuin 🆕",
+                "name": "atuin",
                 "train": "⚠️",
                 "description": "Magical shell history.",
                 "instances": 1
@@ -335,7 +335,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/maintainerr.png",
-                "name": "maintainerr 🆕",
+                "name": "maintainerr",
                 "train": "⚠️",
                 "description": "Looks and smells like Overseerr, does the opposite. Maintenance tool for the Plex ecosystem.",
                 "instances": 1
