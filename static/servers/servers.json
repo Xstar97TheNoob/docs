@@ -163,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 68,
+        "count": 69,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -506,6 +506,13 @@
                 "name": "romm",
                 "train": "✅",
                 "description": "game library manager focused in retro gaming",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sabnzbd.png",
+                "name": "sabnzbd 🆕",
+                "train": "✅",
+                "description": "Free and easy binary newsreader",
                 "instances": 1
             },
             {
