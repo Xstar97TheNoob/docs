@@ -163,7 +163,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 69,
+        "count": 70,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -373,7 +373,7 @@
                 "name": "minecraft-java",
                 "train": "✅",
                 "description": "Minecraft Java Dedicated Server",
-                "instances": 1
+                "instances": 2
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mosquitto.png",
