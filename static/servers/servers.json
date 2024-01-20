@@ -510,7 +510,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sabnzbd.png",
-                "name": "sabnzbd 🆕",
+                "name": "sabnzbd",
                 "train": "✅",
                 "description": "Free and easy binary newsreader",
                 "instances": 1
