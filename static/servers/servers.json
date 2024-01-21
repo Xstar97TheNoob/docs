@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 23,
+        "count": 22,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -44,13 +44,6 @@
                 "name": "ddns-updater",
                 "train": "✅",
                 "description": "Light container updating DNS A and/or AAAA records periodically for multiple DNS providers",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/dockerregistry.png",
-                "name": "dockerregistry",
-                "train": "✅",
-                "description": "Docker Registry is used to store and distribute Docker images using HTTP API. This allows you host your own private Registry and store your images. Uses official Chart Registry image @ https://hub.Chart.com/_/registry/",
                 "instances": 1
             },
             {
@@ -163,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 70,
+        "count": 69,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -233,13 +226,6 @@
                 "name": "deluge",
                 "train": "✅",
                 "description": "Deluge App for TrueNAS SCALE",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/dockerregistry.png",
-                "name": "dockerregistry 🆕",
-                "train": "✅",
-                "description": "Docker Registry is used to store and distribute Docker images using HTTP API. This allows you host your own private Registry and store your images. Uses official Chart Registry image @ https://hub.Chart.com/_/registry/",
                 "instances": 1
             },
             {
