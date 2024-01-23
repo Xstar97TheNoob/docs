@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 69,
+        "count": 70,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -394,6 +394,13 @@
                 "name": "ollama 🆕",
                 "train": "⚠️",
                 "description": "Get up and running with large language models locally.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/outline.png",
+                "name": "outline 🆕",
+                "train": "✅",
+                "description": "A fast, collaborative, knowledge base for your team built using React and Node.js.",
                 "instances": 1
             },
             {
