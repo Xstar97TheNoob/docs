@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 69,
+        "count": 70,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -401,6 +401,13 @@
                 "name": "overseerr",
                 "train": "✅",
                 "description": "Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services such as Sonarr, Radarr and Plex!",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/palworld.png",
+                "name": "palworld 🆕",
+                "train": "⚠️",
+                "description": "A custom SteamCMD chart that runs Palworld.",
                 "instances": 1
             },
             {
