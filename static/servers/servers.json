@@ -405,7 +405,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/palworld.png",
-                "name": "palworld 🆕",
+                "name": "palworld",
                 "train": "⚠️",
                 "description": "A custom SteamCMD chart that runs Palworld.",
                 "instances": 1
