@@ -547,7 +547,7 @@
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/storm.png",
                 "name": "storm",
                 "train": "✅",
-                "description": "Introducing Storm",
+                "description": "A Modern Deluge Interface.",
                 "instances": 1
             },
             {
