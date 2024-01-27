@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 71,
+        "count": 73,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -523,6 +523,13 @@
                 "instances": 1
             },
             {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/send.png",
+                "name": "send 🆕",
+                "train": "✅",
+                "description": "A fork of Mozilla's Firefox Send.Mozilla discontinued Send, this fork is a community effort to keep the project up-to-date and alive.",
+                "instances": 1
+            },
+            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/snippet-box.png",
                 "name": "snippet-box",
                 "train": "✅",
@@ -583,6 +590,13 @@
                 "name": "transmission",
                 "train": "✅",
                 "description": "fast, easy, and free BitTorrent client.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/twofauth.png",
+                "name": "twofauth 🆕",
+                "train": "👷",
+                "description": "A Web app to manage your 2FA accounts and generate their security codes.",
                 "instances": 1
             },
             {
