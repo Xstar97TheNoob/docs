@@ -73,7 +73,7 @@ const config = {
         /**
          * Path to data on filesystem relative to site dir.
          */
-        path: './charts',
+        path: 'docs/charts',
       },
     ],
   ],
