@@ -58,23 +58,6 @@ const config = {
           customCss: './src/css/custom.css',
         },
       }),
-    ],[
-      '@docusaurus/plugin-content-blog',
-      {
-        /**
-         * Required for any multi-instance plugin
-         */
-        id: 'charts-feed',
-        /**
-         * URL route for the blog section of your site.
-         * *DO NOT* include a trailing slash.
-         */
-        routeBasePath: 'charts-feed',
-        /**
-         * Path to data on filesystem relative to site dir.
-         */
-        path: 'docs/charts',
-      },
     ],
   ],
 
