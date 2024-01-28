@@ -7,29 +7,6 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 
-// Function to filter files and include only blog/index.md
-const filterBlogFiles = (dir) => {
-  const files = fs.readdirSync(dir);
-  return files.filter((file) => {
-    const filePath = path.join(dir, file);
-    if (fs.statSync(filePath).isDirectory()) {
-      return filterBlogFiles(filePath);
-    }
-    return file === 'index.md';
-  });
-};
-
-const excludeNonBlogFiles = (dir) => {
-  const files = fs.readdirSync(dir);
-  return files.filter((file) => {
-    const filePath = path.join(dir, file);
-    if (fs.statSync(filePath).isDirectory()) {
-      return filterBlogFiles(filePath);
-    }
-    return false;
-  });
-};
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Xstar's HomeLab",
