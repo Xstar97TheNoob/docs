@@ -6,6 +6,30 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+
+// Function to filter files and include only blog/index.md
+const filterBlogFiles = (dir) => {
+  const files = fs.readdirSync(dir);
+  return files.filter((file) => {
+    const filePath = path.join(dir, file);
+    if (fs.statSync(filePath).isDirectory()) {
+      return filterBlogFiles(filePath);
+    }
+    return file === 'index.md';
+  });
+};
+
+const excludeNonBlogFiles = (dir) => {
+  const files = fs.readdirSync(dir);
+  return files.filter((file) => {
+    const filePath = path.join(dir, file);
+    if (fs.statSync(filePath).isDirectory()) {
+      return filterBlogFiles(filePath);
+    }
+    return false;
+  });
+};
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Xstar's HomeLab",
@@ -35,6 +59,24 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: "charts-feed",
+        path: 'docs/charts',
+        editLocalizedFiles: false,
+        blogTitle: 'TrueCharts Feed',
+        blogDescription: 'New Charts',
+        blogSidebarCount: 5,
+        blogSidebarTitle: 'All our charts',
+        routeBasePath: 'charts/feed',
+        include: filterBlogFiles('docs/charts'),
+        exclude: excludeNonBlogFiles('docs/charts'),
+        showReadingTime: false,
+      }
+    ]
+  ],
   presets: [
     [
       'classic',
