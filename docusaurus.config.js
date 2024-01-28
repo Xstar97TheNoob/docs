@@ -4,8 +4,6 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-const fs = require('fs');
-const path = require('path');
 import {themes as prismThemes} from 'prism-react-renderer';
 
 
@@ -73,8 +71,6 @@ const config = {
         blogSidebarCount: 5,
         blogSidebarTitle: 'All our charts',
         routeBasePath: 'charts/feed',
-        include: filterBlogFiles('docs/charts'),
-        exclude: excludeNonBlogFiles('docs/charts'),
         showReadingTime: false,
       }
     ]
