@@ -517,7 +517,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/send.png",
-                "name": "send 🆕",
+                "name": "send",
                 "train": "✅",
                 "description": "A fork of Mozilla's Firefox Send.Mozilla discontinued Send, this fork is a community effort to keep the project up-to-date and alive.",
                 "instances": 1
@@ -587,7 +587,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/twofauth.png",
-                "name": "twofauth 🆕",
+                "name": "twofauth",
                 "train": "👷",
                 "description": "A Web app to manage your 2FA accounts and generate their security codes.",
                 "instances": 1
