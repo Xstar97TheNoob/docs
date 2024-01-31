@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 72,
+        "count": 73,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -394,6 +394,13 @@
                 "name": "n8n",
                 "train": "✅",
                 "description": "n8n is an extendable workflow automation tool.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ollama.png",
+                "name": "ollama 🆕",
+                "train": "✅",
+                "description": "Get up and running with large language models locally.",
                 "instances": 1
             },
             {
