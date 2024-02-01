@@ -167,7 +167,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/autobrr.png",
-                "name": "autobrr 🆕",
+                "name": "autobrr",
                 "train": "✅",
                 "description": "The modern download automation tool for torrents.",
                 "instances": 1
