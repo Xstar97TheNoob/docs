@@ -156,20 +156,13 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 73,
+        "count": 72,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
                 "name": "atuin",
                 "train": "⚠️",
                 "description": "Magical shell history.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/autobrr.png",
-                "name": "autobrr",
-                "train": "✅",
-                "description": "The modern download automation tool for torrents.",
                 "instances": 1
             },
             {
