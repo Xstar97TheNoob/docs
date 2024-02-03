@@ -391,7 +391,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ollama.png",
-                "name": "ollama 🆕",
+                "name": "ollama",
                 "train": "✅",
                 "description": "Get up and running with large language models locally.",
                 "instances": 1
