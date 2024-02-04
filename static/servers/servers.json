@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 72,
+        "count": 71,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -219,13 +219,6 @@
                 "name": "deemix",
                 "train": "✅",
                 "description": "deemix is a deezer downloader built from the ashes of Deezloader Remix.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deluge.png",
-                "name": "deluge",
-                "train": "✅",
-                "description": "Deluge App for TrueNAS SCALE",
                 "instances": 1
             },
             {
