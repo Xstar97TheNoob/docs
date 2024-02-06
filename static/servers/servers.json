@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 72,
+        "count": 73,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -471,6 +471,13 @@
                 "name": "recyclarr",
                 "train": "✅",
                 "description": "A command-line application that will automatically synchronize recommended settings from TRaSH guides to your Sonarr/Radarr instances.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png",
+                "name": "redis 🆕",
+                "train": "🔨",
+                "description": "Open source, advanced key-value store.",
                 "instances": 1
             },
             {
