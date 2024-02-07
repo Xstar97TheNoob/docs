@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 73,
+        "count": 72,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -212,7 +212,7 @@
                 "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
-                "instances": 5
+                "instances": 4
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
@@ -398,8 +398,8 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/palworld.png",
-                "name": "palworld",
-                "train": "⚠️",
+                "name": "palworld 🆕",
+                "train": "✅",
                 "description": "A custom SteamCMD chart that runs Palworld.",
                 "instances": 1
             },
