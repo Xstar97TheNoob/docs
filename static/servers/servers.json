@@ -156,7 +156,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 73,
+        "count": 74,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
@@ -184,6 +184,13 @@
                 "name": "cert-manager",
                 "train": "📦",
                 "description": "Cert-Manager is a kubernetes-aware certificate manager",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/chroma.png",
+                "name": "chroma 🆕",
+                "train": "⚠️",
+                "description": "the AI-native open-source embedding database.",
                 "instances": 1
             },
             {
