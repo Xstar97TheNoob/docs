@@ -156,8 +156,15 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 74,
+        "count": 75,
         "apps": [
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/anything-llm.png",
+                "name": "anything-llm 🆕",
+                "train": "⚠️",
+                "description": "Open-source ChatGPT experience for LLMs, embedders, and vector databases.",
+                "instances": 1
+            },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.png",
                 "name": "atuin",
