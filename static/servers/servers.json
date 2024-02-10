@@ -482,7 +482,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redisinsight.png",
-                "name": "redisinsight 🆕",
+                "name": "redisinsight",
                 "train": "✅",
                 "description": "GUI for Redis.",
                 "instances": 1
