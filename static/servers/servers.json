@@ -440,7 +440,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/posterr.png",
-                "name": "posterr 🆕",
+                "name": "posterr",
                 "train": "✅",
                 "description": "Media display for Plex, Sonarr and Radarr.",
                 "instances": 1
