@@ -461,7 +461,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png",
-                "name": "qbittorrent 🆕",
+                "name": "qbittorrent",
                 "train": "✅",
                 "description": "qBittorrent is a cross-platform free and open-source BitTorrent client",
                 "instances": 1
