@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 22,
+        "count": 23,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -86,6 +86,13 @@
                 "name": "kubernetes-reflector",
                 "train": "👔",
                 "description": "Kubernetes-Reflector is a Kubernetes addon designed to monitor and reflect changes to secrets and configmaps across namespaces",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/librespeed.png",
+                "name": "librespeed 🆕",
+                "train": "✅",
+                "description": "Librespeed is a HTML5 webpage to test upload and download speeds",
                 "instances": 1
             },
             {
