@@ -163,13 +163,20 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 73,
+        "count": 75,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
                 "name": "bazarr",
                 "train": "✅",
                 "description": "Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bitmagnet.png",
+                "name": "bitmagnet 🆕",
+                "train": "⚠️",
+                "description": "A self-hosted BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API and Servarr stack integration.",
                 "instances": 1
             },
             {
@@ -520,6 +527,13 @@
                 "name": "scrutiny",
                 "train": "✅",
                 "description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/semaphore.png",
+                "name": "semaphore 🆕",
+                "train": "⚠️",
+                "description": "Semaphore is a modern, open source alternative to Ansible Tower. It is a self-hosted web-based solution that allows you to create and manage Ansible projects, playbooks, and roles, while also providing a web interface for running and monitoring Ansible tasks.",
                 "instances": 1
             },
             {
