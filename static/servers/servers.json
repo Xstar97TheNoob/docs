@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 24,
+        "count": 25,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -51,6 +51,13 @@
                 "name": "code-server 🆕",
                 "train": "✅",
                 "description": "Run VS Code on any machine anywhere and access it in the browser.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
+                "name": "custom-app 🆕",
+                "train": "✅",
+                "description": "Advanced tool to create your own TrueCharts-based App",
                 "instances": 1
             },
             {
