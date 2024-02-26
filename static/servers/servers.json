@@ -2,13 +2,20 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 23,
+        "count": 24,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
                 "name": "adguard-home",
                 "train": "✅",
                 "description": "Free and open source, powerful network-wide ads & trackers blocking DNS server.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/anonaddy.png",
+                "name": "anonaddy 🆕",
+                "train": "✅",
+                "description": "Protect your email from spam using disposable addresses.",
                 "instances": 1
             },
             {
