@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 25,
+        "count": 26,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -48,7 +48,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/code-server.png",
-                "name": "code-server 🆕",
+                "name": "code-server",
                 "train": "✅",
                 "description": "Run VS Code on any machine anywhere and access it in the browser.",
                 "instances": 1
@@ -135,6 +135,13 @@
                 "name": "snippet-box",
                 "train": "✅",
                 "description": "Snippet Box is a simple self-hosted app for organizing your code snippets.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/speedtest-tracker.png",
+                "name": "speedtest-tracker 🆕",
+                "train": "⚠️",
+                "description": "Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.",
                 "instances": 1
             },
             {
