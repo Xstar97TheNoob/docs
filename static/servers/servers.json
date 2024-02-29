@@ -55,7 +55,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
-                "name": "custom-app 🆕",
+                "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
                 "instances": 1
@@ -184,7 +184,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 76,
+        "count": 77,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -380,6 +380,13 @@
                 "name": "metube",
                 "train": "✅",
                 "description": "Web GUI for youtube-dl.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-bedrock.png",
+                "name": "minecraft-bedrock 🆕",
+                "train": "✅",
+                "description": "Minecraft Bedrock Dedicated Server",
                 "instances": 1
             },
             {
