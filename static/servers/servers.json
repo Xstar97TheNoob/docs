@@ -279,7 +279,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/filebrowser.png",
-                "name": "filebrowser 🆕",
+                "name": "filebrowser",
                 "train": "✅",
                 "description": "Filebrowser provides a file managing interface within a specified directory",
                 "instances": 1
