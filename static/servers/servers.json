@@ -184,7 +184,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 76,
+        "count": 75,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -276,13 +276,6 @@
                 "train": "✅",
                 "description": "Allow external services to be used like Apps.",
                 "instances": 3
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/filebrowser.png",
-                "name": "filebrowser",
-                "train": "✅",
-                "description": "Filebrowser provides a file managing interface within a specified directory",
-                "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
