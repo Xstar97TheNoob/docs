@@ -54,13 +54,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
-                "name": "custom-app",
-                "train": "✅",
-                "description": "Advanced tool to create your own TrueCharts-based App",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ddns-updater.png",
                 "name": "ddns-updater",
                 "train": "✅",
@@ -114,6 +107,13 @@
                 "name": "lldap",
                 "train": "✅",
                 "description": "Lightweight ldap server for authentication and user management",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/peanut.png",
+                "name": "peanut 🆕",
+                "train": "✅",
+                "description": "A Tiny Dashboard for Network UPS Tools.",
                 "instances": 1
             },
             {
