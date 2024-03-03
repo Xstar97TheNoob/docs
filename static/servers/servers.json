@@ -377,7 +377,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-bedrock.png",
-                "name": "minecraft-bedrock 🆕",
+                "name": "minecraft-bedrock",
                 "train": "✅",
                 "description": "Minecraft Bedrock Dedicated Server",
                 "instances": 1
