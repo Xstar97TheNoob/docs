@@ -111,7 +111,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/peanut.png",
-                "name": "peanut 🆕",
+                "name": "peanut",
                 "train": "✅",
                 "description": "A Tiny Dashboard for Network UPS Tools.",
                 "instances": 1
