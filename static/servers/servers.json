@@ -300,7 +300,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/flowise.png",
-                "name": "flowise 🆕",
+                "name": "flowise",
                 "train": "✅",
                 "description": "Drag & drop UI to build your customized LLM flow.",
                 "instances": 1
