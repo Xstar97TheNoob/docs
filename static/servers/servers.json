@@ -2,20 +2,13 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 28,
+        "count": 27,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
                 "name": "adguard-home",
                 "train": "✅",
                 "description": "Free and open source, powerful network-wide ads & trackers blocking DNS server.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/anonaddy.png",
-                "name": "anonaddy",
-                "train": "✅",
-                "description": "Protect your email from spam using disposable addresses.",
                 "instances": 1
             },
             {
@@ -198,7 +191,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 78,
+        "count": 76,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -255,13 +248,6 @@
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
                 "instances": 9
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/dashdot.png",
-                "name": "dashdot 🆕",
-                "train": "✅",
-                "description": "dash. (or dashdot) is a modern server dashboard, running on the latest tech, designed with glassmorphism in mind.",
-                "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
@@ -331,13 +317,6 @@
                 "name": "hastebin",
                 "train": "✅",
                 "description": "Alpine-based Chart for Hastebin, the node.js paste service",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homarr.png",
-                "name": "homarr 🆕",
-                "train": "✅",
-                "description": "Homarr is a simple and lightweight homepage for your server, that helps you easily access all of your services in one place.",
                 "instances": 1
             },
             {
