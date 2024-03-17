@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 27,
+        "count": 28,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -21,28 +21,28 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
                 "name": "authelia",
-                "train": "👔",
+                "train": "👷",
                 "description": "Authelia is a Single Sign-On Multi-Factor portal for web apps",
                 "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
                 "name": "cert-manager",
-                "train": "📦",
+                "train": "👷",
                 "description": "Cert-Manager is a kubernetes-aware certificate manager",
                 "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png",
                 "name": "cloudnative-pg",
-                "train": "📦",
+                "train": "👷",
                 "description": "CloudNativePG is a clustered postgresql database operator",
                 "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.png",
                 "name": "clusterissuer",
-                "train": "👔",
+                "train": "👷",
                 "description": "Certificate management for Kubernetes",
                 "instances": 1
             },
@@ -105,7 +105,7 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kubernetes-reflector.png",
                 "name": "kubernetes-reflector",
-                "train": "👔",
+                "train": "👷",
                 "description": "Kubernetes-Reflector is a Kubernetes addon designed to monitor and reflect changes to secrets and configmaps across namespaces",
                 "instances": 1
             },
@@ -114,6 +114,13 @@
                 "name": "lldap",
                 "train": "✅",
                 "description": "Lightweight ldap server for authentication and user management",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openebs.png",
+                "name": "openebs 🆕",
+                "train": "👷",
+                "description": "OpenEBS is a umbrella container storage provisioner",
                 "instances": 1
             },
             {
@@ -126,7 +133,7 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
                 "name": "prometheus-operator",
-                "train": "📦",
+                "train": "👷",
                 "description": "Prometheus Operator is an operator for prometheus",
                 "instances": 1
             },
@@ -161,7 +168,7 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png",
                 "name": "traefik",
-                "train": "👔",
+                "train": "👷",
                 "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
                 "instances": 1
             },
@@ -175,7 +182,7 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png",
                 "name": "vaultwarden",
-                "train": "👔",
+                "train": "👷",
                 "description": "Unofficial Bitwarden compatible server written in Rust",
                 "instances": 1
             },
@@ -191,7 +198,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 77,
+        "count": 78,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -210,14 +217,14 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/blocky.png",
                 "name": "blocky",
-                "train": "👔",
+                "train": "👷",
                 "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
                 "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
                 "name": "cert-manager",
-                "train": "📦",
+                "train": "👷",
                 "description": "Cert-Manager is a kubernetes-aware certificate manager",
                 "instances": 1
             },
@@ -231,14 +238,14 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png",
                 "name": "cloudnative-pg",
-                "train": "📦",
+                "train": "👷",
                 "description": "CloudNativePG is a clustered postgresql database operator",
                 "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.png",
                 "name": "clusterissuer",
-                "train": "👔",
+                "train": "👷",
                 "description": "Certificate management for Kubernetes",
                 "instances": 1
             },
@@ -357,7 +364,7 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kubernetes-reflector.png",
                 "name": "kubernetes-reflector",
-                "train": "👔",
+                "train": "👷",
                 "description": "Kubernetes-Reflector is a Kubernetes addon designed to monitor and reflect changes to secrets and configmaps across namespaces",
                 "instances": 1
             },
@@ -432,6 +439,13 @@
                 "instances": 1
             },
             {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openebs.png",
+                "name": "openebs 🆕",
+                "train": "👷",
+                "description": "OpenEBS is a umbrella container storage provisioner",
+                "instances": 1
+            },
+            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/overseerr.png",
                 "name": "overseerr",
                 "train": "✅",
@@ -497,7 +511,7 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
                 "name": "prometheus-operator",
-                "train": "📦",
+                "train": "👷",
                 "description": "Prometheus Operator is an operator for prometheus",
                 "instances": 1
             },
@@ -623,7 +637,7 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png",
                 "name": "traefik",
-                "train": "👔",
+                "train": "👷",
                 "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
                 "instances": 1
             },
