@@ -198,7 +198,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 77,
+        "count": 78,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -255,6 +255,13 @@
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
                 "instances": 9
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/dashdot.png",
+                "name": "dashdot 🆕",
+                "train": "✅",
+                "description": "dash. (or dashdot) is a modern server dashboard, running on the latest tech, designed with glassmorphism in mind.",
+                "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
@@ -324,6 +331,13 @@
                 "name": "hastebin",
                 "train": "✅",
                 "description": "Alpine-based Chart for Hastebin, the node.js paste service",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homarr.png",
+                "name": "homarr 🆕",
+                "train": "✅",
+                "description": "Homarr is a simple and lightweight homepage for your server, that helps you easily access all of your services in one place.",
                 "instances": 1
             },
             {
@@ -646,13 +660,6 @@
                 "name": "uptime-kuma",
                 "train": "✅",
                 "description": "A fancy self-hosted monitoring tool",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/whisper-asr-webservice.png",
-                "name": "whisper-asr-webservice",
-                "train": "✅",
-                "description": "Whisper is a general-purpose speech recognition model.",
                 "instances": 1
             },
             {
