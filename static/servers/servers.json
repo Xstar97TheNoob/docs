@@ -364,7 +364,7 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png",
                 "name": "mariadb",
-                "train": "🔨",
+                "train": "✅",
                 "description": "Fast, reliable, scalable, and easy to use open-source relational database system.",
                 "instances": 1
             },
