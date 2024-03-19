@@ -336,7 +336,7 @@
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/immich.png",
                 "name": "immich",
-                "train": "✅",
+                "train": "⚠️",
                 "description": "High performance self-hosted photo and video backup solution.",
                 "instances": 1
             },
