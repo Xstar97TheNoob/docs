@@ -191,7 +191,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 76,
+        "count": 77,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -569,6 +569,13 @@
                 "name": "semaphore",
                 "train": "⚠️",
                 "description": "Semaphore is a modern, open source alternative to Ansible Tower. It is a self-hosted web-based solution that allows you to create and manage Ansible projects, playbooks, and roles, while also providing a web interface for running and monitoring Ansible tasks.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sftpgo.png",
+                "name": "sftpgo 🆕",
+                "train": "✅",
+                "description": "Fully featured and highly configurable SFTP server with optional HTTP/S, FTP, FTPS and WebDAV support. Several storage backends are supported: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage, SFTP.",
                 "instances": 1
             },
             {
