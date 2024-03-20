@@ -111,7 +111,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openebs.png",
-                "name": "openebs 🆕",
+                "name": "openebs",
                 "train": "👷",
                 "description": "OpenEBS is a umbrella container storage provisioner",
                 "instances": 1
@@ -191,7 +191,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 77,
+        "count": 76,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -334,13 +334,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/immich.png",
-                "name": "immich",
-                "train": "⚠️",
-                "description": "High performance self-hosted photo and video backup solution.",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kavita.png",
                 "name": "kavita",
                 "train": "✅",
@@ -426,7 +419,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openebs.png",
-                "name": "openebs 🆕",
+                "name": "openebs",
                 "train": "👷",
                 "description": "OpenEBS is a umbrella container storage provisioner",
                 "instances": 1
