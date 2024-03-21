@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 27,
+        "count": 26,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -107,13 +107,6 @@
                 "name": "lldap",
                 "train": "✅",
                 "description": "Lightweight ldap server for authentication and user management",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openebs.png",
-                "name": "openebs",
-                "train": "👷",
-                "description": "OpenEBS is a umbrella container storage provisioner",
                 "instances": 1
             },
             {
@@ -418,13 +411,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/openebs.png",
-                "name": "openebs",
-                "train": "👷",
-                "description": "OpenEBS is a umbrella container storage provisioner",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/overseerr.png",
                 "name": "overseerr",
                 "train": "✅",
@@ -632,6 +618,13 @@
                 "name": "transmission",
                 "train": "✅",
                 "description": "fast, easy, and free BitTorrent client.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tsn-ranksystem.png",
+                "name": "tsn-ranksystem 🆕",
+                "train": "✅",
+                "description": "TS-N Ranksystem is a TeamSpeak 3 bot that allows you to assign ranks to users based on their activity on the server.",
                 "instances": 1
             },
             {
