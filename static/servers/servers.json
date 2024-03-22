@@ -184,7 +184,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 76,
+        "count": 75,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -583,13 +583,6 @@
                 "name": "storm",
                 "train": "✅",
                 "description": "A Modern Deluge Interface.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/strapi.png",
-                "name": "strapi",
-                "train": "✅",
-                "description": "Strapi is the leading open-source headless CMS. JavaScript, fully customizable and developer-first.",
                 "instances": 1
             },
             {
