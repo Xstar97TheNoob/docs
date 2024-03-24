@@ -615,7 +615,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tsn-ranksystem.png",
-                "name": "tsn-ranksystem 🆕",
+                "name": "tsn-ranksystem",
                 "train": "✅",
                 "description": "TS-N Ranksystem is a TeamSpeak 3 bot that allows you to assign ranks to users based on their activity on the server.",
                 "instances": 1
