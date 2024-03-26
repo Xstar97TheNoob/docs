@@ -8,7 +8,7 @@ Need to setup a discord server and have a discord webhook from a notifications c
 
 :::
 
-First go to the alert service page; direct link here (please change it to the IP/port that you use or domain) -> http://truenas.local/ui/system/alertservice.
+First go to the alert service page; direct link here (please change it to the IP/port that you use or domain) -> http://truenas.local/ui/system/alert-settings.
 
 1. Click the add button to add a service.
 2. Select the **slack** option and fill out the info.
