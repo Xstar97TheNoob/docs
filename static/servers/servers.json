@@ -2,7 +2,7 @@
     {
         "serverName": "Mew Scale Server",
         "serverDescription": "Networking and Authenication",
-        "count": 26,
+        "count": 28,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
@@ -16,6 +16,13 @@
                 "name": "authelia",
                 "train": "👷",
                 "description": "Authelia is a Single Sign-On Multi-Factor portal for web apps",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/budge.png",
+                "name": "budge 🆕",
+                "train": "✅",
+                "description": "Budge is an open source 'budgeting with envelopes' personal finance app.",
                 "instances": 1
             },
             {
@@ -66,6 +73,13 @@
                 "train": "✅",
                 "description": "Allow external services to be used like Apps.",
                 "instances": 2
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fireflyiii.png",
+                "name": "fireflyiii 🆕",
+                "train": "✅",
+                "description": "A free and open source personal finance manager",
+                "instances": 1
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firezone.png",
