@@ -20,7 +20,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/budge.png",
-                "name": "budge 🆕",
+                "name": "budge",
                 "train": "✅",
                 "description": "Budge is an open source 'budgeting with envelopes' personal finance app.",
                 "instances": 1
@@ -76,7 +76,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fireflyiii.png",
-                "name": "fireflyiii 🆕",
+                "name": "fireflyiii",
                 "train": "✅",
                 "description": "A free and open source personal finance manager",
                 "instances": 1
