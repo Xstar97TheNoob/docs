@@ -198,7 +198,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 75,
+        "count": 76,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
@@ -569,6 +569,13 @@
                 "name": "sftpgo",
                 "train": "✅",
                 "description": "Fully featured and highly configurable SFTP server with optional HTTP/S, FTP, FTPS and WebDAV support. Several storage backends are supported: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage, SFTP.",
+                "instances": 1
+            },
+            {
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/slink.png",
+                "name": "slink 🆕",
+                "train": "⚠️",
+                "description": "A self-hosted image sharing platform built with Symfony and SvelteKit️.",
                 "instances": 1
             },
             {
