@@ -580,7 +580,7 @@
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/slink.png",
-                "name": "slink 🆕",
+                "name": "slink",
                 "train": "⚠️",
                 "description": "A self-hosted image sharing platform built with Symfony and SvelteKit️.",
                 "instances": 1
