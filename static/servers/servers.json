@@ -40,7 +40,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.webp",
                 "name": "clusterissuer",
                 "train": "👷",
                 "description": "Certificate management for Kubernetes",
@@ -96,7 +96,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.webp",
                 "name": "homepage",
                 "train": "✅",
                 "description": "A highly customizable homepage",
@@ -159,7 +159,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/theme-park.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/theme-park.webp",
                 "name": "theme-park",
                 "train": "✅",
                 "description": "Custom themes for your favorite apps!",
@@ -236,7 +236,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.webp",
                 "name": "clusterissuer",
                 "train": "👷",
                 "description": "Certificate management for Kubernetes",
@@ -264,7 +264,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/doublecommander.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/doublecommander.webp",
                 "name": "doublecommander",
                 "train": "✅",
                 "description": "A free cross platform open source file manager with two panels side by side.",
@@ -334,7 +334,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.webp",
                 "name": "homepage",
                 "train": "✅",
                 "description": "A highly customizable homepage",
@@ -362,7 +362,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.webp",
                 "name": "mariadb",
                 "train": "✅",
                 "description": "Fast, reliable, scalable, and easy to use open-source relational database system.",
@@ -390,7 +390,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-java.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-java.webp",
                 "name": "minecraft-java",
                 "train": "✅",
                 "description": "Minecraft Java Dedicated Server",
@@ -411,14 +411,14 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/n8n.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/n8n.webp",
                 "name": "n8n",
                 "train": "✅",
                 "description": "n8n is an extendable workflow automation tool.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ollama.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ollama.webp",
                 "name": "ollama",
                 "train": "✅",
                 "description": "Get up and running with large language models locally.",
@@ -544,7 +544,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/romm.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/romm.webp",
                 "name": "romm",
                 "train": "✅",
                 "description": "game library manager focused in retro gaming",
@@ -565,7 +565,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/semaphore.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/semaphore.webp",
                 "name": "semaphore",
                 "train": "⚠️",
                 "description": "Semaphore is a modern, open source alternative to Ansible Tower. It is a self-hosted web-based solution that allows you to create and manage Ansible projects, playbooks, and roles, while also providing a web interface for running and monitoring Ansible tasks.",
@@ -621,7 +621,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/theme-park.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/theme-park.webp",
                 "name": "theme-park",
                 "train": "✅",
                 "description": "Custom themes for your favorite apps!",
@@ -642,7 +642,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tsn-ranksystem.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tsn-ranksystem.webp",
                 "name": "tsn-ranksystem",
                 "train": "✅",
                 "description": "TS-N Ranksystem is a TeamSpeak 3 bot that allows you to assign ranks to users based on their activity on the server.",
