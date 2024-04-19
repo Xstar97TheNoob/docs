@@ -173,7 +173,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.webp",
                 "name": "uptime-kuma",
                 "train": "✅",
                 "description": "A fancy self-hosted monitoring tool",
@@ -369,7 +369,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mc-router.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mc-router.webp",
                 "name": "mc-router",
                 "train": "✅",
                 "description": "Lightweight multiplexer/proxy for Minecraft-Java servers.",
@@ -453,7 +453,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plex.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plex.webp",
                 "name": "plex",
                 "train": "✅",
                 "description": "Plex Media Server",
@@ -649,7 +649,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.webp",
                 "name": "uptime-kuma",
                 "train": "✅",
                 "description": "A fancy self-hosted monitoring tool",
