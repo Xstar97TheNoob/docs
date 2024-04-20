@@ -26,7 +26,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.webp",
                 "name": "cert-manager",
                 "train": "👷",
                 "description": "Cert-Manager is a kubernetes-aware certificate manager",
@@ -215,7 +215,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.webp",
                 "name": "cert-manager",
                 "train": "👷",
                 "description": "Cert-Manager is a kubernetes-aware certificate manager",
@@ -285,7 +285,7 @@
                 "instances": 3
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.webp",
                 "name": "fileflows",
                 "train": "✅",
                 "description": "An application that lets you automatically process files through a simple rule flow.",
@@ -537,7 +537,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ring-mqtt.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ring-mqtt.webp",
                 "name": "ring-mqtt",
                 "train": "✅",
                 "description": "Interact with Ring Inc products (cameras/alarms/smart lighting) via MQTT.",
