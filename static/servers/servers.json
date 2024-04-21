@@ -198,7 +198,7 @@
     {
         "serverName": "MewTwo Scale Server",
         "serverDescription": "Media and Automations",
-        "count": 77,
+        "count": 64,
         "apps": [
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.webp",
@@ -254,7 +254,7 @@
                 "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
-                "instances": 9
+                "instances": 6
             },
             {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.webp",
@@ -306,24 +306,10 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/flowise.webp",
-                "name": "flowise",
-                "train": "✅",
-                "description": "Drag & drop UI to build your customized LLM flow.",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/gamevault-backend.png",
                 "name": "gamevault-backend",
                 "train": "✅",
                 "description": "the self-hosted gaming platform for alternatively obtained games.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/hastebin.webp",
-                "name": "hastebin",
-                "train": "✅",
-                "description": "Alpine-based Chart for Hastebin, the node.js paste service",
                 "instances": 1
             },
             {
@@ -345,13 +331,6 @@
                 "name": "kavita",
                 "train": "✅",
                 "description": "Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kubernetes-reflector.png",
-                "name": "kubernetes-reflector",
-                "train": "👷",
-                "description": "Kubernetes-Reflector is a Kubernetes addon designed to monitor and reflect changes to secrets and configmaps across namespaces",
                 "instances": 1
             },
             {
@@ -418,13 +397,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ollama.webp",
-                "name": "ollama",
-                "train": "✅",
-                "description": "Get up and running with large language models locally.",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/overseerr.webp",
                 "name": "overseerr",
                 "train": "✅",
@@ -474,13 +446,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plexripper.webp",
-                "name": "plexripper",
-                "train": "✅",
-                "description": "A multi-platform media downloader that indexes and downloads content from your accessible Plex servers.",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/posterr.webp",
                 "name": "posterr",
                 "train": "✅",
@@ -523,13 +488,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redisinsight.webp",
-                "name": "redisinsight",
-                "train": "✅",
-                "description": "GUI for Redis.",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/retrobot.webp",
                 "name": "retrobot",
                 "train": "✅",
@@ -565,20 +523,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/semaphore.webp",
-                "name": "semaphore",
-                "train": "⚠️",
-                "description": "Semaphore is a modern, open source alternative to Ansible Tower. It is a self-hosted web-based solution that allows you to create and manage Ansible projects, playbooks, and roles, while also providing a web interface for running and monitoring Ansible tasks.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sftpgo.webp",
-                "name": "sftpgo",
-                "train": "✅",
-                "description": "Fully featured and highly configurable SFTP server with optional HTTP/S, FTP, FTPS and WebDAV support. Several storage backends are supported: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage, SFTP.",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/slink.png",
                 "name": "slink",
                 "train": "⚠️",
@@ -607,13 +551,6 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/storm.webp",
-                "name": "storm",
-                "train": "✅",
-                "description": "A Modern Deluge Interface.",
-                "instances": 1
-            },
-            {
                 "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tautulli.webp",
                 "name": "tautulli",
                 "train": "✅",
@@ -639,13 +576,6 @@
                 "name": "transmission",
                 "train": "✅",
                 "description": "fast, easy, and free BitTorrent client.",
-                "instances": 1
-            },
-            {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tsn-ranksystem.webp",
-                "name": "tsn-ranksystem",
-                "train": "✅",
-                "description": "TS-N Ranksystem is a TeamSpeak 3 bot that allows you to assign ranks to users based on their activity on the server.",
                 "instances": 1
             },
             {
