@@ -5,21 +5,21 @@
         "count": 28,
         "apps": [
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.webp",
                 "name": "adguard-home",
                 "train": "✅",
                 "description": "Free and open source, powerful network-wide ads & trackers blocking DNS server.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/authelia.webp",
                 "name": "authelia",
                 "train": "👷",
                 "description": "Authelia is a Single Sign-On Multi-Factor portal for web apps",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/budge.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/budge.webp",
                 "name": "budge",
                 "train": "✅",
                 "description": "Budge is an open source 'budgeting with envelopes' personal finance app.",
@@ -33,7 +33,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.webp",
                 "name": "cloudnative-pg",
                 "train": "👷",
                 "description": "CloudNativePG is a clustered postgresql database operator",
@@ -47,49 +47,49 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/code-server.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/code-server.webp",
                 "name": "code-server",
                 "train": "✅",
                 "description": "Run VS Code on any machine anywhere and access it in the browser.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.webp",
                 "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ddns-updater.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/ddns-updater.webp",
                 "name": "ddns-updater",
                 "train": "✅",
                 "description": "Light container updating DNS A and/or AAAA records periodically for multiple DNS providers",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.webp",
                 "name": "external-service",
                 "train": "✅",
                 "description": "Allow external services to be used like Apps.",
                 "instances": 2
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fireflyiii.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/fireflyiii.webp",
                 "name": "fireflyiii",
                 "train": "✅",
                 "description": "A free and open source personal finance manager",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firezone.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firezone.webp",
                 "name": "firezone",
                 "train": "✅",
                 "description": "WireGuard-based VPN server and egress firewall",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homebox.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/homebox.webp",
                 "name": "homebox",
                 "train": "✅",
                 "description": "Inventory and organization system built for the Home User.",
@@ -103,7 +103,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/it-tools.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/it-tools.webp",
                 "name": "it-tools",
                 "train": "✅",
                 "description": "Useful tools for developer and people working in IT.",
@@ -117,35 +117,35 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/lldap.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/lldap.webp",
                 "name": "lldap",
                 "train": "✅",
                 "description": "Lightweight ldap server for authentication and user management",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/peanut.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/peanut.webp",
                 "name": "peanut",
                 "train": "✅",
                 "description": "A Tiny Dashboard for Network UPS Tools.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.webp",
                 "name": "prometheus-operator",
                 "train": "👷",
                 "description": "Prometheus Operator is an operator for prometheus",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/scrutiny.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/scrutiny.webp",
                 "name": "scrutiny",
                 "train": "✅",
                 "description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/snippet-box.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/snippet-box.webp",
                 "name": "snippet-box",
                 "train": "✅",
                 "description": "Snippet Box is a simple self-hosted app for organizing your code snippets.",
@@ -166,7 +166,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.webp",
                 "name": "traefik",
                 "train": "👷",
                 "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
@@ -180,14 +180,14 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.webp",
                 "name": "vaultwarden",
                 "train": "👷",
                 "description": "Unofficial Bitwarden compatible server written in Rust",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/whoogle.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/whoogle.webp",
                 "name": "whoogle",
                 "train": "✅",
                 "description": "A self-hosted, ad-free, privacy-respecting metasearch engine",
@@ -201,14 +201,14 @@
         "count": 77,
         "apps": [
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.webp",
                 "name": "bazarr",
                 "train": "✅",
                 "description": "Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/blocky.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/blocky.webp",
                 "name": "blocky",
                 "train": "👷",
                 "description": "Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local network written in Go",
@@ -222,14 +222,14 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.webp",
                 "name": "cloudflared",
                 "train": "✅",
                 "description": "Client for Cloudflare Tunnel, a daemon that exposes private services through the Cloudflare edge.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.webp",
                 "name": "cloudnative-pg",
                 "train": "👷",
                 "description": "CloudNativePG is a clustered postgresql database operator",
@@ -243,21 +243,21 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/code-server.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/code-server.webp",
                 "name": "code-server",
                 "train": "✅",
                 "description": "Run VS Code on any machine anywhere and access it in the browser.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.webp",
                 "name": "custom-app",
                 "train": "✅",
                 "description": "Advanced tool to create your own TrueCharts-based App",
                 "instances": 9
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/deemix.webp",
                 "name": "deemix",
                 "train": "✅",
                 "description": "deemix is a deezer downloader built from the ashes of Deezloader Remix.",
@@ -271,14 +271,14 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/emulatorjs.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/emulatorjs.webp",
                 "name": "emulatorjs",
                 "train": "✅",
                 "description": "Emulatorjs - In browser web based emulation portable to nearly any device for many retro consoles.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.webp",
                 "name": "external-service",
                 "train": "✅",
                 "description": "Allow external services to be used like Apps.",
@@ -292,21 +292,21 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firefox.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/firefox.webp",
                 "name": "firefox",
                 "train": "✅",
                 "description": "a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/flaresolverr.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/flaresolverr.webp",
                 "name": "flaresolverr",
                 "train": "✅",
                 "description": "FlareSolverr is a proxy server to bypass Cloudflare protection",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/flowise.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/flowise.webp",
                 "name": "flowise",
                 "train": "✅",
                 "description": "Drag & drop UI to build your customized LLM flow.",
@@ -320,14 +320,14 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/hastebin.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/hastebin.webp",
                 "name": "hastebin",
                 "train": "✅",
                 "description": "Alpine-based Chart for Hastebin, the node.js paste service",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/home-assistant.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/home-assistant.webp",
                 "name": "home-assistant",
                 "train": "✅",
                 "description": "home-assistant App for TrueNAS SCALE",
@@ -341,7 +341,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kavita.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/kavita.webp",
                 "name": "kavita",
                 "train": "✅",
                 "description": "Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats",
@@ -355,7 +355,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.webp",
                 "name": "lidarr",
                 "train": "✅",
                 "description": "Looks and smells like Sonarr but made for music",
@@ -376,14 +376,14 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/metube.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/metube.webp",
                 "name": "metube",
                 "train": "✅",
                 "description": "Web GUI for youtube-dl.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-bungeecord.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-bungeecord.webp",
                 "name": "minecraft-bungeecord",
                 "train": "✅",
                 "description": "the front-end of a cluster of minecraft-java containers.",
@@ -397,14 +397,14 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mosquitto.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/mosquitto.webp",
                 "name": "mosquitto",
                 "train": "✅",
                 "description": "Eclipse Mosquitto - An open source MQTT broker",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/muse.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/muse.webp",
                 "name": "muse",
                 "train": "✅",
                 "description": "A self-hosted midwestern Discord music bot that doesn't suck.",
@@ -425,28 +425,28 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/overseerr.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/overseerr.webp",
                 "name": "overseerr",
                 "train": "✅",
                 "description": "Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services such as Sonarr, Radarr and Plex!",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/palworld.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/palworld.webp",
                 "name": "palworld",
                 "train": "✅",
                 "description": "A custom SteamCMD chart that runs Palworld.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/paperless-ngx.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/paperless-ngx.webp",
                 "name": "paperless-ngx",
                 "train": "✅",
                 "description": "Paperless-ngx is an application by Daniel Quinn and contributors that indexes your scanned documents.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pasta.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/pasta.webp",
                 "name": "pasta",
                 "train": "✅",
                 "description": "PASTA - Audio and Subtitle Track Changer for Plex",
@@ -460,77 +460,77 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plex-auto-languages.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plex-auto-languages.webp",
                 "name": "plex-auto-languages",
                 "train": "✅",
                 "description": "Automated language selection for Plex TV Shows.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plexanisync.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plexanisync.webp",
                 "name": "plexanisync",
                 "train": "✅",
                 "description": "Plex to AniList Sync.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plexripper.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/plexripper.webp",
                 "name": "plexripper",
                 "train": "✅",
                 "description": "A multi-platform media downloader that indexes and downloads content from your accessible Plex servers.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/posterr.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/posterr.webp",
                 "name": "posterr",
                 "train": "✅",
                 "description": "Media display for Plex, Sonarr and Radarr.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.webp",
                 "name": "prometheus-operator",
                 "train": "👷",
                 "description": "Prometheus Operator is an operator for prometheus",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.webp",
                 "name": "prowlarr",
                 "train": "✅",
                 "description": "Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.webp",
                 "name": "qbittorrent",
                 "train": "✅",
                 "description": "qBittorrent is a cross-platform free and open-source BitTorrent client",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.webp",
                 "name": "radarr",
                 "train": "✅",
                 "description": "A fork of Sonarr to work with movies à la Couchpotato",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/recyclarr.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/recyclarr.webp",
                 "name": "recyclarr",
                 "train": "✅",
                 "description": "A command-line application that will automatically synchronize recommended settings from TRaSH guides to your Sonarr/Radarr instances.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redisinsight.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redisinsight.webp",
                 "name": "redisinsight",
                 "train": "✅",
                 "description": "GUI for Redis.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/retrobot.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/retrobot.webp",
                 "name": "retrobot",
                 "train": "✅",
                 "description": "A discord bot that allows you to play old nintendo games with your friends over chat.",
@@ -551,14 +551,14 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sabnzbd.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sabnzbd.webp",
                 "name": "sabnzbd",
                 "train": "✅",
                 "description": "Free and easy binary newsreader",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/scrutiny.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/scrutiny.webp",
                 "name": "scrutiny",
                 "train": "✅",
                 "description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution.",
@@ -572,7 +572,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sftpgo.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sftpgo.webp",
                 "name": "sftpgo",
                 "train": "✅",
                 "description": "Fully featured and highly configurable SFTP server with optional HTTP/S, FTP, FTPS and WebDAV support. Several storage backends are supported: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage, SFTP.",
@@ -586,35 +586,35 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/snippet-box.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/snippet-box.webp",
                 "name": "snippet-box",
                 "train": "✅",
                 "description": "Snippet Box is a simple self-hosted app for organizing your code snippets.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.webp",
                 "name": "sonarr",
                 "train": "✅",
                 "description": "Smart PVR for newsgroup and bittorrent users",
                 "instances": 2
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/static-web-server.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/static-web-server.webp",
                 "name": "static-web-server",
                 "train": "✅",
                 "description": "A cross-platform, high-performance and asynchronous web server for static files-serving.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/storm.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/storm.webp",
                 "name": "storm",
                 "train": "✅",
                 "description": "A Modern Deluge Interface.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tautulli.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tautulli.webp",
                 "name": "tautulli",
                 "train": "✅",
                 "description": "A Python based monitoring and tracking tool for Plex Media Server",
@@ -628,14 +628,14 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.webp",
                 "name": "traefik",
                 "train": "👷",
                 "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/transmission.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/transmission.webp",
                 "name": "transmission",
                 "train": "✅",
                 "description": "fast, easy, and free BitTorrent client.",
@@ -656,7 +656,7 @@
                 "instances": 1
             },
             {
-                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/wizarr.png",
+                "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/wizarr.webp",
                 "name": "wizarr",
                 "train": "✅",
                 "description": "A automatic user invitation system for Plex.",
