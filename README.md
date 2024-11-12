@@ -11,6 +11,7 @@ Xstar's homelab docs
   <img alt="Issues PR" src="https://img.shields.io/github/issues-pr/Xstar97TheNoob/docs">
   <img alt="Issues" src="https://img.shields.io/github/issues/Xstar97TheNoob/docs">
   <img alt="Repo Size" src="https://img.shields.io/github/repo-size/Xstar97TheNoob/docs">
+  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fdocs.xstar97thenoob.com">
 </div>
 
 
