@@ -21,4 +21,5 @@ Xstar's homelab docs
 <img alt="Reddit User Karma" src="https://img.shields.io/reddit/user-karma/combined/xstar97thenoob">
 <img alt="Twitch Status" src="https://img.shields.io/twitch/status/xstar97">
 <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/xstar97thenoob">
+<img alt="Discord" src="https://img.shields.io/discord/817955964481175574">
 </div>
