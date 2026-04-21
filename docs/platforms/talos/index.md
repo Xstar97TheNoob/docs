@@ -1,3 +1,0 @@
-# Talos
-
-Guides coming soon!

@@ -1,25 +1,49 @@
-# docs
+# Starlight Starter Kit: Basics
 
-Xstar's homelab docs
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Xstar97TheNoob.docs" />
-  <img alt="stars" src="https://img.shields.io/github/stars/Xstar97TheNoob/docs">
-  <img alt="forks" src="https://img.shields.io/github/forks/Xstar97TheNoob/docs">
-  <img alt="GitHub followers" src="https://img.shields.io/github/followers/Xstar97TheNoob">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/Xstar97TheNoob/docs">
-  <img alt="Issues PR" src="https://img.shields.io/github/issues-pr/Xstar97TheNoob/docs">
-  <img alt="Issues" src="https://img.shields.io/github/issues/Xstar97TheNoob/docs">
-  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/Xstar97TheNoob/docs">
-  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fdocs.xstar97thenoob.com">
-</div>
+```
+npm create astro@latest -- --template starlight
+```
 
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-<div align="center">
-<img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCEb5JthC0sSKpMKOjrViL1Q">
-<img alt="Subreddit subscribers" src="https://img.shields.io/reddit/subreddit-subscribers/Xstar97TheNoob">
-<img alt="Reddit User Karma" src="https://img.shields.io/reddit/user-karma/combined/xstar97thenoob">
-<img alt="Twitch Status" src="https://img.shields.io/twitch/status/xstar97">
-<img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/xstar97thenoob">
-<img alt="Discord" src="https://img.shields.io/discord/817955964481175574">
-</div>
+## 🚀 Project Structure
+
+Inside of your Astro + Starlight project, you'll see the following folders and files:
+
+```
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── content/
+│   │   └── docs/
+│   └── content.config.ts
+├── astro.config.mjs
+├── package.json
+└── tsconfig.json
+```
+
+Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+
+Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+
+Static assets, like favicons, can be placed in the `public/` directory.
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).

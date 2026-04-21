@@ -1,0 +1,103 @@
+---
+const { items = [] } = Astro.props;
+---
+
+<div class="timeline">
+  {items.map((item: { year: unknown; image: string | null | undefined; description: unknown; }) => (
+    <div class="timeline-item">
+      <div class="timeline-left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-line"></div>
+      </div>
+
+      <div class="timeline-right">
+        <div class="timeline-header">
+          <span class="year">{item.year}</span>
+        </div>
+
+        <div class="timeline-card">
+          <img src={item.image} alt={`Homelab ${item.year}`} />
+
+          {item.description && (
+            <p>{item.description}</p>
+          )}
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
+<style>
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  position: relative;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+/* LEFT SIDE (line + dot) */
+.timeline-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20px;
+}
+
+.timeline-dot {
+  width: 10px;
+  height: 10px;
+  background: var(--sl-color-accent);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-line {
+  width: 2px;
+  flex: 1;
+  background: var(--sl-color-gray-5);
+  margin-top: 4px;
+}
+
+/* RIGHT SIDE (content) */
+.timeline-right {
+  flex: 1;
+}
+
+.timeline-header .year {
+  font-weight: 600;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+.timeline-card {
+  margin-top: 0.5rem;
+  background: var(--sl-color-bg-secondary);
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--sl-color-gray-6);
+}
+
+.timeline-card img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* remove line from last item */
+.timeline-item:last-child .timeline-line {
+  display: none;
+}
+</style>
